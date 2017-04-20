@@ -10,9 +10,9 @@ I upgraded "greedy" mesh generation algorithm, mentioned <a href="http://glow3d.
 
 And with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).
 
-<a href="/images/uploads/2012/11/screen_greedy_ambient_grid.jpg"><img class="alignnone size-full wp-image-339" title="screen_greedy_ambient_grid" src="/images/uploads/2012/11/screen_greedy_ambient_grid.jpg" alt="" width="668" height="522" /></a>
+<a href="/blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg"><img class="alignnone size-full wp-image-339" title="screen_greedy_ambient_grid" src="/blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg" alt="" width="668" height="522" /></a>
 
-<a href="/images/uploads/2012/11/screen_greedy_ambient_grid.jpg"><img class="alignnone size-full wp-image-339" title="screen_greedy_ambient_grid" src="/images/uploads/2012/11/screen_greedy_ambient.jpg" alt="" width="668" height="522" /></a>
+<a href="/blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg"><img class="alignnone size-full wp-image-339" title="screen_greedy_ambient_grid" src="/blog/images/uploads/2012/11/screen_greedy_ambient.jpg" alt="" width="668" height="522" /></a>
 
 Previous, "dumb" mesh generation.
-<a href="/images/uploads/2012/11/screen_greedy_ambient_grid.jpg"><img class="alignnone size-full wp-image-339" title="screen_greedy_ambient_grid" src="/images/uploads/2012/11/screen_grid.jpg" alt="" width="668" height="522" /></a>
+<a href="/blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg"><img class="alignnone size-full wp-image-339" title="screen_greedy_ambient_grid" src="/blog/images/uploads/2012/11/screen_grid.jpg" alt="" width="668" height="522" /></a>

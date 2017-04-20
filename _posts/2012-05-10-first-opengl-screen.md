@@ -8,7 +8,7 @@ categories: [Uncategorized]
 ---
 First screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.
 
-<a href="/images/uploads/2012/05/opengl_first_screen1.jpg"><img class="alignnone  wp-image-167" title="opengl_first_screen" src="/images/uploads/2012/05/opengl_first_screen1.jpg" alt="" width="449" height="320" /></a>
+<a href="/blog/images/uploads/2012/05/opengl_first_screen1.jpg"><img class="alignnone  wp-image-167" title="opengl_first_screen" src="/blog/images/uploads/2012/05/opengl_first_screen1.jpg" alt="" width="449" height="320" /></a>
 
 Two weeks ago I tried compilation under GCC and Linux and finished it in 2-3 days without any significant problems.
 

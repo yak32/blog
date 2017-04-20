@@ -15,13 +15,13 @@ I spent several weeks on preparing Iron Cube release 0.15. Added a lot of new fu
 AI Bots added to gameplay and they pretty smart! (not actually, same team member still can shoot each other, then one of them is on the line of fire, but it will be fixed soon). They can follow leader (player), find optimal way to enemy and give way to player. I am actually thinking how to make them slightly dumber.
 
 Bots use new navigation system, based on updated Recast library. Meshes are dynamic, it means they will be rebuild, when voxels are changed.
-<a href="/images/uploads/2013/07/iron_cube_ai.jpg"><img class="alignnone size-full wp-image-450" alt="iron_cube_ai" src="/images/uploads/2013/07/iron_cube_ai.jpg" width="600" /></a>
+<a href="/blog/images/uploads/2013/07/iron_cube_ai.jpg"><img class="alignnone size-full wp-image-450" alt="iron_cube_ai" src="/blog/images/uploads/2013/07/iron_cube_ai.jpg" width="600" /></a>
 
 And demonstration, how dynamic navigation meshes work
 <iframe src="//www.youtube.com/embed/I1bS-wjuFks?rel=0" height="480" width="640" allowfullscreen="" frameborder="0"></iframe>
 
 New voxel-based lighting system is developed, lighting from sun is ambient and allows smooth shadows (relatively smooth, because of overall pixelated style). Lighting made using modified flood-fill of skylight from top of the world.
-<a href="/images/uploads/2013/07/iron_cube_lighting.jpg"><img class="alignnone size-full wp-image-449" alt="iron_cube_lighting" src="/images/uploads/2013/07/iron_cube_lighting.jpg" width="600" /></a>
+<a href="/blog/images/uploads/2013/07/iron_cube_lighting.jpg"><img class="alignnone size-full wp-image-449" alt="iron_cube_lighting" src="/blog/images/uploads/2013/07/iron_cube_lighting.jpg" width="600" /></a>
 
 Also I switched render from DirectX+Deferred Shading to OpenGL+simple voxel based lighting, to be compatible with future mobile ports. It's faster and allows to play game on old hardware.
 

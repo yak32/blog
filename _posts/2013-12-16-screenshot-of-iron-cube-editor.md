@@ -10,4 +10,4 @@ I am debugging some network issues of Iron Cube, Android version. Saving of netw
 
 There is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.
 
-<a href="/images/uploads/2013/12/ironcube_editor.jpg"><img class="alignnone  wp-image-476" alt="ironcube_editor" src="/images/uploads/2013/12/ironcube_editor.jpg" width="700" /></a>
+<a href="/blog/images/uploads/2013/12/ironcube_editor.jpg"><img class="alignnone  wp-image-476" alt="ironcube_editor" src="/blog/images/uploads/2013/12/ironcube_editor.jpg" width="700" /></a>

@@ -6,7 +6,7 @@ author: admin
 comments: true
 categories: [Uncategorized]
 ---
-<a href="/images/uploads/2013/01/BigPicture1.jpg"><img class="alignnone size-full wp-image-384" title="BigPicture" src="/images/uploads/2013/01/BigPicture1.jpg" alt="" width="700" height="239" /></a>
+<a href="/blog/images/uploads/2013/01/BigPicture1.jpg"><img class="alignnone size-full wp-image-384" title="BigPicture" src="/blog/images/uploads/2013/01/BigPicture1.jpg" alt="" width="700" height="239" /></a>
 
 Finally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.
 

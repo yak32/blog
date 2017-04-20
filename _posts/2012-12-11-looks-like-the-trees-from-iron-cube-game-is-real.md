@@ -6,4 +6,4 @@ author: admin
 comments: true
 categories: [Uncategorized]
 ---
-<a href="/images/uploads/2012/12/000-0028.jpg"><img class="alignnone  wp-image-358" style="border: 3px solid black;" title="000 0028" src="/images/uploads/2012/12/000-0028.jpg" alt="" width="640" /></a>
+<a href="/blog/images/uploads/2012/12/000-0028.jpg"><img class="alignnone  wp-image-358" style="border: 3px solid black;" title="000 0028" src="/blog/images/uploads/2012/12/000-0028.jpg" alt="" width="640" /></a>

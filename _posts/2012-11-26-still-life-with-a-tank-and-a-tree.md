@@ -8,4 +8,4 @@ categories: [Uncategorized]
 ---
 One day to release!
 
-<a href="/images/uploads/2012/11/screen.jpg"><img src="/images/uploads/2012/11/screen.jpg" alt="" title="screen" width="802" height="604" class="alignnone size-full wp-image-346" /></a>
+<a href="/blog/images/uploads/2012/11/screen.jpg"><img src="/blog/images/uploads/2012/11/screen.jpg" alt="" title="screen" width="802" height="604" class="alignnone size-full wp-image-346" /></a>
