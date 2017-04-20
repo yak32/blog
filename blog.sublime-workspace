@@ -120,381 +120,291 @@
 	"buffers":
 	[
 		{
-			"file": "blog.sublime-project",
+			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 356,
+				"buffer_size": 2572,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 141 files for \"uploads\"\n\nE:\\projects\\blog\\_posts\\2011-03-21-npc-with-several-lights.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/03/soldier_face.jpg\"><img class=\"alignnone size-full wp-image-127\" title=\"soldier_face\" src=\"http://54.248.119.7/blog/wp-content/uploads/2011/03/soldier_face.jpg\" alt=\"\" width=\"640\" height=\"460\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2011-12-22-a-lot-of-new-features-implemented.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_screen_village1-e1324484973284.jpg\"><img class=\"alignnone size-large wp-image-136\" title=\"glow_screen_village\" src=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_screen_village1-1024x855.jpg\" alt=\"\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  Many new features are implemented, exponential shadow maps, soft particles, cinematic editor, UI improvements\n\nE:\\projects\\blog\\_posts\\2011-12-26-deferred-reflections.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_deferred_reflections-e1324831871894.jpg\"><img class=\"alignnone size-large wp-image-143\" title=\"glow_deferred_reflections\" src=\"http://glow3d.com/blog/wp-content/uploads/2011/12/glow_deferred_reflections-1024x855.jpg\" alt=\"Deferred reflections in Glow engine\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  I thought about it a lot - how to implement planar reflection in engine with deferred lighting? Render scene with lighting (and shadows) into separate render target is very expensive - it doubles all calculations. And after I met idea about deferred reflections in article about rendering technologies in Metro 2033.\n\nE:\\projects\\blog\\_posts\\2012-05-10-first-opengl-screen.md:\n    9  First screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.\n   10  \n   11: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/opengl_first_screen1.jpg\"><img class=\"alignnone  wp-image-167\" title=\"opengl_first_screen\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/opengl_first_screen1.jpg\" alt=\"\" width=\"449\" height=\"320\" /></a>\n   12  \n   13  Two weeks ago I tried compilation under GCC and Linux and finished it in 2-3 days without any significant problems.\n\nE:\\projects\\blog\\_posts\\2012-05-25-first-screen-of-voxel-field-update-throw-network.md:\n   12  on server and sent to client.\n   13  \n   14: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/tarta_net_hole2.jpg\"><img class=\"alignnone size-full wp-image-183\" title=\"tarta_net_hole\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/tarta_net_hole2.jpg\" alt=\"\" width=\"655\" height=\"517\" /></a>\n   15  \n\nE:\\projects\\blog\\_posts\\2012-06-26-188.md:\n   10  \n   11  And some pictures from current stage of development - probably character for multiplayer (free model from Turbosquid.com). I choose that art style for characters and monsters in the game, but it adjustable in the future.\n   12: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/player.jpg\"><img class=\"wp-image-192 alignnone\" title=\"player\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/player-1024x753.jpg\" alt=\"\" width=\"500\" height=\"368\" />\n   13  \n   14  Grass with temporary model (should be changed)\n   15: </a><a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass1.jpg\"><img class=\"wp-image-191 alignnone\" title=\"tarta_grass\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass1-1024x598.jpg\" alt=\"\" width=\"500\" height=\"368\" /></a>\n   16  \n\nE:\\projects\\blog\\_posts\\2012-06-28-first-iteration-of-grass.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass.jpg\"><img class=\"alignnone size-large wp-image-197\" title=\"tarta_grass\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass-1024x839.jpg\" alt=\"\" width=\"695\" height=\"569\" /></a>\n   10  I play with grass these days. Texture of grass should be changed to something more cubic.\n   11  \n\nE:\\projects\\blog\\_posts\\2012-08-14-site-moved-to-amazon-ec2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\"><img class=\"alignnone size-full wp-image-206\" title=\"AroundApp\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\" alt=\"\" width=\"363\" height=\"366\" /></a>\n   10  \n   11  I moved blog and site to Amazon Elastic Cloud - spent several days on that. Previously I pay around 10 USD per month on Hostgator hosting, but decided to switch to free  (tr1.micro, 1st year) Amazon hosting. Basically because it was interesting to try Amazon services and play with virtual machine. It provided to you without any additional services, so you should install everything manually. Also it can be scaled very easily and you pay as much as you spend.\n\nE:\\projects\\blog\\_posts\\2012-08-20-geometry-optimization.md:\n    8  ---\n    9  I applied some optimization to the mesh generation. Previously, voxel mesh was generated as-is, with removing only internal faces. It creates huge amount of vertex data, which was slowly loaded into gpu, slowly processed on cpu etc. New algorithm reduce vertex data in 3-4 times, but slightly increase time of mesh generation. Also, one possible minus of new algorithm - it will be hard to apply ambient occlusion, based on vertexes (it's not regular mesh now), but I hope my version of SSAO will handle it.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\"><img class=\"alignnone  wp-image-226\" title=\"screen_detail\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\" alt=\"\" width=\"695\" /></a>\n   11  \n   12  It's new version of mesh generation.\n   13: <img class=\"alignnone size-full wp-image-227\" title=\"tarta_greedy\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/tarta_greedy1.jpg\" alt=\"\" width=\"695\" />/&gt;\n   14  \n\nE:\\projects\\blog\\_posts\\2012-10-04-google-nacl-build-of-glow-engine.md:\n    9  I finally made Glow engine cross-platform, and first platform except Windows is Google NACL - technology which allows to run native C/C++ code in a browser window. I will write about it more specifically later. I am really excited now by ability to run game directly from link and deploy it without any installation steps directly to user (on Windows, Linux and MacOS)!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\"><img class=\"alignnone size-full wp-image-308\" title=\"glow_nacl\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\" alt=\"\" width=\"695\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-10-19-model-of-a-tank-for-a-new-game.md:\n    8  ---\n    9  I found free model for my new game, just don't sure, will it fits well in a voxel world.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\"><img class=\"alignnone size-full wp-image-316\" title=\"tank_in_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\" alt=\"\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-10-23-voxelization.md:\n    9  I played with automatic voxelization of 3d model.\n   10  \n   11: Original model: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\"><img class=\"alignnone  wp-image-324\" title=\"tank_original\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\" alt=\"\" width=\"700\" /></a>\n   12  \n   13  &nbsp;\n   14  \n   15  Model after voxelization:\n   16: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\"><img class=\"alignnone size-full wp-image-325\" title=\"tank_voxelized\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\" alt=\"\" width=\"700\" /></a>\n   17  \n   18  Model was voxelized into 50x50x50 voxel field so resolution should be definitely increased. Model is rasterized into voxel field polygon by polygon similarly to scan line 2d algorithm.\n\nE:\\projects\\blog\\_posts\\2012-11-09-greedy-mesh-generation-for-voxel-field.md:\n   11  And with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   14  \n   15: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   16  \n   17  Previous, \"dumb\" mesh generation.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   19  \n\nE:\\projects\\blog\\_posts\\2012-11-23-i-goes-deep-with-my-tank-game.md:\n    8  ---\n    9  My game for the Intel Ultrabook Contest close to finish. Problem is I am still don't have certificate from Symantec to sign code, but anyway. More about that game later.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\"><img class=\"alignnone size-full wp-image-343\" title=\"tank_game\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\" alt=\"\" width=\"818\" height=\"639\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-11-26-still-life-with-a-tank-and-a-tree.md:\n    9  One day to release!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\"><img src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\" alt=\"\" title=\"screen\" width=\"802\" height=\"604\" class=\"alignnone size-full wp-image-346\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-12-06-iron-cube.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\"><img class=\"alignnone  wp-image-350\" style=\"border: 3px solid black;\" title=\"main_screen.2\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\" alt=\"\" width=\"700\" /></a>\n   10  \n   11  I made <a href=\"http://www.moddb.com/games/iron-cube/\">page on moddb</a> about Iron Cube game - multiplayer game in destroyable  voxel world.\n\nE:\\projects\\blog\\_posts\\2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\"><img class=\"alignnone  wp-image-358\" style=\"border: 3px solid black;\" title=\"000 0028\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\" alt=\"\" width=\"640\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2013-01-02-steam-bigpicture.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\"><img class=\"alignnone size-full wp-image-384\" title=\"BigPicture\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\" alt=\"\" width=\"700\" height=\"239\" /></a>\n   10  \n   11  Finally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.\n\nE:\\projects\\blog\\_posts\\2013-01-16-glow-engine-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/16/glow-engine-on-android/glow_android/\" rel=\"attachment wp-att-390\"><img class=\"alignnone size-full wp-image-390\" alt=\"glow_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/glow_android.jpg\" width=\"700\" height=\"325\" /></a>\n   10  \n   11  OMG, I ported  Glow engine to Android over last weekends! (Honestly, port is based on Google NACL port of  the engine, and I spend a lot of time making Glow engine truly cross-platform recently. But anyway.)  More about it later.\n\nE:\\projects\\blog\\_posts\\2013-01-22-leap-motion-2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5677/\" rel=\"attachment wp-att-401\"><img class=\"alignnone size-full wp-image-401\" alt=\"IMG_5677\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5677.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  As I <a href=\"http://glow3d.com/blog/2012/12/23/leap-motion/\">wrote previously</a>, I participated in Leap Motion Development program and was selected as developer.  It's arrived today and I made some tests. Device looks responsible and precise, check video below. I will try to integrate Leap SDK to Glow engine  in near time. It seems perfect for 3D mesh manipulation or shooters.\n   12  \n   13: <img class=\"alignnone size-full wp-image-403\" alt=\"IMG_5649\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5649.jpg\" width=\"700\" height=\"467\" />\n   14  Unboxing!\n   15  \n   16: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5656/\" rel=\"attachment wp-att-402\"><img class=\"alignnone size-full wp-image-402\" alt=\"IMG_5656\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5656.jpg\" width=\"700\" height=\"467\" /></a>\n   17  \n   18  It's some kind of multitouch without actual touch, and integration of multitouch to for Glow Android port is ready. ( btw port of Glow engine and Iron Cube game to Android is going very well I will show some materials later ) \n\nE:\\projects\\blog\\_posts\\2013-01-23-iron-cube-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/23/iron-cube-on-android/iron_cube_android/\" rel=\"attachment wp-att-411\"><img class=\"alignnone size-full wp-image-411\" alt=\"iron_cube_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/iron_cube_android.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  I prepared video of <a href=\"http://www.moddb.com/games/iron-cube\">Iron Cube game</a> on Galaxy Note 2. Movement already done, shooting, rendering, remaining parts are sound and AI. Voxels can be integrated directly into Recast navigation library, otherwise navigation mesh can be built from a final optimized mesh (like physics).\n\nE:\\projects\\blog\\_posts\\2013-02-28-why-android-is-better.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\"><img class=\"alignnone size-full wp-image-427\" alt=\"GalaxyNote2\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\" width=\"700\" height=\"467\" /></a>\n   10  My phablet Galaxy Note 2 with custom launcher (Launcher 8).\n   11  \n\nE:\\projects\\blog\\_posts\\2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\"><img class=\"alignnone size-full wp-image-440\" alt=\"perc-challenge-banner\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\" width=\"700\" height=\"400\" /></a>\n   10  \n   11  I am First Prize winner of Intel Perceptual Computing Challenge with <a href=\"http://glow3d.com/blog/2013/03/05/better-video-of-mercury-prototype/\">Mercury prototype</a>.\n\nE:\\projects\\blog\\_posts\\2013-03-29-new-voxel-based-lighting.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-444\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\" width=\"700\" height=\"543\" /></a>\n   10  I implemented new CPU based lighting, which will helps with rendering on mobile devices. Lighting divided into sky and local lighting. Sky emits lights from top to bottom of voxel world, it creates shadows and darken caves. Local lights currently without shadows but uses normals of objects. Lights are calculated in editor and saved to file to help with load time on mobile devices.\n   11  \n\nE:\\projects\\blog\\_posts\\2013-07-03-iron-cube-pre-alpha-release-0-15.md:\n   16  \n   17  Bots use new navigation system, based on updated Recast library. Meshes are dynamic, it means they will be rebuild, when voxels are changed.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\"><img class=\"alignnone size-full wp-image-450\" alt=\"iron_cube_ai\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\" width=\"600\" /></a>\n   19  \n   20  And demonstration, how dynamic navigation meshes work\n   ..\n   22  \n   23  New voxel-based lighting system is developed, lighting from sun is ambient and allows smooth shadows (relatively smooth, because of overall pixelated style). Lighting made using modified flood-fill of skylight from top of the world.\n   24: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-449\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\" width=\"600\" /></a>\n   25  \n   26  Also I switched render from DirectX+Deferred Shading to OpenGL+simple voxel based lighting, to be compatible with future mobile ports. It's faster and allows to play game on old hardware.\n\nE:\\projects\\blog\\_posts\\2013-12-16-screenshot-of-iron-cube-editor.md:\n   11  There is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"ironcube_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\" width=\"700\" /></a>\n   14  \n\nE:\\projects\\blog\\_posts\\2013-12-23-one-more-screenshot.md:\n    8  ---\n    9  I am running automated tests with Iron Cube - every second some action randomly chosen - move forward/backward, rotate left/right or shoot. This screenshot was made after hour of tests. Surface is heavily damaged. And surprisingly, no crashes or  problems! It's ready to upload new version to Google Play Store.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"iron_cube_tests\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2014-01-07-iron-cube-0-31.md:\n    9  0.31 release for Iron Cube for Windows and Android, tank multiplayer combat in a voxel world.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\"><img class=\"alignnone  wp-image-489\" style=\"border-width: 3px; border-style: solid; border-color: #000000;\" alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"700\" /></a>\n   12  \n   13  <a title=\"Download Iron Cube 0.32 - Mod DB\" href=\"http://www.moddb.com/games/iron-cube/downloads/iron-cube-032\" target=\"_blank\"><img alt=\"Iron Cube 0.32\" src=\"http://button.moddb.com/download/medium/64106.png\" /></a>\n   ..\n   32  \n   33  Screenshots:\n   34: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" target=\"_blank\"><img alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\"><img alt=\"screen4\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\" width=\"298\" /></a>\n   35: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\"><img alt=\"screen3\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\"><img alt=\"screen2\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\" width=\"298\" height=\"168\" /></a>\n   36  <a href=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" target=\"_blank\"><img alt=\"Screenshot_2013-10-23-16-50-08\" src=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" width=\"600\" /></a>\n   37  \n\nE:\\projects\\blog\\_posts\\2014-09-24-new-ambient-lighting-implementation.md:\n    9  I made new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but should be faster.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\"><img class=\"alignnone  wp-image-505\" alt=\"ambient_vertex_colors\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\" width=\"700\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2014-12-20-directx-11.md:\n   11  \n   12  Screenshot of editor with DirectX 11 renderer and simple scene with 2 light sources.\n   13: <a style=\"line-height: 1.5em;\" href=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\"><img class=\"alignnone  wp-image-516\" alt=\"editor_dx11\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\" width=\"700\" /></a>\n   14  \n\n78 matches across 30 files\n\n\nSearching 140 files for \"uploads\"\n\nE:\\projects\\blog\\_posts\\2011-03-21-npc-with-several-lights.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/03/soldier_face.jpg\"><img class=\"alignnone size-full wp-image-127\" title=\"soldier_face\" src=\"http://54.248.119.7/blog/wp-content/uploads/2011/03/soldier_face.jpg\" alt=\"\" width=\"640\" height=\"460\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2011-12-22-a-lot-of-new-features-implemented.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_screen_village1-e1324484973284.jpg\"><img class=\"alignnone size-large wp-image-136\" title=\"glow_screen_village\" src=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_screen_village1-1024x855.jpg\" alt=\"\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  Many new features are implemented, exponential shadow maps, soft particles, cinematic editor, UI improvements\n\nE:\\projects\\blog\\_posts\\2011-12-26-deferred-reflections.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_deferred_reflections-e1324831871894.jpg\"><img class=\"alignnone size-large wp-image-143\" title=\"glow_deferred_reflections\" src=\"http://glow3d.com/blog/wp-content/uploads/2011/12/glow_deferred_reflections-1024x855.jpg\" alt=\"Deferred reflections in Glow engine\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  I thought about it a lot - how to implement planar reflection in engine with deferred lighting? Render scene with lighting (and shadows) into separate render target is very expensive - it doubles all calculations. And after I met idea about deferred reflections in article about rendering technologies in Metro 2033.\n\nE:\\projects\\blog\\_posts\\2012-05-10-first-opengl-screen.md:\n    9  First screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.\n   10  \n   11: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/opengl_first_screen1.jpg\"><img class=\"alignnone  wp-image-167\" title=\"opengl_first_screen\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/opengl_first_screen1.jpg\" alt=\"\" width=\"449\" height=\"320\" /></a>\n   12  \n   13  Two weeks ago I tried compilation under GCC and Linux and finished it in 2-3 days without any significant problems.\n\nE:\\projects\\blog\\_posts\\2012-05-25-first-screen-of-voxel-field-update-throw-network.md:\n   12  on server and sent to client.\n   13  \n   14: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/tarta_net_hole2.jpg\"><img class=\"alignnone size-full wp-image-183\" title=\"tarta_net_hole\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/tarta_net_hole2.jpg\" alt=\"\" width=\"655\" height=\"517\" /></a>\n   15  \n\nE:\\projects\\blog\\_posts\\2012-06-26-188.md:\n   10  \n   11  And some pictures from current stage of development - probably character for multiplayer (free model from Turbosquid.com). I choose that art style for characters and monsters in the game, but it adjustable in the future.\n   12: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/player.jpg\"><img class=\"wp-image-192 alignnone\" title=\"player\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/player-1024x753.jpg\" alt=\"\" width=\"500\" height=\"368\" />\n   13  \n   14  Grass with temporary model (should be changed)\n   15: </a><a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass1.jpg\"><img class=\"wp-image-191 alignnone\" title=\"tarta_grass\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass1-1024x598.jpg\" alt=\"\" width=\"500\" height=\"368\" /></a>\n   16  \n\nE:\\projects\\blog\\_posts\\2012-06-28-first-iteration-of-grass.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass.jpg\"><img class=\"alignnone size-large wp-image-197\" title=\"tarta_grass\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass-1024x839.jpg\" alt=\"\" width=\"695\" height=\"569\" /></a>\n   10  I play with grass these days. Texture of grass should be changed to something more cubic.\n   11  \n\nE:\\projects\\blog\\_posts\\2012-08-14-site-moved-to-amazon-ec2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\"><img class=\"alignnone size-full wp-image-206\" title=\"AroundApp\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\" alt=\"\" width=\"363\" height=\"366\" /></a>\n   10  \n   11  I moved blog and site to Amazon Elastic Cloud - spent several days on that. Previously I pay around 10 USD per month on Hostgator hosting, but decided to switch to free  (tr1.micro, 1st year) Amazon hosting. Basically because it was interesting to try Amazon services and play with virtual machine. It provided to you without any additional services, so you should install everything manually. Also it can be scaled very easily and you pay as much as you spend.\n\nE:\\projects\\blog\\_posts\\2012-08-20-geometry-optimization.md:\n    8  ---\n    9  I applied some optimization to the mesh generation. Previously, voxel mesh was generated as-is, with removing only internal faces. It creates huge amount of vertex data, which was slowly loaded into gpu, slowly processed on cpu etc. New algorithm reduce vertex data in 3-4 times, but slightly increase time of mesh generation. Also, one possible minus of new algorithm - it will be hard to apply ambient occlusion, based on vertexes (it's not regular mesh now), but I hope my version of SSAO will handle it.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\"><img class=\"alignnone  wp-image-226\" title=\"screen_detail\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\" alt=\"\" width=\"695\" /></a>\n   11  \n   12  It's new version of mesh generation.\n   13: <img class=\"alignnone size-full wp-image-227\" title=\"tarta_greedy\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/tarta_greedy1.jpg\" alt=\"\" width=\"695\" />/&gt;\n   14  \n\nE:\\projects\\blog\\_posts\\2012-10-04-google-nacl-build-of-glow-engine.md:\n    9  I finally made Glow engine cross-platform, and first platform except Windows is Google NACL - technology which allows to run native C/C++ code in a browser window. I will write about it more specifically later. I am really excited now by ability to run game directly from link and deploy it without any installation steps directly to user (on Windows, Linux and MacOS)!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\"><img class=\"alignnone size-full wp-image-308\" title=\"glow_nacl\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\" alt=\"\" width=\"695\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-10-19-model-of-a-tank-for-a-new-game.md:\n    8  ---\n    9  I found free model for my new game, just don't sure, will it fits well in a voxel world.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\"><img class=\"alignnone size-full wp-image-316\" title=\"tank_in_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\" alt=\"\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-10-23-voxelization.md:\n    9  I played with automatic voxelization of 3d model.\n   10  \n   11: Original model: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\"><img class=\"alignnone  wp-image-324\" title=\"tank_original\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\" alt=\"\" width=\"700\" /></a>\n   12  \n   13  &nbsp;\n   14  \n   15  Model after voxelization:\n   16: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\"><img class=\"alignnone size-full wp-image-325\" title=\"tank_voxelized\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\" alt=\"\" width=\"700\" /></a>\n   17  \n   18  Model was voxelized into 50x50x50 voxel field so resolution should be definitely increased. Model is rasterized into voxel field polygon by polygon similarly to scan line 2d algorithm.\n\nE:\\projects\\blog\\_posts\\2012-11-09-greedy-mesh-generation-for-voxel-field.md:\n   11  And with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   14  \n   15: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   16  \n   17  Previous, \"dumb\" mesh generation.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   19  \n\nE:\\projects\\blog\\_posts\\2012-11-23-i-goes-deep-with-my-tank-game.md:\n    8  ---\n    9  My game for the Intel Ultrabook Contest close to finish. Problem is I am still don't have certificate from Symantec to sign code, but anyway. More about that game later.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\"><img class=\"alignnone size-full wp-image-343\" title=\"tank_game\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\" alt=\"\" width=\"818\" height=\"639\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-11-26-still-life-with-a-tank-and-a-tree.md:\n    9  One day to release!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\"><img src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\" alt=\"\" title=\"screen\" width=\"802\" height=\"604\" class=\"alignnone size-full wp-image-346\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-12-06-iron-cube.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\"><img class=\"alignnone  wp-image-350\" style=\"border: 3px solid black;\" title=\"main_screen.2\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\" alt=\"\" width=\"700\" /></a>\n   10  \n   11  I made <a href=\"http://www.moddb.com/games/iron-cube/\">page on moddb</a> about Iron Cube game - multiplayer game in destroyable  voxel world.\n\nE:\\projects\\blog\\_posts\\2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\"><img class=\"alignnone  wp-image-358\" style=\"border: 3px solid black;\" title=\"000 0028\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\" alt=\"\" width=\"640\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2013-01-02-steam-bigpicture.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\"><img class=\"alignnone size-full wp-image-384\" title=\"BigPicture\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\" alt=\"\" width=\"700\" height=\"239\" /></a>\n   10  \n   11  Finally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.\n\nE:\\projects\\blog\\_posts\\2013-01-16-glow-engine-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/16/glow-engine-on-android/glow_android/\" rel=\"attachment wp-att-390\"><img class=\"alignnone size-full wp-image-390\" alt=\"glow_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/glow_android.jpg\" width=\"700\" height=\"325\" /></a>\n   10  \n   11  OMG, I ported  Glow engine to Android over last weekends! (Honestly, port is based on Google NACL port of  the engine, and I spend a lot of time making Glow engine truly cross-platform recently. But anyway.)  More about it later.\n\nE:\\projects\\blog\\_posts\\2013-01-22-leap-motion-2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5677/\" rel=\"attachment wp-att-401\"><img class=\"alignnone size-full wp-image-401\" alt=\"IMG_5677\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5677.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  As I <a href=\"http://glow3d.com/blog/2012/12/23/leap-motion/\">wrote previously</a>, I participated in Leap Motion Development program and was selected as developer.  It's arrived today and I made some tests. Device looks responsible and precise, check video below. I will try to integrate Leap SDK to Glow engine  in near time. It seems perfect for 3D mesh manipulation or shooters.\n   12  \n   13: <img class=\"alignnone size-full wp-image-403\" alt=\"IMG_5649\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5649.jpg\" width=\"700\" height=\"467\" />\n   14  Unboxing!\n   15  \n   16: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5656/\" rel=\"attachment wp-att-402\"><img class=\"alignnone size-full wp-image-402\" alt=\"IMG_5656\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5656.jpg\" width=\"700\" height=\"467\" /></a>\n   17  \n   18  It's some kind of multitouch without actual touch, and integration of multitouch to for Glow Android port is ready. ( btw port of Glow engine and Iron Cube game to Android is going very well I will show some materials later ) \n\nE:\\projects\\blog\\_posts\\2013-01-23-iron-cube-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/23/iron-cube-on-android/iron_cube_android/\" rel=\"attachment wp-att-411\"><img class=\"alignnone size-full wp-image-411\" alt=\"iron_cube_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/iron_cube_android.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  I prepared video of <a href=\"http://www.moddb.com/games/iron-cube\">Iron Cube game</a> on Galaxy Note 2. Movement already done, shooting, rendering, remaining parts are sound and AI. Voxels can be integrated directly into Recast navigation library, otherwise navigation mesh can be built from a final optimized mesh (like physics).\n\nE:\\projects\\blog\\_posts\\2013-02-28-why-android-is-better.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\"><img class=\"alignnone size-full wp-image-427\" alt=\"GalaxyNote2\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\" width=\"700\" height=\"467\" /></a>\n   10  My phablet Galaxy Note 2 with custom launcher (Launcher 8).\n   11  \n\nE:\\projects\\blog\\_posts\\2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\"><img class=\"alignnone size-full wp-image-440\" alt=\"perc-challenge-banner\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\" width=\"700\" height=\"400\" /></a>\n   10  \n   11  I am First Prize winner of Intel Perceptual Computing Challenge with <a href=\"http://glow3d.com/blog/2013/03/05/better-video-of-mercury-prototype/\">Mercury prototype</a>.\n\nE:\\projects\\blog\\_posts\\2013-03-29-new-voxel-based-lighting.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-444\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\" width=\"700\" height=\"543\" /></a>\n   10  I implemented new CPU based lighting, which will helps with rendering on mobile devices. Lighting divided into sky and local lighting. Sky emits lights from top to bottom of voxel world, it creates shadows and darken caves. Local lights currently without shadows but uses normals of objects. Lights are calculated in editor and saved to file to help with load time on mobile devices.\n   11  \n\nE:\\projects\\blog\\_posts\\2013-07-03-iron-cube-pre-alpha-release-0-15.md:\n   16  \n   17  Bots use new navigation system, based on updated Recast library. Meshes are dynamic, it means they will be rebuild, when voxels are changed.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\"><img class=\"alignnone size-full wp-image-450\" alt=\"iron_cube_ai\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\" width=\"600\" /></a>\n   19  \n   20  And demonstration, how dynamic navigation meshes work\n   ..\n   22  \n   23  New voxel-based lighting system is developed, lighting from sun is ambient and allows smooth shadows (relatively smooth, because of overall pixelated style). Lighting made using modified flood-fill of skylight from top of the world.\n   24: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-449\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\" width=\"600\" /></a>\n   25  \n   26  Also I switched render from DirectX+Deferred Shading to OpenGL+simple voxel based lighting, to be compatible with future mobile ports. It's faster and allows to play game on old hardware.\n\nE:\\projects\\blog\\_posts\\2013-12-16-screenshot-of-iron-cube-editor.md:\n   11  There is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"ironcube_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\" width=\"700\" /></a>\n   14  \n\nE:\\projects\\blog\\_posts\\2013-12-23-one-more-screenshot.md:\n    8  ---\n    9  I am running automated tests with Iron Cube - every second some action randomly chosen - move forward/backward, rotate left/right or shoot. This screenshot was made after hour of tests. Surface is heavily damaged. And surprisingly, no crashes or  problems! It's ready to upload new version to Google Play Store.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"iron_cube_tests\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2014-01-07-iron-cube-0-31.md:\n    9  0.31 release for Iron Cube for Windows and Android, tank multiplayer combat in a voxel world.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\"><img class=\"alignnone  wp-image-489\" style=\"border-width: 3px; border-style: solid; border-color: #000000;\" alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"700\" /></a>\n   12  \n   13  <a title=\"Download Iron Cube 0.32 - Mod DB\" href=\"http://www.moddb.com/games/iron-cube/downloads/iron-cube-032\" target=\"_blank\"><img alt=\"Iron Cube 0.32\" src=\"http://button.moddb.com/download/medium/64106.png\" /></a>\n   ..\n   32  \n   33  Screenshots:\n   34: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" target=\"_blank\"><img alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\"><img alt=\"screen4\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\" width=\"298\" /></a>\n   35: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\"><img alt=\"screen3\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\"><img alt=\"screen2\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\" width=\"298\" height=\"168\" /></a>\n   36  <a href=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" target=\"_blank\"><img alt=\"Screenshot_2013-10-23-16-50-08\" src=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" width=\"600\" /></a>\n   37  \n\nE:\\projects\\blog\\_posts\\2014-09-24-new-ambient-lighting-implementation.md:\n    9  I made new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but should be faster.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\"><img class=\"alignnone  wp-image-505\" alt=\"ambient_vertex_colors\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\" width=\"700\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2014-12-20-directx-11.md:\n   11  \n   12  Screenshot of editor with DirectX 11 renderer and simple scene with 2 light sources.\n   13: <a style=\"line-height: 1.5em;\" href=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\"><img class=\"alignnone  wp-image-516\" alt=\"editor_dx11\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\" width=\"700\" /></a>\n   14  \n\n78 matches across 30 files\n\n\nSearching 140 files for \"uploads\"\n\nE:\\projects\\blog\\_posts\\2011-03-21-npc-with-several-lights.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/03/soldier_face.jpg\"><img class=\"alignnone size-full wp-image-127\" title=\"soldier_face\" src=\"http://54.248.119.7/blog/wp-content/uploads/2011/03/soldier_face.jpg\" alt=\"\" width=\"640\" height=\"460\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2011-12-22-a-lot-of-new-features-implemented.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_screen_village1-e1324484973284.jpg\"><img class=\"alignnone size-large wp-image-136\" title=\"glow_screen_village\" src=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_screen_village1-1024x855.jpg\" alt=\"\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  Many new features are implemented, exponential shadow maps, soft particles, cinematic editor, UI improvements\n\nE:\\projects\\blog\\_posts\\2011-12-26-deferred-reflections.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2011/12/glow_deferred_reflections-e1324831871894.jpg\"><img class=\"alignnone size-large wp-image-143\" title=\"glow_deferred_reflections\" src=\"http://glow3d.com/blog/wp-content/uploads/2011/12/glow_deferred_reflections-1024x855.jpg\" alt=\"Deferred reflections in Glow engine\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  I thought about it a lot - how to implement planar reflection in engine with deferred lighting? Render scene with lighting (and shadows) into separate render target is very expensive - it doubles all calculations. And after I met idea about deferred reflections in article about rendering technologies in Metro 2033.\n\nE:\\projects\\blog\\_posts\\2012-05-10-first-opengl-screen.md:\n    9  First screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.\n   10  \n   11: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/opengl_first_screen1.jpg\"><img class=\"alignnone  wp-image-167\" title=\"opengl_first_screen\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/opengl_first_screen1.jpg\" alt=\"\" width=\"449\" height=\"320\" /></a>\n   12  \n   13  Two weeks ago I tried compilation under GCC and Linux and finished it in 2-3 days without any significant problems.\n\nE:\\projects\\blog\\_posts\\2012-05-25-first-screen-of-voxel-field-update-throw-network.md:\n   12  on server and sent to client.\n   13  \n   14: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/tarta_net_hole2.jpg\"><img class=\"alignnone size-full wp-image-183\" title=\"tarta_net_hole\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/05/tarta_net_hole2.jpg\" alt=\"\" width=\"655\" height=\"517\" /></a>\n   15  \n\nE:\\projects\\blog\\_posts\\2012-06-26-188.md:\n   10  \n   11  And some pictures from current stage of development - probably character for multiplayer (free model from Turbosquid.com). I choose that art style for characters and monsters in the game, but it adjustable in the future.\n   12: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/player.jpg\"><img class=\"wp-image-192 alignnone\" title=\"player\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/player-1024x753.jpg\" alt=\"\" width=\"500\" height=\"368\" />\n   13  \n   14  Grass with temporary model (should be changed)\n   15: </a><a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass1.jpg\"><img class=\"wp-image-191 alignnone\" title=\"tarta_grass\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass1-1024x598.jpg\" alt=\"\" width=\"500\" height=\"368\" /></a>\n   16  \n\nE:\\projects\\blog\\_posts\\2012-06-28-first-iteration-of-grass.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass.jpg\"><img class=\"alignnone size-large wp-image-197\" title=\"tarta_grass\" src=\"http://54.248.119.7/blog/wp-content/uploads/2012/06/tarta_grass-1024x839.jpg\" alt=\"\" width=\"695\" height=\"569\" /></a>\n   10  I play with grass these days. Texture of grass should be changed to something more cubic.\n   11  \n\nE:\\projects\\blog\\_posts\\2012-08-14-site-moved-to-amazon-ec2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\"><img class=\"alignnone size-full wp-image-206\" title=\"AroundApp\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\" alt=\"\" width=\"363\" height=\"366\" /></a>\n   10  \n   11  I moved blog and site to Amazon Elastic Cloud - spent several days on that. Previously I pay around 10 USD per month on Hostgator hosting, but decided to switch to free  (tr1.micro, 1st year) Amazon hosting. Basically because it was interesting to try Amazon services and play with virtual machine. It provided to you without any additional services, so you should install everything manually. Also it can be scaled very easily and you pay as much as you spend.\n\nE:\\projects\\blog\\_posts\\2012-08-20-geometry-optimization.md:\n    8  ---\n    9  I applied some optimization to the mesh generation. Previously, voxel mesh was generated as-is, with removing only internal faces. It creates huge amount of vertex data, which was slowly loaded into gpu, slowly processed on cpu etc. New algorithm reduce vertex data in 3-4 times, but slightly increase time of mesh generation. Also, one possible minus of new algorithm - it will be hard to apply ambient occlusion, based on vertexes (it's not regular mesh now), but I hope my version of SSAO will handle it.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\"><img class=\"alignnone  wp-image-226\" title=\"screen_detail\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\" alt=\"\" width=\"695\" /></a>\n   11  \n   12  It's new version of mesh generation.\n   13: <img class=\"alignnone size-full wp-image-227\" title=\"tarta_greedy\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/tarta_greedy1.jpg\" alt=\"\" width=\"695\" />/&gt;\n   14  \n\nE:\\projects\\blog\\_posts\\2012-10-04-google-nacl-build-of-glow-engine.md:\n    9  I finally made Glow engine cross-platform, and first platform except Windows is Google NACL - technology which allows to run native C/C++ code in a browser window. I will write about it more specifically later. I am really excited now by ability to run game directly from link and deploy it without any installation steps directly to user (on Windows, Linux and MacOS)!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\"><img class=\"alignnone size-full wp-image-308\" title=\"glow_nacl\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\" alt=\"\" width=\"695\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-10-19-model-of-a-tank-for-a-new-game.md:\n    8  ---\n    9  I found free model for my new game, just don't sure, will it fits well in a voxel world.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\"><img class=\"alignnone size-full wp-image-316\" title=\"tank_in_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\" alt=\"\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-10-23-voxelization.md:\n    9  I played with automatic voxelization of 3d model.\n   10  \n   11: Original model: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\"><img class=\"alignnone  wp-image-324\" title=\"tank_original\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\" alt=\"\" width=\"700\" /></a>\n   12  \n   13  &nbsp;\n   14  \n   15  Model after voxelization:\n   16: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\"><img class=\"alignnone size-full wp-image-325\" title=\"tank_voxelized\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\" alt=\"\" width=\"700\" /></a>\n   17  \n   18  Model was voxelized into 50x50x50 voxel field so resolution should be definitely increased. Model is rasterized into voxel field polygon by polygon similarly to scan line 2d algorithm.\n\nE:\\projects\\blog\\_posts\\2012-11-09-greedy-mesh-generation-for-voxel-field.md:\n   11  And with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   14  \n   15: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   16  \n   17  Previous, \"dumb\" mesh generation.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   19  \n\nE:\\projects\\blog\\_posts\\2012-11-23-i-goes-deep-with-my-tank-game.md:\n    8  ---\n    9  My game for the Intel Ultrabook Contest close to finish. Problem is I am still don't have certificate from Symantec to sign code, but anyway. More about that game later.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\"><img class=\"alignnone size-full wp-image-343\" title=\"tank_game\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\" alt=\"\" width=\"818\" height=\"639\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-11-26-still-life-with-a-tank-and-a-tree.md:\n    9  One day to release!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\"><img src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\" alt=\"\" title=\"screen\" width=\"802\" height=\"604\" class=\"alignnone size-full wp-image-346\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-12-06-iron-cube.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\"><img class=\"alignnone  wp-image-350\" style=\"border: 3px solid black;\" title=\"main_screen.2\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\" alt=\"\" width=\"700\" /></a>\n   10  \n   11  I made <a href=\"http://www.moddb.com/games/iron-cube/\">page on moddb</a> about Iron Cube game - multiplayer game in destroyable  voxel world.\n\nE:\\projects\\blog\\_posts\\2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\"><img class=\"alignnone  wp-image-358\" style=\"border: 3px solid black;\" title=\"000 0028\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\" alt=\"\" width=\"640\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2013-01-02-steam-bigpicture.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\"><img class=\"alignnone size-full wp-image-384\" title=\"BigPicture\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\" alt=\"\" width=\"700\" height=\"239\" /></a>\n   10  \n   11  Finally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.\n\nE:\\projects\\blog\\_posts\\2013-01-16-glow-engine-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/16/glow-engine-on-android/glow_android/\" rel=\"attachment wp-att-390\"><img class=\"alignnone size-full wp-image-390\" alt=\"glow_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/glow_android.jpg\" width=\"700\" height=\"325\" /></a>\n   10  \n   11  OMG, I ported  Glow engine to Android over last weekends! (Honestly, port is based on Google NACL port of  the engine, and I spend a lot of time making Glow engine truly cross-platform recently. But anyway.)  More about it later.\n\nE:\\projects\\blog\\_posts\\2013-01-22-leap-motion-2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5677/\" rel=\"attachment wp-att-401\"><img class=\"alignnone size-full wp-image-401\" alt=\"IMG_5677\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5677.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  As I <a href=\"http://glow3d.com/blog/2012/12/23/leap-motion/\">wrote previously</a>, I participated in Leap Motion Development program and was selected as developer.  It's arrived today and I made some tests. Device looks responsible and precise, check video below. I will try to integrate Leap SDK to Glow engine  in near time. It seems perfect for 3D mesh manipulation or shooters.\n   12  \n   13: <img class=\"alignnone size-full wp-image-403\" alt=\"IMG_5649\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5649.jpg\" width=\"700\" height=\"467\" />\n   14  Unboxing!\n   15  \n   16: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5656/\" rel=\"attachment wp-att-402\"><img class=\"alignnone size-full wp-image-402\" alt=\"IMG_5656\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5656.jpg\" width=\"700\" height=\"467\" /></a>\n   17  \n   18  It's some kind of multitouch without actual touch, and integration of multitouch to for Glow Android port is ready. ( btw port of Glow engine and Iron Cube game to Android is going very well I will show some materials later ) \n\nE:\\projects\\blog\\_posts\\2013-01-23-iron-cube-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/23/iron-cube-on-android/iron_cube_android/\" rel=\"attachment wp-att-411\"><img class=\"alignnone size-full wp-image-411\" alt=\"iron_cube_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/iron_cube_android.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  I prepared video of <a href=\"http://www.moddb.com/games/iron-cube\">Iron Cube game</a> on Galaxy Note 2. Movement already done, shooting, rendering, remaining parts are sound and AI. Voxels can be integrated directly into Recast navigation library, otherwise navigation mesh can be built from a final optimized mesh (like physics).\n\nE:\\projects\\blog\\_posts\\2013-02-28-why-android-is-better.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\"><img class=\"alignnone size-full wp-image-427\" alt=\"GalaxyNote2\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\" width=\"700\" height=\"467\" /></a>\n   10  My phablet Galaxy Note 2 with custom launcher (Launcher 8).\n   11  \n\nE:\\projects\\blog\\_posts\\2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\"><img class=\"alignnone size-full wp-image-440\" alt=\"perc-challenge-banner\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\" width=\"700\" height=\"400\" /></a>\n   10  \n   11  I am First Prize winner of Intel Perceptual Computing Challenge with <a href=\"http://glow3d.com/blog/2013/03/05/better-video-of-mercury-prototype/\">Mercury prototype</a>.\n\nE:\\projects\\blog\\_posts\\2013-03-29-new-voxel-based-lighting.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-444\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\" width=\"700\" height=\"543\" /></a>\n   10  I implemented new CPU based lighting, which will helps with rendering on mobile devices. Lighting divided into sky and local lighting. Sky emits lights from top to bottom of voxel world, it creates shadows and darken caves. Local lights currently without shadows but uses normals of objects. Lights are calculated in editor and saved to file to help with load time on mobile devices.\n   11  \n\nE:\\projects\\blog\\_posts\\2013-07-03-iron-cube-pre-alpha-release-0-15.md:\n   16  \n   17  Bots use new navigation system, based on updated Recast library. Meshes are dynamic, it means they will be rebuild, when voxels are changed.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\"><img class=\"alignnone size-full wp-image-450\" alt=\"iron_cube_ai\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\" width=\"600\" /></a>\n   19  \n   20  And demonstration, how dynamic navigation meshes work\n   ..\n   22  \n   23  New voxel-based lighting system is developed, lighting from sun is ambient and allows smooth shadows (relatively smooth, because of overall pixelated style). Lighting made using modified flood-fill of skylight from top of the world.\n   24: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-449\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\" width=\"600\" /></a>\n   25  \n   26  Also I switched render from DirectX+Deferred Shading to OpenGL+simple voxel based lighting, to be compatible with future mobile ports. It's faster and allows to play game on old hardware.\n\nE:\\projects\\blog\\_posts\\2013-12-16-screenshot-of-iron-cube-editor.md:\n   11  There is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"ironcube_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\" width=\"700\" /></a>\n   14  \n\nE:\\projects\\blog\\_posts\\2013-12-23-one-more-screenshot.md:\n    8  ---\n    9  I am running automated tests with Iron Cube - every second some action randomly chosen - move forward/backward, rotate left/right or shoot. This screenshot was made after hour of tests. Surface is heavily damaged. And surprisingly, no crashes or  problems! It's ready to upload new version to Google Play Store.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"iron_cube_tests\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2014-01-07-iron-cube-0-31.md:\n    9  0.31 release for Iron Cube for Windows and Android, tank multiplayer combat in a voxel world.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\"><img class=\"alignnone  wp-image-489\" style=\"border-width: 3px; border-style: solid; border-color: #000000;\" alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"700\" /></a>\n   12  \n   13  <a title=\"Download Iron Cube 0.32 - Mod DB\" href=\"http://www.moddb.com/games/iron-cube/downloads/iron-cube-032\" target=\"_blank\"><img alt=\"Iron Cube 0.32\" src=\"http://button.moddb.com/download/medium/64106.png\" /></a>\n   ..\n   32  \n   33  Screenshots:\n   34: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" target=\"_blank\"><img alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\"><img alt=\"screen4\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\" width=\"298\" /></a>\n   35: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\"><img alt=\"screen3\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\"><img alt=\"screen2\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\" width=\"298\" height=\"168\" /></a>\n   36  <a href=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" target=\"_blank\"><img alt=\"Screenshot_2013-10-23-16-50-08\" src=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" width=\"600\" /></a>\n   37  \n\nE:\\projects\\blog\\_posts\\2014-09-24-new-ambient-lighting-implementation.md:\n    9  I made new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but should be faster.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\"><img class=\"alignnone  wp-image-505\" alt=\"ambient_vertex_colors\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\" width=\"700\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2014-12-20-directx-11.md:\n   11  \n   12  Screenshot of editor with DirectX 11 renderer and simple scene with 2 light sources.\n   13: <a style=\"line-height: 1.5em;\" href=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\"><img class=\"alignnone  wp-image-516\" alt=\"editor_dx11\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\" width=\"700\" /></a>\n   14  \n\n78 matches across 30 files\n\n\nSearching 140 files for \"uploads\"\n\nE:\\projects\\blog\\_posts\\2011-03-21-npc-with-several-lights.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"/images/uploads/2011/03/soldier_face.jpg\"><img class=\"alignnone size-full wp-image-127\" title=\"soldier_face\" src=\"/images/uploads/2011/03/soldier_face.jpg\" alt=\"\" width=\"640\" height=\"460\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2011-12-22-a-lot-of-new-features-implemented.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"/images/uploads/2011/12/glow_screen_village1-e1324484973284.jpg\"><img class=\"alignnone size-large wp-image-136\" title=\"glow_screen_village\" src=\"/images/uploads/2011/12/glow_screen_village1-1024x855.jpg\" alt=\"\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  Many new features are implemented, exponential shadow maps, soft particles, cinematic editor, UI improvements\n\nE:\\projects\\blog\\_posts\\2011-12-26-deferred-reflections.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"/images/uploads/2011/12/glow_deferred_reflections-e1324831871894.jpg\"><img class=\"alignnone size-large wp-image-143\" title=\"glow_deferred_reflections\" src=\"http://glow3d.com/blog/wp-content/uploads/2011/12/glow_deferred_reflections-1024x855.jpg\" alt=\"Deferred reflections in Glow engine\" width=\"695\" height=\"580\" /></a>\n   10  \n   11  I thought about it a lot - how to implement planar reflection in engine with deferred lighting? Render scene with lighting (and shadows) into separate render target is very expensive - it doubles all calculations. And after I met idea about deferred reflections in article about rendering technologies in Metro 2033.\n\nE:\\projects\\blog\\_posts\\2012-05-10-first-opengl-screen.md:\n    9  First screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.\n   10  \n   11: <a href=\"/images/uploads/2012/05/opengl_first_screen1.jpg\"><img class=\"alignnone  wp-image-167\" title=\"opengl_first_screen\" src=\"/images/uploads/2012/05/opengl_first_screen1.jpg\" alt=\"\" width=\"449\" height=\"320\" /></a>\n   12  \n   13  Two weeks ago I tried compilation under GCC and Linux and finished it in 2-3 days without any significant problems.\n\nE:\\projects\\blog\\_posts\\2012-05-25-first-screen-of-voxel-field-update-throw-network.md:\n   12  on server and sent to client.\n   13  \n   14: <a href=\"/images/uploads/2012/05/tarta_net_hole2.jpg\"><img class=\"alignnone size-full wp-image-183\" title=\"tarta_net_hole\" src=\"/images/uploads/2012/05/tarta_net_hole2.jpg\" alt=\"\" width=\"655\" height=\"517\" /></a>\n   15  \n\nE:\\projects\\blog\\_posts\\2012-06-26-188.md:\n   10  \n   11  And some pictures from current stage of development - probably character for multiplayer (free model from Turbosquid.com). I choose that art style for characters and monsters in the game, but it adjustable in the future.\n   12: <a href=\"/images/uploads/2012/06/player.jpg\"><img class=\"wp-image-192 alignnone\" title=\"player\" src=\"/images/uploads/2012/06/player-1024x753.jpg\" alt=\"\" width=\"500\" height=\"368\" />\n   13  \n   14  Grass with temporary model (should be changed)\n   15: </a><a href=\"/images/uploads/2012/06/tarta_grass1.jpg\"><img class=\"wp-image-191 alignnone\" title=\"tarta_grass\" src=\"/images/uploads/2012/06/tarta_grass1-1024x598.jpg\" alt=\"\" width=\"500\" height=\"368\" /></a>\n   16  \n\nE:\\projects\\blog\\_posts\\2012-06-28-first-iteration-of-grass.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"/images/uploads/2012/06/tarta_grass.jpg\"><img class=\"alignnone size-large wp-image-197\" title=\"tarta_grass\" src=\"/images/uploads/2012/06/tarta_grass-1024x839.jpg\" alt=\"\" width=\"695\" height=\"569\" /></a>\n   10  I play with grass these days. Texture of grass should be changed to something more cubic.\n   11  \n\nE:\\projects\\blog\\_posts\\2012-08-14-site-moved-to-amazon-ec2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\"><img class=\"alignnone size-full wp-image-206\" title=\"AroundApp\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/AroundApp.png\" alt=\"\" width=\"363\" height=\"366\" /></a>\n   10  \n   11  I moved blog and site to Amazon Elastic Cloud - spent several days on that. Previously I pay around 10 USD per month on Hostgator hosting, but decided to switch to free  (tr1.micro, 1st year) Amazon hosting. Basically because it was interesting to try Amazon services and play with virtual machine. It provided to you without any additional services, so you should install everything manually. Also it can be scaled very easily and you pay as much as you spend.\n\nE:\\projects\\blog\\_posts\\2012-08-20-geometry-optimization.md:\n    8  ---\n    9  I applied some optimization to the mesh generation. Previously, voxel mesh was generated as-is, with removing only internal faces. It creates huge amount of vertex data, which was slowly loaded into gpu, slowly processed on cpu etc. New algorithm reduce vertex data in 3-4 times, but slightly increase time of mesh generation. Also, one possible minus of new algorithm - it will be hard to apply ambient occlusion, based on vertexes (it's not regular mesh now), but I hope my version of SSAO will handle it.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\"><img class=\"alignnone  wp-image-226\" title=\"screen_detail\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/screen_detail1.jpg\" alt=\"\" width=\"695\" /></a>\n   11  \n   12  It's new version of mesh generation.\n   13: <img class=\"alignnone size-full wp-image-227\" title=\"tarta_greedy\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/08/tarta_greedy1.jpg\" alt=\"\" width=\"695\" />/&gt;\n   14  \n\nE:\\projects\\blog\\_posts\\2012-10-04-google-nacl-build-of-glow-engine.md:\n    9  I finally made Glow engine cross-platform, and first platform except Windows is Google NACL - technology which allows to run native C/C++ code in a browser window. I will write about it more specifically later. I am really excited now by ability to run game directly from link and deploy it without any installation steps directly to user (on Windows, Linux and MacOS)!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\"><img class=\"alignnone size-full wp-image-308\" title=\"glow_nacl\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/glow_nacl.jpg\" alt=\"\" width=\"695\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-10-19-model-of-a-tank-for-a-new-game.md:\n    8  ---\n    9  I found free model for my new game, just don't sure, will it fits well in a voxel world.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\"><img class=\"alignnone size-full wp-image-316\" title=\"tank_in_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_in_editor.jpg\" alt=\"\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-10-23-voxelization.md:\n    9  I played with automatic voxelization of 3d model.\n   10  \n   11: Original model: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\"><img class=\"alignnone  wp-image-324\" title=\"tank_original\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_original.jpg\" alt=\"\" width=\"700\" /></a>\n   12  \n   13  &nbsp;\n   14  \n   15  Model after voxelization:\n   16: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\"><img class=\"alignnone size-full wp-image-325\" title=\"tank_voxelized\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/10/tank_voxelized.jpg\" alt=\"\" width=\"700\" /></a>\n   17  \n   18  Model was voxelized into 50x50x50 voxel field so resolution should be definitely increased. Model is rasterized into voxel field polygon by polygon similarly to scan line 2d algorithm.\n\nE:\\projects\\blog\\_posts\\2012-11-09-greedy-mesh-generation-for-voxel-field.md:\n   11  And with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   14  \n   15: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   16  \n   17  Previous, \"dumb\" mesh generation.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n   19  \n\nE:\\projects\\blog\\_posts\\2012-11-23-i-goes-deep-with-my-tank-game.md:\n    8  ---\n    9  My game for the Intel Ultrabook Contest close to finish. Problem is I am still don't have certificate from Symantec to sign code, but anyway. More about that game later.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\"><img class=\"alignnone size-full wp-image-343\" title=\"tank_game\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/tank_game.jpg\" alt=\"\" width=\"818\" height=\"639\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2012-11-26-still-life-with-a-tank-and-a-tree.md:\n    9  One day to release!\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\"><img src=\"http://glow3d.com/blog/wp-content/uploads/2012/11/screen.jpg\" alt=\"\" title=\"screen\" width=\"802\" height=\"604\" class=\"alignnone size-full wp-image-346\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2012-12-06-iron-cube.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\"><img class=\"alignnone  wp-image-350\" style=\"border: 3px solid black;\" title=\"main_screen.2\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/main_screen.2.png\" alt=\"\" width=\"700\" /></a>\n   10  \n   11  I made <a href=\"http://www.moddb.com/games/iron-cube/\">page on moddb</a> about Iron Cube game - multiplayer game in destroyable  voxel world.\n\nE:\\projects\\blog\\_posts\\2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\"><img class=\"alignnone  wp-image-358\" style=\"border: 3px solid black;\" title=\"000 0028\" src=\"http://glow3d.com/blog/wp-content/uploads/2012/12/000-0028.jpg\" alt=\"\" width=\"640\" /></a>\n   10  \n\nE:\\projects\\blog\\_posts\\2013-01-02-steam-bigpicture.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\"><img class=\"alignnone size-full wp-image-384\" title=\"BigPicture\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/BigPicture1.jpg\" alt=\"\" width=\"700\" height=\"239\" /></a>\n   10  \n   11  Finally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.\n\nE:\\projects\\blog\\_posts\\2013-01-16-glow-engine-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/16/glow-engine-on-android/glow_android/\" rel=\"attachment wp-att-390\"><img class=\"alignnone size-full wp-image-390\" alt=\"glow_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/glow_android.jpg\" width=\"700\" height=\"325\" /></a>\n   10  \n   11  OMG, I ported  Glow engine to Android over last weekends! (Honestly, port is based on Google NACL port of  the engine, and I spend a lot of time making Glow engine truly cross-platform recently. But anyway.)  More about it later.\n\nE:\\projects\\blog\\_posts\\2013-01-22-leap-motion-2.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5677/\" rel=\"attachment wp-att-401\"><img class=\"alignnone size-full wp-image-401\" alt=\"IMG_5677\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5677.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  As I <a href=\"http://glow3d.com/blog/2012/12/23/leap-motion/\">wrote previously</a>, I participated in Leap Motion Development program and was selected as developer.  It's arrived today and I made some tests. Device looks responsible and precise, check video below. I will try to integrate Leap SDK to Glow engine  in near time. It seems perfect for 3D mesh manipulation or shooters.\n   12  \n   13: <img class=\"alignnone size-full wp-image-403\" alt=\"IMG_5649\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5649.jpg\" width=\"700\" height=\"467\" />\n   14  Unboxing!\n   15  \n   16: <a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5656/\" rel=\"attachment wp-att-402\"><img class=\"alignnone size-full wp-image-402\" alt=\"IMG_5656\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/IMG_5656.jpg\" width=\"700\" height=\"467\" /></a>\n   17  \n   18  It's some kind of multitouch without actual touch, and integration of multitouch to for Glow Android port is ready. ( btw port of Glow engine and Iron Cube game to Android is going very well I will show some materials later ) \n\nE:\\projects\\blog\\_posts\\2013-01-23-iron-cube-on-android.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/2013/01/23/iron-cube-on-android/iron_cube_android/\" rel=\"attachment wp-att-411\"><img class=\"alignnone size-full wp-image-411\" alt=\"iron_cube_android\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/01/iron_cube_android.jpg\" width=\"700\" height=\"467\" /></a>\n   10  \n   11  I prepared video of <a href=\"http://www.moddb.com/games/iron-cube\">Iron Cube game</a> on Galaxy Note 2. Movement already done, shooting, rendering, remaining parts are sound and AI. Voxels can be integrated directly into Recast navigation library, otherwise navigation mesh can be built from a final optimized mesh (like physics).\n\nE:\\projects\\blog\\_posts\\2013-02-28-why-android-is-better.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\"><img class=\"alignnone size-full wp-image-427\" alt=\"GalaxyNote2\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/02/GalaxyNote2.jpg\" width=\"700\" height=\"467\" /></a>\n   10  My phablet Galaxy Note 2 with custom launcher (Launcher 8).\n   11  \n\nE:\\projects\\blog\\_posts\\2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\"><img class=\"alignnone size-full wp-image-440\" alt=\"perc-challenge-banner\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/perc-challenge-banner.jpg\" width=\"700\" height=\"400\" /></a>\n   10  \n   11  I am First Prize winner of Intel Perceptual Computing Challenge with <a href=\"http://glow3d.com/blog/2013/03/05/better-video-of-mercury-prototype/\">Mercury prototype</a>.\n\nE:\\projects\\blog\\_posts\\2013-03-29-new-voxel-based-lighting.md:\n    7  categories: [Uncategorized]\n    8  ---\n    9: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-444\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/03/iron_cube_lighting.jpg\" width=\"700\" height=\"543\" /></a>\n   10  I implemented new CPU based lighting, which will helps with rendering on mobile devices. Lighting divided into sky and local lighting. Sky emits lights from top to bottom of voxel world, it creates shadows and darken caves. Local lights currently without shadows but uses normals of objects. Lights are calculated in editor and saved to file to help with load time on mobile devices.\n   11  \n\nE:\\projects\\blog\\_posts\\2013-07-03-iron-cube-pre-alpha-release-0-15.md:\n   16  \n   17  Bots use new navigation system, based on updated Recast library. Meshes are dynamic, it means they will be rebuild, when voxels are changed.\n   18: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\"><img class=\"alignnone size-full wp-image-450\" alt=\"iron_cube_ai\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_ai.jpg\" width=\"600\" /></a>\n   19  \n   20  And demonstration, how dynamic navigation meshes work\n   ..\n   22  \n   23  New voxel-based lighting system is developed, lighting from sun is ambient and allows smooth shadows (relatively smooth, because of overall pixelated style). Lighting made using modified flood-fill of skylight from top of the world.\n   24: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-449\" alt=\"iron_cube_lighting\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/07/iron_cube_lighting.jpg\" width=\"600\" /></a>\n   25  \n   26  Also I switched render from DirectX+Deferred Shading to OpenGL+simple voxel based lighting, to be compatible with future mobile ports. It's faster and allows to play game on old hardware.\n\nE:\\projects\\blog\\_posts\\2013-12-16-screenshot-of-iron-cube-editor.md:\n   11  There is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.\n   12  \n   13: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"ironcube_editor\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/ironcube_editor.jpg\" width=\"700\" /></a>\n   14  \n\nE:\\projects\\blog\\_posts\\2013-12-23-one-more-screenshot.md:\n    8  ---\n    9  I am running automated tests with Iron Cube - every second some action randomly chosen - move forward/backward, rotate left/right or shoot. This screenshot was made after hour of tests. Surface is heavily damaged. And surprisingly, no crashes or  problems! It's ready to upload new version to Google Play Store.\n   10: <a href=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"iron_cube_tests\" src=\"http://glow3d.com/blog/wp-content/uploads/2013/12/iron_cube_tests.jpg\" width=\"700\" /></a>\n   11  \n\nE:\\projects\\blog\\_posts\\2014-01-07-iron-cube-0-31.md:\n    9  0.31 release for Iron Cube for Windows and Android, tank multiplayer combat in a voxel world.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\"><img class=\"alignnone  wp-image-489\" style=\"border-width: 3px; border-style: solid; border-color: #000000;\" alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"700\" /></a>\n   12  \n   13  <a title=\"Download Iron Cube 0.32 - Mod DB\" href=\"http://www.moddb.com/games/iron-cube/downloads/iron-cube-032\" target=\"_blank\"><img alt=\"Iron Cube 0.32\" src=\"http://button.moddb.com/download/medium/64106.png\" /></a>\n   ..\n   32  \n   33  Screenshots:\n   34: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" target=\"_blank\"><img alt=\"screen1\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen1.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\"><img alt=\"screen4\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen4.jpg\" width=\"298\" /></a>\n   35: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\"><img alt=\"screen3\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen3.jpg\" width=\"298\" /></a> <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\"><img alt=\"screen2\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/01/screen2.jpg\" width=\"298\" height=\"168\" /></a>\n   36  <a href=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" target=\"_blank\"><img alt=\"Screenshot_2013-10-23-16-50-08\" src=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" width=\"600\" /></a>\n   37  \n\nE:\\projects\\blog\\_posts\\2014-09-24-new-ambient-lighting-implementation.md:\n    9  I made new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but should be faster.\n   10  \n   11: <a href=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\"><img class=\"alignnone  wp-image-505\" alt=\"ambient_vertex_colors\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/09/ambient_vertex_colors.jpg\" width=\"700\" /></a>\n   12  \n\nE:\\projects\\blog\\_posts\\2014-12-20-directx-11.md:\n   11  \n   12  Screenshot of editor with DirectX 11 renderer and simple scene with 2 light sources.\n   13: <a style=\"line-height: 1.5em;\" href=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\"><img class=\"alignnone  wp-image-516\" alt=\"editor_dx11\" src=\"http://glow3d.com/blog/wp-content/uploads/2014/12/editor_dx112.jpg\" width=\"700\" /></a>\n   14  \n\n78 matches across 30 files\n",
+			"contents": "Searching 116 files for \"yak32,\"\n\n0 matches\n\nSearching 116 files for \"yak32.git\"\n\n0 matches",
 			"settings":
 			{
-				"buffer_size": 85950,
+				"buffer_size": 91,
 				"line_ending": "Windows",
 				"name": "Find Results",
 				"scratch": true
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle: Steam - BigPicture\ndate: 2013-01-02 15:59\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2013/01/BigPicture1.jpg\"><img class=\"alignnone size-full wp-image-384\" title=\"BigPicture\" src=\"/images/uploads/2013/01/BigPicture1.jpg\" alt=\"\" width=\"700\" height=\"239\" /></a>\n\nFinally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.\n\nSo I attached to big 46 inch TV my shinny new ultrabook , received from Intel after participation in <a href=\"http://www.codeproject.com/script/Awards/competition.aspx?cid=598\">300 ultrabook competition</a>, bought wireless XBOX360 controller and launched BigPicture!    2D games like Limbo and Braid are played very well but shooters.. Seriously, how do you guys play shooters with controller?\n",
-			"file": "_posts/2013-01-02-steam-bigpicture.md",
-			"file_size": 1017,
-			"file_write_time": 131369493261012962,
-			"settings":
-			{
-				"buffer_size": 949,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Glow engine on Android!\ndate: 2013-01-16 15:57\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"http://glow3d.com/blog/2013/01/16/glow-engine-on-android/glow_android/\" rel=\"attachment wp-att-390\"><img class=\"alignnone size-full wp-image-390\" alt=\"glow_android\" src=\"/images/uploads/2013/01/glow_android.jpg\" width=\"700\" height=\"325\" /></a>\n\nOMG, I ported  Glow engine to Android over last weekends! (Honestly, port is based on Google NACL port of  the engine, and I spend a lot of time making Glow engine truly cross-platform recently. But anyway.)  More about it later.\n\nbtw my new Galaxy Note II is awesome, I will write about it also some time later. It's incredibly fast and loads voxel scene from my game Iron Cube in time, comparable to time on PC.\n",
-			"file": "_posts/2013-01-16-glow-engine-on-android.md",
-			"file_size": 842,
-			"file_write_time": 131369493261022962,
-			"settings":
-			{
-				"buffer_size": 800,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Leap Motion\ndate: 2013-01-22 15:42\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5677/\" rel=\"attachment wp-att-401\"><img class=\"alignnone size-full wp-image-401\" alt=\"IMG_5677\" src=\"/images/uploads/2013/01/IMG_5677.jpg\" width=\"700\" height=\"467\" /></a>\n\nAs I <a href=\"http://glow3d.com/blog/2012/12/23/leap-motion/\">wrote previously</a>, I participated in Leap Motion Development program and was selected as developer.  It's arrived today and I made some tests. Device looks responsible and precise, check video below. I will try to integrate Leap SDK to Glow engine  in near time. It seems perfect for 3D mesh manipulation or shooters.\n\n<img class=\"alignnone size-full wp-image-403\" alt=\"IMG_5649\" src=\"/images/uploads/2013/01/IMG_5649.jpg\" width=\"700\" height=\"467\" />\nUnboxing!\n\n<a href=\"http://glow3d.com/blog/2013/01/22/leap-motion-2/img_5656/\" rel=\"attachment wp-att-402\"><img class=\"alignnone size-full wp-image-402\" alt=\"IMG_5656\" src=\"/images/uploads/2013/01/IMG_5656.jpg\" width=\"700\" height=\"467\" /></a>\n\nIt's some kind of multitouch without actual touch, and integration of multitouch to for Glow Android port is ready. ( btw port of Glow engine and Iron Cube game to Android is going very well I will show some materials later ) \n<iframe src=\"http://www.youtube.com/embed/y1zIgzqq1gw\" height=\"393\" width=\"700\" allowfullscreen=\"\" frameborder=\"0\"></iframe>\n",
-			"file": "_posts/2013-01-22-leap-motion-2.md",
-			"file_size": 1564,
-			"file_write_time": 131369493261022962,
-			"settings":
-			{
-				"buffer_size": 1465,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Iron Cube on Android\ndate: 2013-01-23 15:27\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"http://glow3d.com/blog/2013/01/23/iron-cube-on-android/iron_cube_android/\" rel=\"attachment wp-att-411\"><img class=\"alignnone size-full wp-image-411\" alt=\"iron_cube_android\" src=\"/images/uploads/2013/01/iron_cube_android.jpg\" width=\"700\" height=\"467\" /></a>\n\nI prepared video of <a href=\"http://www.moddb.com/games/iron-cube\">Iron Cube game</a> on Galaxy Note 2. Movement already done, shooting, rendering, remaining parts are sound and AI. Voxels can be integrated directly into Recast navigation library, otherwise navigation mesh can be built from a final optimized mesh (like physics).\n\n<iframe src=\"http://www.youtube.com/embed/dqQ7ZjHgpYk\" height=\"393\" width=\"700\" allowfullscreen=\"\" frameborder=\"0\"></iframe>\n",
-			"file": "_posts/2013-01-23-iron-cube-on-android.md",
-			"file_size": 892,
-			"file_write_time": 131369493261022962,
-			"settings":
-			{
-				"buffer_size": 853,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Why Android is better\ndate: 2013-02-28 12:00\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2013/02/GalaxyNote2.jpg\"><img class=\"alignnone size-full wp-image-427\" alt=\"GalaxyNote2\" src=\"/images/uploads/2013/02/GalaxyNote2.jpg\" width=\"700\" height=\"467\" /></a>\nMy phablet Galaxy Note 2 with custom launcher (Launcher 8).\n",
-			"file": "_posts/2013-02-28-why-android-is-better.md",
-			"file_size": 444,
-			"file_write_time": 131369493261032963,
-			"settings":
-			{
-				"buffer_size": 382,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: First prize winner of Intel Perceptual Computing Challenge!\ndate: 2013-03-28 00:52\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2013/03/perc-challenge-banner.jpg\"><img class=\"alignnone size-full wp-image-440\" alt=\"perc-challenge-banner\" src=\"/images/uploads/2013/03/perc-challenge-banner.jpg\" width=\"700\" height=\"400\" /></a>\n\nI am First Prize winner of Intel Perceptual Computing Challenge with <a href=\"http://glow3d.com/blog/2013/03/05/better-video-of-mercury-prototype/\">Mercury prototype</a>.\nThanks Intel!\n",
-			"file": "_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
-			"file_size": 640,
-			"file_write_time": 131369493261042964,
-			"settings":
-			{
-				"buffer_size": 576,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: New voxel based lighting\ndate: 2013-03-29 12:18\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2013/03/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-444\" alt=\"iron_cube_lighting\" src=\"/images/uploads/2013/03/iron_cube_lighting.jpg\" width=\"700\" height=\"543\" /></a>\nI implemented new CPU based lighting, which will helps with rendering on mobile devices. Lighting divided into sky and local lighting. Sky emits lights from top to bottom of voxel world, it creates shadows and darken caves. Local lights currently without shadows but uses normals of objects. Lights are calculated in editor and saved to file to help with load time on mobile devices.\n",
-			"file": "_posts/2013-03-29-new-voxel-based-lighting.md",
-			"file_size": 792,
-			"file_write_time": 131369493261052964,
-			"settings":
-			{
-				"buffer_size": 730,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Iron Cube pre-alpha release 0.15\ndate: 2013-07-03 07:31\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<iframe width=\"640\" height=\"360\" src=\"//www.youtube.com/embed/gOde2vm685M\" frameborder=\"0\" allowfullscreen></iframe>\n\n<a style=\"line-height: 1.4;\" title=\"Download Iron Cube 0.15 - Mod DB\" href=\"http://www.moddb.com/games/iron-cube/downloads/iron-cube-015\" target=\"_blank\"><img alt=\"Iron Cube 0.15\" src=\"http://button.moddb.com/download/medium/56386.png\" /></a>\n\nI spent several weeks on preparing Iron Cube release 0.15. Added a lot of new functionality, AI bots, dynamic navigation meshes, new voxel based lighting, new OpenGL based rendering and water.\n\nAI Bots added to gameplay and they pretty smart! (not actually, same team member still can shoot each other, then one of them is on the line of fire, but it will be fixed soon). They can follow leader (player), find optimal way to enemy and give way to player. I am actually thinking how to make them slightly dumber.\n\nBots use new navigation system, based on updated Recast library. Meshes are dynamic, it means they will be rebuild, when voxels are changed.\n<a href=\"/images/uploads/2013/07/iron_cube_ai.jpg\"><img class=\"alignnone size-full wp-image-450\" alt=\"iron_cube_ai\" src=\"/images/uploads/2013/07/iron_cube_ai.jpg\" width=\"600\" /></a>\n\nAnd demonstration, how dynamic navigation meshes work\n<iframe src=\"//www.youtube.com/embed/I1bS-wjuFks?rel=0\" height=\"480\" width=\"640\" allowfullscreen=\"\" frameborder=\"0\"></iframe>\n\nNew voxel-based lighting system is developed, lighting from sun is ambient and allows smooth shadows (relatively smooth, because of overall pixelated style). Lighting made using modified flood-fill of skylight from top of the world.\n<a href=\"/images/uploads/2013/07/iron_cube_lighting.jpg\"><img class=\"alignnone size-full wp-image-449\" alt=\"iron_cube_lighting\" src=\"/images/uploads/2013/07/iron_cube_lighting.jpg\" width=\"600\" /></a>\n\nAlso I switched render from DirectX+Deferred Shading to OpenGL+simple voxel based lighting, to be compatible with future mobile ports. It's faster and allows to play game on old hardware.\n\nA lot of work made in editor, it's now fully functional, allows to render random polygonal models into voxel world, edit mesh, setup lighting and AI.\n\nOne step closer to final release!\n",
-			"file": "_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
-			"file_size": 2463,
-			"file_write_time": 131369493261052964,
-			"settings":
-			{
-				"buffer_size": 2329,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Screenshot of Iron Cube Editor.\ndate: 2013-12-16 15:16\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI am debugging some network issues of Iron Cube, Android version. Saving of network data on client , arrived from server,  became very useful for debugging bugs. You can record gameplay on Android device and playback it on Windows machine in Editor and it helps a lot to fix defects.\n\nThere is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.\n\n<a href=\"/images/uploads/2013/12/ironcube_editor.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"ironcube_editor\" src=\"/images/uploads/2013/12/ironcube_editor.jpg\" width=\"700\" /></a>\n",
-			"file": "_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
-			"file_size": 781,
-			"file_write_time": 131369493261062965,
-			"settings":
-			{
-				"buffer_size": 714,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: One more screenshot \ndate: 2013-12-23 16:52\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI am running automated tests with Iron Cube - every second some action randomly chosen - move forward/backward, rotate left/right or shoot. This screenshot was made after hour of tests. Surface is heavily damaged. And surprisingly, no crashes or  problems! It's ready to upload new version to Google Play Store.\n<a href=\"/images/uploads/2013/12/iron_cube_tests.jpg\"><img class=\"alignnone  wp-image-476\" alt=\"iron_cube_tests\" src=\"/images/uploads/2013/12/iron_cube_tests.jpg\" width=\"700\" /></a>\n",
-			"file": "_posts/2013-12-23-one-more-screenshot.md",
-			"file_size": 686,
-			"file_write_time": 131369493261072965,
-			"settings":
-			{
-				"buffer_size": 623,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Iron Cube 0.31\ndate: 2014-01-07 07:16\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n0.31 release for Iron Cube for Windows and Android, tank multiplayer combat in a voxel world.\n\n<a href=\"/images/uploads/2014/01/screen1.jpg\"><img class=\"alignnone  wp-image-489\" style=\"border-width: 3px; border-style: solid; border-color: #000000;\" alt=\"screen1\" src=\"/images/uploads/2014/01/screen1.jpg\" width=\"700\" /></a>\n\n<a title=\"Download Iron Cube 0.32 - Mod DB\" href=\"http://www.moddb.com/games/iron-cube/downloads/iron-cube-032\" target=\"_blank\"><img alt=\"Iron Cube 0.32\" src=\"http://button.moddb.com/download/medium/64106.png\" /></a>\n\nNew features and fixes:\n* 3 different levels\n* 2 tanks with different characteristics\n* map is displayed\n* robust online gameplay for 2 players ( currently )\n* tank on client is simulated locally, so no lags on a client\n* game till 5 frags, enemies will respawn on the opposite side of the map\n* new start UI\n* startup made much faster\n* damage indicator\n* 3d sound\n* bots are currently disabled, but will be restored soon.\n\n<a href=\"https://play.google.com/store/apps/details?id=com.glow3d.ironcube\"><img alt=\"\" src=\"http://media.moddb.com/images/articles/1/142/141237/auto/en_generic_rgb_wo_60.png\" /></a>\n\nNew official trailer!\n<iframe src=\"http://www.youtube.com/embed/ipgDNRQKvLw\" height=\"360\" width=\"600\"></iframe>\n\nScreenshots:\n<a href=\"/images/uploads/2014/01/screen1.jpg\" target=\"_blank\"><img alt=\"screen1\" src=\"/images/uploads/2014/01/screen1.jpg\" width=\"298\" /></a> <a href=\"/images/uploads/2014/01/screen4.jpg\"><img alt=\"screen4\" src=\"/images/uploads/2014/01/screen4.jpg\" width=\"298\" /></a>\n<a href=\"/images/uploads/2014/01/screen3.jpg\"><img alt=\"screen3\" src=\"/images/uploads/2014/01/screen3.jpg\" width=\"298\" /></a> <a href=\"/images/uploads/2014/01/screen2.jpg\"><img alt=\"screen2\" src=\"/images/uploads/2014/01/screen2.jpg\" width=\"298\" height=\"168\" /></a>\n<a href=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" target=\"_blank\"><img alt=\"Screenshot_2013-10-23-16-50-08\" src=\"http://media.moddb.com/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png\" width=\"600\" /></a>\n",
-			"file": "_posts/2014-01-07-iron-cube-0-31.md",
-			"file_size": 2507,
-			"file_write_time": 131369493261072965,
-			"settings":
-			{
-				"buffer_size": 2211,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: New ambient lighting implementation\ndate: 2014-09-24 13:48\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI made new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but should be faster.\n\n<a href=\"/images/uploads/2014/09/ambient_vertex_colors.jpg\"><img class=\"alignnone  wp-image-505\" alt=\"ambient_vertex_colors\" src=\"/images/uploads/2014/09/ambient_vertex_colors.jpg\" width=\"700\" /></a>\n",
-			"file": "_posts/2014-09-24-new-ambient-lighting-implementation.md",
-			"file_size": 535,
-			"file_write_time": 131369493261082966,
-			"settings":
-			{
-				"buffer_size": 472,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: DirectX 11 \ndate: 2014-12-20 14:27\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI added support of DirectX 11 to Glow engine, spent couple of weeks. DirectX 11 seems much simpler and better designed than DirectX 9, less calls to driver. Source code now is 2x times and more compact than DirectX 9 version. Still, DirectX 9 is supported, nothing is broken.\nI added it to properly support Oculus Rift, as Oculus didn't work properly with dx9 - some judder and glitches happened.\n\nScreenshot of editor with DirectX 11 renderer and simple scene with 2 light sources.\n<a style=\"line-height: 1.5em;\" href=\"/images/uploads/2014/12/editor_dx112.jpg\"><img class=\"alignnone  wp-image-516\" alt=\"editor_dx11\" src=\"/images/uploads/2014/12/editor_dx112.jpg\" width=\"700\" /></a>\n",
-			"file": "_posts/2014-12-20-directx-11.md",
-			"file_size": 868,
-			"file_write_time": 131371196065433832,
-			"settings":
-			{
-				"buffer_size": 803,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: NPC with several lights\ndate: 2011-03-21 09:58\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2011/03/soldier_face.jpg\"><img class=\"alignnone size-full wp-image-127\" title=\"soldier_face\" src=\"/images/uploads/2011/03/soldier_face.jpg\" alt=\"\" width=\"640\" height=\"460\" /></a>\n",
-			"file": "_posts/2011-03-21-npc-with-several-lights.md",
-			"file_size": 401,
-			"file_write_time": 131369493260382926,
-			"settings":
-			{
-				"buffer_size": 336,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: A lot of new features are implemented\ndate: 2011-12-22 01:32\nauthor: yak32\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2011/12/glow_screen_village1-e1324484973284.jpg\"><img class=\"alignnone size-large wp-image-136\" title=\"glow_screen_village\" src=\"/images/uploads/2011/12/glow_screen_village1-1024x855.jpg\" alt=\"\" width=\"695\" height=\"580\" /></a>\n\nMany new features are implemented, exponential shadow maps, soft particles, cinematic editor, UI improvements\n\nI need some time to summarize and write blog post about it.\n",
 			"file": "_posts/2011-12-22-a-lot-of-new-features-implemented.md",
-			"file_size": 638,
-			"file_write_time": 131369493260642941,
 			"settings":
 			{
-				"buffer_size": 570,
+				"buffer_size": 556,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle: Deferred reflections\ndate: 2011-12-26 02:04\nauthor: yak32\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2011/12/glow_deferred_reflections-e1324831871894.jpg\"><img class=\"alignnone size-large wp-image-143\" title=\"glow_deferred_reflections\" src=\"/images/uploads/2011/12/glow_deferred_reflections-1024x855.jpg\" alt=\"Deferred reflections in Glow engine\" width=\"695\" height=\"580\" /></a>\n\nI thought about it a lot - how to implement planar reflection in engine with deferred lighting? Render scene with lighting (and shadows) into separate render target is very expensive - it doubles all calculations. And after I met idea about deferred reflections in article about rendering technologies in Metro 2033.\n\nIdea is simple - render reflection into gbuffer with non-reflected attributes, and light both scene and reflected scene in the next step. There are some subtleties, but in general it's easy to implement. Also there was some troubles with non-lighted objects, like sky and glass there, but it can be solved by preservation of depth buffer during rendering scene into gbuffers.\n\n&nbsp;\n",
 			"file": "_posts/2011-12-26-deferred-reflections.md",
-			"file_size": 1198,
-			"file_write_time": 131369493260642941,
 			"settings":
 			{
-				"buffer_size": 1135,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Site moved to Amazon EC2\ndate: 2012-08-14 15:42\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2012/08/AroundApp.png\"><img class=\"alignnone size-full wp-image-206\" title=\"AroundApp\" src=\"/images/uploads/2012/08/AroundApp.png\" alt=\"\" width=\"363\" height=\"366\" /></a>\n\nI moved blog and site to Amazon Elastic Cloud - spent several days on that. Previously I pay around 10 USD per month on Hostgator hosting, but decided to switch to free  (tr1.micro, 1st year) Amazon hosting. Basically because it was interesting to try Amazon services and play with virtual machine. It provided to you without any additional services, so you should install everything manually. Also it can be scaled very easily and you pay as much as you spend.\n\nLinux was chosen for virtual machine, after that I installed MySQL, Apache server, ftp and WordPress. Several useful links:  <a href=\"http://coenraets.org/blog/2012/01/setting-up-wordpress-on-amazon-ec2-in-5-minutes/\">WordPress Installation</a>, <a href=\"http://www.synergycode.com/knowledgebase/blog/item/ftp-server-on-amazon-ec2\">Ftp</a>.\n\nHope my readers will receive that post via RSS :)\n",
-			"file": "_posts/2012-08-14-site-moved-to-amazon-ec2.md",
-			"file_size": 1254,
-			"file_write_time": 131369493260692944,
-			"settings":
-			{
-				"buffer_size": 1184,
+				"buffer_size": 1121,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle: Geometry optimization\ndate: 2012-08-20 13:04\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI applied some optimization to the mesh generation. Previously, voxel mesh was generated as-is, with removing only internal faces. It creates huge amount of vertex data, which was slowly loaded into gpu, slowly processed on cpu etc. New algorithm reduce vertex data in 3-4 times, but slightly increase time of mesh generation. Also, one possible minus of new algorithm - it will be hard to apply ambient occlusion, based on vertexes (it's not regular mesh now), but I hope my version of SSAO will handle it.\n<a href=\"/images/uploads/2012/08/screen_detail1.jpg\"><img class=\"alignnone  wp-image-226\" title=\"screen_detail\" src=\"/images/uploads/2012/08/screen_detail1.jpg\" alt=\"\" width=\"695\" /></a>\n\nIt's new version of mesh generation.\n<img class=\"alignnone size-full wp-image-227\" title=\"tarta_greedy\" src=\"/images/uploads/2012/08/tarta_greedy1.jpg\" alt=\"\" width=\"695\" />/&gt;\n",
-			"file": "_posts/2012-08-20-geometry-optimization.md",
-			"file_size": 1096,
-			"file_write_time": 131369493260702944,
-			"settings":
-			{
-				"buffer_size": 1005,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Google NACL build of Glow engine!\ndate: 2012-10-04 14:51\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI finally made Glow engine cross-platform, and first platform except Windows is Google NACL - technology which allows to run native C/C++ code in a browser window. I will write about it more specifically later. I am really excited now by ability to run game directly from link and deploy it without any installation steps directly to user (on Windows, Linux and MacOS)!\n\n<a href=\"/images/uploads/2012/10/glow_nacl.jpg\"><img class=\"alignnone size-full wp-image-308\" title=\"glow_nacl\" src=\"/images/uploads/2012/10/glow_nacl.jpg\" alt=\"\" width=\"695\" /></a>\n",
-			"file": "_posts/2012-10-04-google-nacl-build-of-glow-engine.md",
-			"file_size": 758,
-			"file_write_time": 131369493260712945,
-			"settings":
-			{
-				"buffer_size": 695,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Model of a tank for a new game\ndate: 2012-10-19 07:13\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI found free model for my new game, just don't sure, will it fits well in a voxel world.\n<a href=\"/images/uploads/2012/10/tank_in_editor.jpg\"><img class=\"alignnone size-full wp-image-316\" title=\"tank_in_editor\" src=\"/images/uploads/2012/10/tank_in_editor.jpg\" alt=\"\" width=\"700\" /></a>\n",
-			"file": "_posts/2012-10-19-model-of-a-tank-for-a-new-game.md",
-			"file_size": 487,
-			"file_write_time": 131369493260712945,
-			"settings":
-			{
-				"buffer_size": 425,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Voxelization\ndate: 2012-10-23 17:46\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI played with automatic voxelization of 3d model.\n\nOriginal model: <a href=\"/images/uploads/2012/10/tank_original.jpg\"><img class=\"alignnone  wp-image-324\" title=\"tank_original\" src=\"/images/uploads/2012/10/tank_original.jpg\" alt=\"\" width=\"700\" /></a>\n\n&nbsp;\n\nModel after voxelization:\n<a href=\"/images/uploads/2012/10/tank_voxelized.jpg\"><img class=\"alignnone size-full wp-image-325\" title=\"tank_voxelized\" src=\"/images/uploads/2012/10/tank_voxelized.jpg\" alt=\"\" width=\"700\" /></a>\n\nModel was voxelized into 50x50x50 voxel field so resolution should be definitely increased. Model is rasterized into voxel field polygon by polygon similarly to scan line 2d algorithm.\n",
-			"file": "_posts/2012-10-23-voxelization.md",
-			"file_size": 917,
-			"file_write_time": 131369493260722945,
-			"settings":
-			{
-				"buffer_size": 791,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Greedy mesh generation for voxel field\ndate: 2012-11-09 09:01\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nI upgraded \"greedy\" mesh generation algorithm, mentioned <a href=\"http://glow3d.com/blog/2012/08/20/geometry-optimization/\">here</a>  . Now it supports ambient lighting, prerendered into texture. As voxel world is cubic, we can just prerender all possible combination of ambient lighting on cube side into texture.\n\nAnd with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).\n\n<a href=\"/images/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"/images/uploads/2012/11/screen_greedy_ambient_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n\n<a href=\"/images/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"/images/uploads/2012/11/screen_greedy_ambient.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n\nPrevious, \"dumb\" mesh generation.\n<a href=\"/images/uploads/2012/11/screen_greedy_ambient_grid.jpg\"><img class=\"alignnone size-full wp-image-339\" title=\"screen_greedy_ambient_grid\" src=\"/images/uploads/2012/11/screen_grid.jpg\" alt=\"\" width=\"668\" height=\"522\" /></a>\n",
-			"file": "_posts/2012-11-09-greedy-mesh-generation-for-voxel-field.md",
-			"file_size": 1596,
-			"file_write_time": 131369493260722945,
-			"settings":
-			{
-				"buffer_size": 1421,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: I goes deep with my tank game.\ndate: 2012-11-23 11:42\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nMy game for the Intel Ultrabook Contest close to finish. Problem is I am still don't have certificate from Symantec to sign code, but anyway. More about that game later.\n<a href=\"/images/uploads/2012/11/tank_game.jpg\"><img class=\"alignnone size-full wp-image-343\" title=\"tank_game\" src=\"/images/uploads/2012/11/tank_game.jpg\" alt=\"\" width=\"818\" height=\"639\" /></a>\n",
-			"file": "_posts/2012-11-23-i-goes-deep-with-my-tank-game.md",
-			"file_size": 566,
-			"file_write_time": 131369493260732946,
-			"settings":
-			{
-				"buffer_size": 504,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Still Life with a tank and a tree\ndate: 2012-11-26 10:10\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nOne day to release!\n\n<a href=\"/images/uploads/2012/11/screen.jpg\"><img src=\"/images/uploads/2012/11/screen.jpg\" alt=\"\" title=\"screen\" width=\"802\" height=\"604\" class=\"alignnone size-full wp-image-346\" /></a>\n",
-			"file": "_posts/2012-11-26-still-life-with-a-tank-and-a-tree.md",
-			"file_size": 412,
-			"file_write_time": 131369493260732946,
-			"settings":
-			{
-				"buffer_size": 349,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Iron Cube\ndate: 2012-12-06 02:49\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2012/12/main_screen.2.png\"><img class=\"alignnone  wp-image-350\" style=\"border: 3px solid black;\" title=\"main_screen.2\" src=\"/images/uploads/2012/12/main_screen.2.png\" alt=\"\" width=\"700\" /></a>\n\nI made <a href=\"http://www.moddb.com/games/iron-cube/\">page on moddb</a> about Iron Cube game - multiplayer game in destroyable  voxel world.\n\nDownload of early alpha is available <a href=\"http://www.moddb.com/games/iron-cube/downloads\">here</a>.the \n",
-			"file": "_posts/2012-12-06-iron-cube.md",
-			"file_size": 655,
-			"file_write_time": 131369493260742946,
-			"settings":
-			{
-				"buffer_size": 588,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: Looks like the trees from Iron Cube game are real!\ndate: 2012-12-11 05:44\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2012/12/000-0028.jpg\"><img class=\"alignnone  wp-image-358\" style=\"border: 3px solid black;\" title=\"000 0028\" src=\"/images/uploads/2012/12/000-0028.jpg\" alt=\"\" width=\"640\" /></a>\n",
-			"file": "_posts/2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md",
-			"file_size": 423,
-			"file_write_time": 131369493260742946,
-			"settings":
-			{
-				"buffer_size": 362,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle: First OpenGL screen\ndate: 2012-05-10 02:25\nauthor: yak32\ncomments: true\ncategories: [Uncategorized]\n---\nFirst screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.\n\n<a href=\"/images/uploads/2012/05/opengl_first_screen1.jpg\"><img class=\"alignnone  wp-image-167\" title=\"opengl_first_screen\" src=\"/images/uploads/2012/05/opengl_first_screen1.jpg\" alt=\"\" width=\"449\" height=\"320\" /></a>\n\nTwo weeks ago I tried compilation under GCC and Linux and finished it in 2-3 days without any significant problems.\n\nCurrently engine supports DirectX and OpenGL (primitively). OpenGL will allow me later to launch Glow engine on IOS and Android (plus Linux and MacOS)\n\nMoreover, with usage of hlsl2glsl open source lib, it will be possible to use all sophisticated HLSL shaders from DirectX render automatically.\n",
 			"file": "_posts/2012-05-10-first-opengl-screen.md",
-			"file_size": 1027,
-			"file_write_time": 131369493260672942,
 			"settings":
 			{
-				"buffer_size": 961,
+				"buffer_size": 971,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle: First screen of voxel field update throw network.\ndate: 2012-05-25 00:09\nauthor: yak32\ncomments: true\ncategories: [Uncategorized]\n---\nCool,  today I implemented update of voxel field in multiplayer environment.\nCurrently update of voxels is sent per chunk of voxels (32x32x64) and compressed by RLE.\nImplemented using UDP networking, as other client-server communication. Update of voxel field is done\non server and sent to client.\n\n<a href=\"/images/uploads/2012/05/tarta_net_hole2.jpg\"><img class=\"alignnone size-full wp-image-183\" title=\"tarta_net_hole\" src=\"/images/uploads/2012/05/tarta_net_hole2.jpg\" alt=\"\" width=\"655\" height=\"517\" /></a>\n",
 			"file": "_posts/2012-05-25-first-screen-of-voxel-field-update-throw-network.md",
-			"file_size": 734,
-			"file_write_time": 131369493260682943,
 			"settings":
 			{
-				"buffer_size": 669,
+				"buffer_size": 676,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle: \ndate: 2012-06-26 01:09\nauthor: yak32\ncomments: true\ncategories: [Uncategorized]\n---\nI reached point, where my art skills is not enough to use it in Tarta project, so I am looking for talented artist to help with it. Please write private message or comment, if interested. \n\nAnd some pictures from current stage of development - probably character for multiplayer (free model from Turbosquid.com). I choose that art style for characters and monsters in the game, but it adjustable in the future.\n<a href=\"/images/uploads/2012/06/player.jpg\"><img class=\"wp-image-192 alignnone\" title=\"player\" src=\"/images/uploads/2012/06/player-1024x753.jpg\" alt=\"\" width=\"500\" height=\"368\" />\n\nGrass with temporary model (should be changed)\n</a><a href=\"/images/uploads/2012/06/tarta_grass1.jpg\"><img class=\"wp-image-191 alignnone\" title=\"tarta_grass\" src=\"/images/uploads/2012/06/tarta_grass1-1024x598.jpg\" alt=\"\" width=\"500\" height=\"368\" /></a>\n",
 			"file": "_posts/2012-06-26-188.md",
-			"file_size": 1076,
-			"file_write_time": 131369493260692944,
 			"settings":
 			{
-				"buffer_size": 955,
+				"buffer_size": 973,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle: First iteration of grass \ndate: 2012-06-28 01:26\nauthor: yak32\ncomments: true\ncategories: [Uncategorized]\n---\n<a href=\"/images/uploads/2012/06/tarta_grass.jpg\"><img class=\"alignnone size-large wp-image-197\" title=\"tarta_grass\" src=\"/images/uploads/2012/06/tarta_grass-1024x839.jpg\" alt=\"\" width=\"695\" height=\"569\" /></a>\nI play with grass these days. Texture of grass should be changed to something more cubic.\n",
 			"file": "_posts/2012-06-28-first-iteration-of-grass.md",
-			"file_size": 500,
-			"file_write_time": 131369493260692944,
+			"settings":
+			{
+				"buffer_size": 444,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-08-14-site-moved-to-amazon-ec2.md",
+			"settings":
+			{
+				"buffer_size": 1194,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-08-20-geometry-optimization.md",
+			"settings":
+			{
+				"buffer_size": 1018,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-10-04-google-nacl-build-of-glow-engine.md",
+			"settings":
+			{
+				"buffer_size": 705,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-10-19-model-of-a-tank-for-a-new-game.md",
 			"settings":
 			{
 				"buffer_size": 435,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_posts/2009-11-02-new-video-for-igf.md",
+			"file": "_posts/2012-10-23-voxelization.md",
 			"settings":
 			{
-				"buffer_size": 595,
+				"buffer_size": 811,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "--\nlayout: post\ntitle: \ndate: 2009-08-11 09:25\nauthor: admin\ncomments: true\ncategories: [Uncategorized]\n---\nToday I finished game demo for Intel Level Up 2009,<div>it costs me 3 nights without sleep. Somethings remain </div><div>non implemented, but overall picture is good.</div><div><br /></div><div>I will prepare big video and demo later.</div><div><br /></div><div>here is small video about dynamic navigation meshes in</div><div>my engine </div><div><object width=\"425\" height=\"344\"><param name=\"movie\" value=\"http://www.youtube.com/v/Y4KM32uYOgY&amp;hl=ru&amp;fs=1&amp;\"><param name=\"allowFullScreen\" value=\"true\"><param name=\"allowscriptaccess\" value=\"always\"><embed src=\"http://www.youtube.com/v/Y4KM32uYOgY&amp;hl=ru&amp;fs=1&amp;\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"425\" height=\"344\"></embed></object><br /></div><div><br /></div><div>It's based on TileMesh, and fast. Building whole level (300x300) in separate thread in 5 seconds on single core PC, tile size 32.    Dont look to fps, this is deferred shading plus old PC  </div><div><br /></div><div>here is how it works: </div><div><ul><li>render static mesh, memorize static mesh </li><li>render dynamic objects, memorize objects per tile </li><li>when object moved, add tile of old box of object to update list </li><li>if not moved object intersects with updated tile, it will be added to updating tile </li><li>render updated tiles with objects 6) connect tile into mesh (recast lib) </li></ul><br /></div>\n",
-			"file": "_posts/2009-08-11-4.md",
-			"file_size": 1544,
-			"file_write_time": 131369493259352867,
+			"file": "_posts/2012-11-09-greedy-mesh-generation-for-voxel-field.md",
 			"settings":
 			{
-				"buffer_size": 1534,
+				"buffer_size": 1451,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-11-23-i-goes-deep-with-my-tank-game.md",
+			"settings":
+			{
+				"buffer_size": 514,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-11-26-still-life-with-a-tank-and-a-tree.md",
+			"settings":
+			{
+				"buffer_size": 359,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-12-06-iron-cube.md",
+			"settings":
+			{
+				"buffer_size": 597,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md",
+			"settings":
+			{
+				"buffer_size": 372,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-01-02-steam-bigpicture.md",
+			"settings":
+			{
+				"buffer_size": 959,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-01-16-glow-engine-on-android.md",
+			"settings":
+			{
+				"buffer_size": 805,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-01-22-leap-motion-2.md",
+			"settings":
+			{
+				"buffer_size": 1479,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-01-23-iron-cube-on-android.md",
+			"settings":
+			{
+				"buffer_size": 858,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-02-28-why-android-is-better.md",
+			"settings":
+			{
+				"buffer_size": 392,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
+			"settings":
+			{
+				"buffer_size": 586,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-03-29-new-voxel-based-lighting.md",
+			"settings":
+			{
+				"buffer_size": 740,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
+			"settings":
+			{
+				"buffer_size": 2349,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
+			"settings":
+			{
+				"buffer_size": 3001,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
+			"settings":
+			{
+				"buffer_size": 724,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2013-12-23-one-more-screenshot.md",
+			"settings":
+			{
+				"buffer_size": 632,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2014-01-07-iron-cube-0-31.md",
+			"settings":
+			{
+				"buffer_size": 2308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2014-09-24-new-ambient-lighting-implementation.md",
+			"settings":
+			{
+				"buffer_size": 482,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2014-12-20-directx-11.md",
+			"settings":
+			{
+				"buffer_size": 765,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -777,11 +687,115 @@
 	"expanded_folders":
 	[
 		"/E/projects/blog",
-		"/E/projects/blog/_posts",
-		"/E/projects/blog/images"
+		"/E/projects/blog/_includes",
+		"/E/projects/blog/_layouts",
+		"/E/projects/blog/_sass",
+		"/E/projects/blog/images/uploads/2012",
+		"/E/projects/blog/images/uploads/2013"
 	],
 	"file_history":
 	[
+		"/E/projects/blog/index.html",
+		"/E/projects/blog/_posts/2009-12-24-26.md",
+		"/E/projects/blog/_posts/2009-08-20-7.md",
+		"/E/projects/blog/_posts/2009-11-09-little-zombie-susie-gameplay.md",
+		"/E/projects/blog/_posts/2009-09-03-winner.md",
+		"/E/projects/blog/_posts/2009-10-16-explosions-and-weapon-for-zombie.md",
+		"/E/projects/blog/_posts/2009-10-20-recast-navigation-plus-havok-physics-engine.md",
+		"/E/projects/blog/_posts/2009-11-25-optimization.md",
+		"/E/projects/blog/_posts/2009-11-26-16.md",
+		"/E/projects/blog/_posts/2009-11-27-ideas.md",
+		"/E/projects/blog/_posts/2009-11-30-loading-of-materials.md",
+		"/E/projects/blog/_posts/2009-12-01-memory-management.md",
+		"/E/projects/blog/_posts/2009-12-07-recast-dynamic-navigation-meshes.md",
+		"/E/projects/blog/_posts/2009-12-09-lighting-abilities-of-my-engine.md",
+		"/E/projects/blog/_posts/2009-12-18-25.md",
+		"/E/projects/blog/_posts/2010-09-30-40.md",
+		"/E/projects/blog/_posts/2010-10-25-editor-status.md",
+		"/E/projects/blog/_posts/2009-12-24-first-horde-tests.md",
+		"/E/projects/blog/_posts/2010-01-05-28.md",
+		"/E/projects/blog/_posts/2010-01-11-comments-for-my-game-from-igf-judges.md",
+		"/E/projects/blog/_posts/2010-02-01-water.md",
+		"/E/projects/blog/_posts/2010-02-02-webplayer.md",
+		"/E/projects/blog/_posts/2010-03-12-streaming.md",
+		"/E/projects/blog/_posts/2010-07-07-33.md",
+		"/E/projects/blog/_posts/2010-07-22-feature-list.md",
+		"/E/projects/blog/_posts/2010-09-28-vacation.md",
+		"/E/projects/blog/_posts/2010-07-28-35.md",
+		"/E/projects/blog/_posts/2010-08-03-editor-ui.md",
+		"/E/projects/blog/_posts/2010-08-05-37.md",
+		"/E/projects/blog/_posts/2010-08-25-editor-features.md",
+		"/E/projects/blog/_posts/2010-11-05-42.md",
+		"/E/projects/blog/_posts/2010-11-18-big-face-on-landscape.md",
+		"/E/projects/blog/_posts/2010-11-23-auto-reloading-resources.md",
+		"/E/projects/blog/_posts/2010-12-01-normal-texture-trick.md",
+		"/E/projects/blog/_posts/2011-11-25-sample-page-2.md",
+		"/E/projects/blog/_posts/2010-12-05-update.md",
+		"/E/projects/blog/_posts/2010-12-13-47.md",
+		"/E/projects/blog/_posts/2011-03-21-npc-with-several-lights.md",
+		"/E/projects/blog/_posts/2011-12-22-a-lot-of-new-features-implemented.md",
+		"/E/projects/blog/_posts/2011-12-26-deferred-reflections.md",
+		"/E/projects/blog/_posts/2011-12-08-ssao-first-steps.md",
+		"/E/projects/blog/_posts/2010-12-15-post-processing-pipeline-started.md",
+		"/E/projects/blog/_config.yml",
+		"/E/projects/blog/_posts/2010-12-30-50.md",
+		"/E/projects/blog/_posts/2011-01-17-51.md",
+		"/E/projects/blog/_posts/2011-01-23-52.md",
+		"/E/projects/blog/_posts/2011-01-27-53.md",
+		"/E/projects/blog/_posts/2011-11-30-hdr-is-done.md",
+		"/E/projects/blog/_posts/2011-01-31-moving-to-intel-threading-blocks.md",
+		"/E/projects/blog/_posts/2011-02-02-tbb-adopted.md",
+		"/E/projects/blog/_posts/2011-03-02-debugging-in-glow-engine.md",
+		"/E/projects/blog/_posts/2011-03-03-just-screen.md",
+		"/E/projects/blog/_posts/2011-03-10-more-pictures-from-sponza-model.md",
+		"/E/projects/blog/_posts/2011-04-04-antialiasing.md",
+		"/E/projects/blog/_posts/2009-08-11-4.md",
+		"/E/projects/blog/_posts/2009-08-12-5.md",
+		"/E/projects/blog/_posts/2009-08-18-dynamic-paths-in-glow-engine.md",
+		"/E/projects/blog/_posts/2009-11-05-13.md",
+		"/E/projects/blog/_posts/2009-12-14-simple-optimization.md",
+		"/E/projects/blog/_posts/2009-12-15-simple-steering-behavior.md",
+		"/E/projects/blog/_posts/2009-12-17-recast-navigation-steering-behavior-wall-repulse-force.md",
+		"/E/projects/blog/_posts/2011-04-04-color-transformations.md",
+		"/E/projects/blog/_posts/2012-08-07-sample-page.md",
+		"/E/projects/blog/_layouts/post.html",
+		"/E/projects/blog/_posts/2009-11-02-new-video-for-igf.md",
+		"/E/projects/blog/_posts/2012-08-20-geometry-optimization.md",
+		"/E/projects/blog/_posts/2013-02-22-423.md",
+		"/E/projects/blog/_posts/2012-12-24-to-create-button-in-cegui.md",
+		"/E/projects/blog/_posts/2012-08-29-268.md",
+		"/E/projects/blog/_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
+		"/E/projects/blog/_posts/2014-12-20-directx-11.md",
+		"/E/projects/blog/about.md",
+		"/E/projects/blog/_posts/2011-11-30-.md",
+		"/E/projects/blog/_posts/2014-01-07-iron-cube-0-31.md",
+		"/E/projects/blog/_posts/2012-05-25-first-screen-of-voxel-field-update-throw-network.md",
+		"/E/projects/blog/images/uploads/2011/12/glow_deferred_reflections-e1324831871894.jpg",
+		"/E/projects/blog/blog.sublime-project",
+		"/E/projects/blog/_posts/2013-01-02-steam-bigpicture.md",
+		"/E/projects/blog/_posts/2013-01-16-glow-engine-on-android.md",
+		"/E/projects/blog/_posts/2013-01-22-leap-motion-2.md",
+		"/E/projects/blog/_posts/2013-01-23-iron-cube-on-android.md",
+		"/E/projects/blog/_posts/2013-02-28-why-android-is-better.md",
+		"/E/projects/blog/_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
+		"/E/projects/blog/_posts/2013-03-29-new-voxel-based-lighting.md",
+		"/E/projects/blog/_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
+		"/E/projects/blog/_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
+		"/E/projects/blog/_posts/2013-12-23-one-more-screenshot.md",
+		"/E/projects/blog/_posts/2014-09-24-new-ambient-lighting-implementation.md",
+		"/E/projects/blog/_posts/2012-08-14-site-moved-to-amazon-ec2.md",
+		"/E/projects/blog/_posts/2012-10-04-google-nacl-build-of-glow-engine.md",
+		"/E/projects/blog/_posts/2012-10-19-model-of-a-tank-for-a-new-game.md",
+		"/E/projects/blog/_posts/2012-10-23-voxelization.md",
+		"/E/projects/blog/_posts/2012-11-09-greedy-mesh-generation-for-voxel-field.md",
+		"/E/projects/blog/_posts/2012-11-23-i-goes-deep-with-my-tank-game.md",
+		"/E/projects/blog/_posts/2012-11-26-still-life-with-a-tank-and-a-tree.md",
+		"/E/projects/blog/_posts/2012-12-06-iron-cube.md",
+		"/E/projects/blog/_posts/2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md",
+		"/E/projects/blog/_posts/2012-05-10-first-opengl-screen.md",
+		"/E/projects/blog/Gemfile",
+		"/E/projects/blog/_posts/2012-06-26-188.md",
+		"/E/projects/blog/_posts/2012-06-28-first-iteration-of-grass.md",
 		"/E/projects/glow3d.blog.com/_posts/2009-08-12-5.md",
 		"/E/projects/glow/source/render/api/irender.h",
 		"/E/projects/glow/source/render/src/view_entity/light.cpp",
@@ -808,118 +822,27 @@
 		"/E/projects/glow/source/core/CMakeLists.txt",
 		"/E/projects/glow/source/core/src/entities/entity/entity_base.h",
 		"/E/projects/glow/projects/mercury/editor.cpp",
-		"/E/projects/glow/source/core/src/core/world.cpp",
-		"/E/projects/glow/source/core/src/entities/entity/entity_base.cpp",
-		"/E/projects/glow/source/ai/api/iai.h",
-		"/E/projects/glow/source/kernel/api/ikernel.h",
-		"/E/projects/glow/source/editor/CMakeLists.txt",
-		"/E/projects/glow/glow.sublime-project",
-		"/E/projects/glow/projects/editor_app/CMakeLists.txt",
-		"/E/projects/glow/source/editor/src/resource.h",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject/assets/scene.glow",
-		"/E/projects/glow/source/core/src/serialization/engine_json.h",
-		"/E/projects/glow/source/core/src/manager/manager_scene.cpp",
-		"/E/projects/glow/source/core/src/serialization/engine_json.cpp",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject7/assets/scene.glow",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject7/assets/project/types/entity.types",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject7/assets/config_game.json",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject7/assets/config.json",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject2/assets/scene.glow",
-		"/E/projects/glow/source/core/src/manager/manager_model.cpp",
-		"/E/projects/glow/source/core/src/manager/manager_scene.h",
-		"/E/projects/glow/thirdparty/glw_imgui/src/imgui_render.cpp",
-		"/E/projects/glow/thirdparty/glw_imgui/src/imgui_ui.cpp",
-		"/E/projects/glow/thirdparty/glw_imgui/src/imgui_render_queue.cpp",
-		"/E/projects/glow/thirdparty/glw_imgui/include/imgui_render_queue.h",
-		"/E/projects/glow/thirdparty/glw_imgui/include/imgui_ui.h",
-		"/E/projects/glow/source/user_interface/src/core_mgui.cpp",
-		"/E/projects/glow/thirdparty/CMakeLists.txt",
-		"/E/projects/glow/source/user_interface/CMakeLists.txt",
-		"/e/projects/glow/source/user_interface/src/core_mgui.h",
-		"/E/projects/glw_imgui/demo/platform_sdl.h",
-		"/E/projects/glow/config.cmake",
-		"/E/projects/glow/source/sound/CMakeLists.txt",
-		"/E/projects/glow/thirdparty/glw_imgui/CMakeLists.txt",
-		"/E/projects/glow/source/render/src/manager_shader_program.cpp",
-		"/E/projects/glow/source/render/src/lightmap_shader.cpp",
-		"/E/projects/glow/source/render/src/dynamic_shader.cpp",
-		"/E/projects/glow/source/render/src/deferred_shader.cpp",
-		"/E/projects/glow/source/render/src/manager_oculus.cpp",
-		"/E/projects/glow/source/render/src/render_directx/directx_11.cpp",
-		"/E/projects/glow/source/kernel/api/params.h",
-		"/E/projects/glow/install/assets/project/types/material.types",
-		"/E/projects/glow/thirdparty/glw_imgui/src/ui.cpp",
-		"/E/projects/glow/thirdparty/glw_imgui/src/rollout.cpp",
-		"/E/projects/glow/thirdparty/glw_imgui/include/ui.h",
-		"/E/projects/glow/CMakeLists.txt",
-		"/E/projects/glow/install/assets/project/types/light.types",
-		"/E/projects/glow/install/log.txt",
-		"/E/projects/glow/install/assets/project/types/particle.types",
-		"/E/projects/glow/source/kernel/api/property_list.h",
-		"/E/projects/glow/projects/editor_app/editor.cpp",
-		"/E/projects/glow/projects/space_sample/assets/project/types/entity.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/ai.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/landscape.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/light.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/material.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/model.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/particle.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/physics.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/scene.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/sound.types",
-		"/E/projects/glow/projects/space_sample/assets/project/types/trigger.types",
-		"/C/Users/yak32/Documents/glow3d/NewGlowProject3/project.glow",
-		"/E/projects/glow/source/editor_app/editor.cpp",
-		"/E/projects/glow/source/editor/src/manager_project.cpp",
-		"/E/projects/glow/source/editor/src/manager_project.h",
-		"/E/projects/glow/projects/voxel_game/environment.cpp",
-		"/E/projects/glow/source/glw_json.h",
-		"/E/projects/glow/projects/space_sample/sample.cpp",
-		"/E/projects/glow/thirdparty/openal/CMakeLists.txt",
-		"/E/projects/glow/thirdparty/openal/include/AL/alc.h",
-		"/E/projects/glow/source/sound/src/manager.cpp",
-		"/E/projects/glow/source/core/src/core/game_update.cpp",
-		"/E/projects/glow/source/kernel/api/thread_pool.h",
-		"/E/projects/glow/source/kernel/api/resource_manager.h",
-		"/E/projects/glow/source/kernel/src/thread_pool.cpp",
-		"/E/projects/glow/source/core/api/igame_update.h",
-		"/E/projects/glow/source/platform/api/iplatform.h",
-		"/E/projects/glow/source/platform/src/android/platform_android.cpp",
-		"/E/projects/glow/source/platform/src/android/platform_android.h",
-		"/E/projects/glow/source/platform/src/emscripten/platform_emscripten.cpp",
-		"/E/projects/glow/source/platform/src/win32/platform_windows.cpp",
-		"/E/projects/glow/source/platform/src/win32/platform_windows.h",
-		"/E/projects/glow/source/platform/src/emscripten/platform_emscripten.h",
-		"/E/projects/glow/projects/space_sample/assets/package/types/landscape.types",
-		"/E/projects/glow/source/core/api/type_landscape.h",
-		"/E/projects/glow/install/assets/package/types/landscape.types",
-		"/E/projects/glow/source/render/src/deferred_shader.h",
-		"/E/projects/glow/source/render/src/view_entity/entity_base.cpp",
-		"/E/projects/glow/source/kernel/api/factory_base.h",
-		"/E/projects/glow/source/render/src/view_entity/entity_base.h",
-		"/E/projects/glow/source/render/src/view_entity/landscape.cpp",
-		"/E/projects/glow/source/render/src/view.cpp",
-		"/E/projects/glow/source/render/src/view_entity/view_entity.cpp",
-		"/E/projects/glow/source/render/src/view_entity/view_entity.h",
-		"/E/projects/glow/source/render/src/view_entity/landscape_clipmaps.cpp",
-		"/E/projects/glow/source/render/src/view_entity/landscape_clipmaps.h",
-		"/E/projects/glow/source/render/src/view_entity/landscape.h",
-		"/E/projects/glow/source/render/src/view_entity/light.h",
-		"/E/projects/glow/source/render/src/view_entity/light_flash.cpp",
-		"/E/projects/glow/source/render/src/view_entity/light_flash.h",
-		"/E/projects/glow/source/render/src/view_entity/light_spot.cpp",
-		"/E/projects/glow/source/render/src/view_entity/light_sun.cpp",
-		"/E/projects/glow/source/render/src/view_entity/omni_spot_light.h"
+		"/E/projects/glow/source/core/src/core/world.cpp"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
 		"height": 117.0,
 		"where_history":
 		[
+			"E:\\projects\\blog\\_posts",
+			"",
+			"E:\\projects\\blog\\_posts",
+			"",
+			"E:\\projects\\blog\\_posts",
+			"",
+			"E:\\projects\\blog\\_posts",
+			"",
+			"E:\\projects\\blog\\",
+			"E:\\projects\\blog\\_posts",
 			"",
 			"E:\\projects\\glow\\source\\core",
 			"",
@@ -959,6 +882,101 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yak32.git",
+			"yak32,",
+			"paginate_path",
+			"New official trailer!",
+			"media",
+			"{{ site.baseurl }}/",
+			"site.baseurl",
+			"/blog/images/",
+			"{{",
+			"/images/",
+			"avatar:",
+			"avata",
+			"perm",
+			"DR finally d",
+			"f using Recast dynamic navigation meshes",
+			"</param>",
+			"</param></param>",
+			"</param></param></param>",
+			"rly - by separate msi installer, or as usu",
+			"e progress with editor - project loadi",
+			"m back from 3 weeks v",
+			"</li><li>",
+			"efore Geometry Buf",
+			"</li><li>",
+			"<ul><li>",
+			"Over 30 tasks w",
+			"<ul><li>e",
+			"I found interesting",
+			"I found interesting trick for accessing normals from textures.",
+			"</div>",
+			"<div>",
+			"e, saturation, brightn",
+			"lights deb",
+			"/images",
+			")/images",
+			"/images",
+			"./images",
+			"/images",
+			">/images",
+			">/images/",
+			">/images",
+			"<br />",
+			"/images<",
+			"/imagesNormals mod",
+			"/imagesNormals mode:/",
+			"<br />",
+			"/images",
+			"/images<br />",
+			"br",
+			"/images/",
+			"/images/image",
+			"/images/images",
+			"/images/",
+			"/images/images",
+			"/images",
+			"Adjusted brightness:",
+			"Adjusted brightness: ",
+			"Sample Page",
+			"&gt",
+			"&lt;",
+			"&gt;",
+			"-logo",
+			"jekyll-logo",
+			"rectX 11 with hope to fi",
+			"I hope",
+			"<div class=\"entry\">",
+			"Written on",
+			"read more",
+			"READ MORE\nREAD more",
+			"&quot;",
+			" from Charlie Bloom.",
+			"It’s really ugly. Reminds me joke from Charlie Bloom.",
+			"&quot;",
+			"[sourcecode",
+			"Gameplay video:",
+			"2x times",
+			"twitter",
+			"about",
+			"disq",
+			"yak32.github.io",
+			"yak32.github.io/",
+			"disq",
+			"screenshots",
+			"glow_screen_vill",
+			"glow_screen_village1",
+			"glow_deferred_reflections",
+			" field update throw network.",
+			"<div>",
+			"</div>",
+			"div",
+			"dropbox.com",
+			"https://dl.dropbox.com",
+			"I participat",
+			"I participatd",
+			"paginate",
 			"http://glow3d.com/blog/wp-content",
 			"uploads",
 			"http://54.248.119.7/blog/wp-content",
@@ -991,102 +1009,7 @@
 			"entity_struct_t;",
 			"entity_struct_t",
 			"entity_struct_T",
-			"sectors_t",
-			"u32_array_t",
-			"sector",
-			"typedef",
-			"sectors_t",
-			"visible_set",
-			"ALLOCATE_INTER",
-			"sectors.",
-			"SHARED_ARRAY",
-			"_sectors",
-			"SHARED_ARRAY<",
-			"sectors",
-			"temp_vector",
-			"resource.h",
-			"parent =",
-			"vec3",
-			"vec4",
-			"serialize",
-			"_filename",
-			"_filename =",
-			"_filename=",
-			"_filename =",
-			"_scene",
-			"::new_proje",
-			"_scene",
-			"there is no ",
-			"there is no sc",
-			"on_render_finished",
-			"begin_frame",
-			"begin",
-			"::begin",
-			"m_mutex",
-			"m_ready_to_render",
-			"prepare_render",
-			"#include \"imgui.h\"",
-			"ENGINE_DEPE",
-			"USER_INTERFACE_EXPORTS",
-			"openal",
-			"FEATURE_USER_INTERFACE",
-			"standard_package/",
-			"standard_package/shaders",
-			"standard_package",
-			"standard_package/textures",
-			"standard_package/shaders",
-			"standard_package",
-			"standard_package/shaders",
-			"standard_package",
-			"standard_package/shaders",
-			"standard_package/",
-			"standard_package",
-			"package/",
-			"\"package/",
-			"package/",
-			"\"package",
-			"package",
-			"\"package",
-			"package",
-			"fs::create_directory(fs::path((folder",
-			"ENGINE_DEPEN",
-			"LINK_DIRECTORIES(",
-			"load_json(",
-			"save_object_to_file",
-			"save",
-			"save_json",
-			"save_object_to_json",
-			"INSTALL_THIRDPARTY",
-			"INSTALL_PLUGIN",
-			"OPENAL_LIBNAME",
-			"version",
-			"openal",
-			"TIMER_UPDATE_SOUND",
-			"create_timer",
-			"RENDER_TIMER",
-			"SOUND_TIMER",
-			"time_sound",
-			"OpenAL32_EXPORTS",
-			"LIBTYPE",
-			"openal32",
-			"static",
-			"thirdparty_cmake",
-			"thirdpart_cmake",
-			"create_timer",
-			"::create(",
-			"TIMER_RENDER",
-			"TIMER_UPDATE_SOUND",
-			"::resume",
-			"detail_rand1",
-			"sing of json type",
-			"::load_t",
-			"::load_json",
-			"::load_t",
-			"::load_types",
-			"<base>",
-			"create_visual_meshes",
-			"_type",
-			"get_core"
+			"sectors_t"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1094,6 +1017,21 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/blog/",
+			"{{ site.baseurl }}/images/",
+			"/blog/images/",
+			"\\n* ",
+			"* ",
+			" ",
+			". ",
+			".",
+			">",
+			"",
+			"<",
+			"",
+			">",
+			"<",
+			"",
 			"/images",
 			"",
 			"#include \"ui.h\"",
@@ -1206,22 +1144,7 @@
 			"m_key",
 			"m_is_active",
 			"m_edit_buffer_id",
-			"m_edit_buffer",
-			"m_search_next_focus",
-			"m_options",
-			"m_is_hot",
-			"m_left_released",
-			"m_is_active",
-			"m_left_pressed",
-			"left_pressed",
-			"m_hot_to_be",
-			"m_went_active",
-			"m_wentActive",
-			"m_dragged_rollout_id",
-			"m_double_left_released",
-			"m_left_released",
-			"m_inside_current_scroll",
-			"inside_current_scroll"
+			"m_edit_buffer"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1232,35 +1155,37 @@
 	"groups":
 	[
 		{
-			"selected": 14,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "blog.sublime-project",
+					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 356,
+						"buffer_size": 2572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								356,
-								356
+								1628,
+								1627
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1268,1271 +1193,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 85950,
+						"buffer_size": 91,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										196,
-										203
-									],
-									[
-										338,
-										345
-									],
-									[
-										591,
-										598
-									],
-									[
-										764,
-										771
-									],
-									[
-										1138,
-										1145
-									],
-									[
-										1320,
-										1327
-									],
-									[
-										2109,
-										2116
-									],
-									[
-										2257,
-										2264
-									],
-									[
-										2655,
-										2662
-									],
-									[
-										2802,
-										2809
-									],
-									[
-										3218,
-										3225
-									],
-									[
-										3338,
-										3345
-									],
-									[
-										3528,
-										3535
-									],
-									[
-										3659,
-										3666
-									],
-									[
-										3912,
-										3919
-									],
-									[
-										4053,
-										4060
-									],
-									[
-										4400,
-										4407
-									],
-									[
-										4534,
-										4541
-									],
-									[
-										5719,
-										5726
-									],
-									[
-										5853,
-										5860
-									],
-									[
-										6080,
-										6087
-									],
-									[
-										6658,
-										6665
-									],
-									[
-										6792,
-										6799
-									],
-									[
-										7085,
-										7092
-									],
-									[
-										7229,
-										7236
-									],
-									[
-										7483,
-										7490
-									],
-									[
-										7616,
-										7623
-									],
-									[
-										7790,
-										7797
-									],
-									[
-										7934,
-										7941
-									],
-									[
-										8543,
-										8550
-									],
-									[
-										8711,
-										8718
-									],
-									[
-										8856,
-										8863
-									],
-									[
-										9024,
-										9031
-									],
-									[
-										9205,
-										9212
-									],
-									[
-										9373,
-										9380
-									],
-									[
-										9761,
-										9768
-									],
-									[
-										9895,
-										9902
-									],
-									[
-										10132,
-										10139
-									],
-									[
-										10204,
-										10211
-									],
-									[
-										10481,
-										10488
-									],
-									[
-										10647,
-										10654
-									],
-									[
-										11050,
-										11057
-									],
-									[
-										11206,
-										11213
-									],
-									[
-										11423,
-										11430
-									],
-									[
-										11560,
-										11567
-									],
-									[
-										12201,
-										12208
-									],
-									[
-										12815,
-										12822
-									],
-									[
-										13390,
-										13397
-									],
-									[
-										13676,
-										13683
-									],
-									[
-										14315,
-										14322
-									],
-									[
-										14890,
-										14897
-									],
-									[
-										15026,
-										15033
-									],
-									[
-										15361,
-										15368
-									],
-									[
-										15517,
-										15524
-									],
-									[
-										15939,
-										15946
-									],
-									[
-										16089,
-										16096
-									],
-									[
-										16839,
-										16846
-									],
-									[
-										16977,
-										16984
-									],
-									[
-										17403,
-										17410
-									],
-									[
-										17553,
-										17560
-									],
-									[
-										18057,
-										18064
-									],
-									[
-										18192,
-										18199
-									],
-									[
-										18696,
-										18703
-									],
-									[
-										18831,
-										18838
-									],
-									[
-										19109,
-										19116
-									],
-									[
-										19299,
-										19306
-									],
-									[
-										19663,
-										19670
-									],
-									[
-										19766,
-										19773
-									],
-									[
-										19857,
-										19864
-									],
-									[
-										19944,
-										19951
-									],
-									[
-										20042,
-										20049
-									],
-									[
-										20129,
-										20136
-									],
-									[
-										20220,
-										20227
-									],
-									[
-										20307,
-										20314
-									],
-									[
-										20928,
-										20935
-									],
-									[
-										21075,
-										21082
-									],
-									[
-										21374,
-										21381
-									],
-									[
-										21502,
-										21509
-									],
-									[
-										21789,
-										21796
-									],
-									[
-										21931,
-										21938
-									],
-									[
-										22184,
-										22191
-									],
-									[
-										22357,
-										22364
-									],
-									[
-										22731,
-										22738
-									],
-									[
-										22913,
-										22920
-									],
-									[
-										23702,
-										23709
-									],
-									[
-										23850,
-										23857
-									],
-									[
-										24248,
-										24255
-									],
-									[
-										24395,
-										24402
-									],
-									[
-										24811,
-										24818
-									],
-									[
-										24931,
-										24938
-									],
-									[
-										25121,
-										25128
-									],
-									[
-										25252,
-										25259
-									],
-									[
-										25505,
-										25512
-									],
-									[
-										25646,
-										25653
-									],
-									[
-										25993,
-										26000
-									],
-									[
-										26127,
-										26134
-									],
-									[
-										27312,
-										27319
-									],
-									[
-										27446,
-										27453
-									],
-									[
-										27673,
-										27680
-									],
-									[
-										28251,
-										28258
-									],
-									[
-										28385,
-										28392
-									],
-									[
-										28678,
-										28685
-									],
-									[
-										28822,
-										28829
-									],
-									[
-										29076,
-										29083
-									],
-									[
-										29209,
-										29216
-									],
-									[
-										29383,
-										29390
-									],
-									[
-										29527,
-										29534
-									],
-									[
-										30136,
-										30143
-									],
-									[
-										30304,
-										30311
-									],
-									[
-										30449,
-										30456
-									],
-									[
-										30617,
-										30624
-									],
-									[
-										30798,
-										30805
-									],
-									[
-										30966,
-										30973
-									],
-									[
-										31354,
-										31361
-									],
-									[
-										31488,
-										31495
-									],
-									[
-										31725,
-										31732
-									],
-									[
-										31797,
-										31804
-									],
-									[
-										32074,
-										32081
-									],
-									[
-										32240,
-										32247
-									],
-									[
-										32643,
-										32650
-									],
-									[
-										32799,
-										32806
-									],
-									[
-										33016,
-										33023
-									],
-									[
-										33153,
-										33160
-									],
-									[
-										33794,
-										33801
-									],
-									[
-										34408,
-										34415
-									],
-									[
-										34983,
-										34990
-									],
-									[
-										35269,
-										35276
-									],
-									[
-										35908,
-										35915
-									],
-									[
-										36483,
-										36490
-									],
-									[
-										36619,
-										36626
-									],
-									[
-										36954,
-										36961
-									],
-									[
-										37110,
-										37117
-									],
-									[
-										37532,
-										37539
-									],
-									[
-										37682,
-										37689
-									],
-									[
-										38432,
-										38439
-									],
-									[
-										38570,
-										38577
-									],
-									[
-										38996,
-										39003
-									],
-									[
-										39146,
-										39153
-									],
-									[
-										39650,
-										39657
-									],
-									[
-										39785,
-										39792
-									],
-									[
-										40289,
-										40296
-									],
-									[
-										40424,
-										40431
-									],
-									[
-										40702,
-										40709
-									],
-									[
-										40892,
-										40899
-									],
-									[
-										41256,
-										41263
-									],
-									[
-										41359,
-										41366
-									],
-									[
-										41450,
-										41457
-									],
-									[
-										41537,
-										41544
-									],
-									[
-										41635,
-										41642
-									],
-									[
-										41722,
-										41729
-									],
-									[
-										41813,
-										41820
-									],
-									[
-										41900,
-										41907
-									],
-									[
-										42521,
-										42528
-									],
-									[
-										42668,
-										42675
-									],
-									[
-										42967,
-										42974
-									],
-									[
-										43095,
-										43102
-									],
-									[
-										43382,
-										43389
-									],
-									[
-										43524,
-										43531
-									],
-									[
-										43777,
-										43784
-									],
-									[
-										43950,
-										43957
-									],
-									[
-										44324,
-										44331
-									],
-									[
-										44506,
-										44513
-									],
-									[
-										45295,
-										45302
-									],
-									[
-										45443,
-										45450
-									],
-									[
-										45841,
-										45848
-									],
-									[
-										45988,
-										45995
-									],
-									[
-										46404,
-										46411
-									],
-									[
-										46524,
-										46531
-									],
-									[
-										46714,
-										46721
-									],
-									[
-										46845,
-										46852
-									],
-									[
-										47098,
-										47105
-									],
-									[
-										47239,
-										47246
-									],
-									[
-										47586,
-										47593
-									],
-									[
-										47720,
-										47727
-									],
-									[
-										48905,
-										48912
-									],
-									[
-										49039,
-										49046
-									],
-									[
-										49266,
-										49273
-									],
-									[
-										49844,
-										49851
-									],
-									[
-										49978,
-										49985
-									],
-									[
-										50271,
-										50278
-									],
-									[
-										50415,
-										50422
-									],
-									[
-										50669,
-										50676
-									],
-									[
-										50802,
-										50809
-									],
-									[
-										50976,
-										50983
-									],
-									[
-										51120,
-										51127
-									],
-									[
-										51729,
-										51736
-									],
-									[
-										51897,
-										51904
-									],
-									[
-										52042,
-										52049
-									],
-									[
-										52210,
-										52217
-									],
-									[
-										52391,
-										52398
-									],
-									[
-										52559,
-										52566
-									],
-									[
-										52947,
-										52954
-									],
-									[
-										53081,
-										53088
-									],
-									[
-										53318,
-										53325
-									],
-									[
-										53390,
-										53397
-									],
-									[
-										53667,
-										53674
-									],
-									[
-										53833,
-										53840
-									],
-									[
-										54236,
-										54243
-									],
-									[
-										54392,
-										54399
-									],
-									[
-										54609,
-										54616
-									],
-									[
-										54746,
-										54753
-									],
-									[
-										55387,
-										55394
-									],
-									[
-										56001,
-										56008
-									],
-									[
-										56576,
-										56583
-									],
-									[
-										56862,
-										56869
-									],
-									[
-										57501,
-										57508
-									],
-									[
-										58076,
-										58083
-									],
-									[
-										58212,
-										58219
-									],
-									[
-										58547,
-										58554
-									],
-									[
-										58703,
-										58710
-									],
-									[
-										59125,
-										59132
-									],
-									[
-										59275,
-										59282
-									],
-									[
-										60025,
-										60032
-									],
-									[
-										60163,
-										60170
-									],
-									[
-										60589,
-										60596
-									],
-									[
-										60739,
-										60746
-									],
-									[
-										61243,
-										61250
-									],
-									[
-										61378,
-										61385
-									],
-									[
-										61882,
-										61889
-									],
-									[
-										62017,
-										62024
-									],
-									[
-										62295,
-										62302
-									],
-									[
-										62485,
-										62492
-									],
-									[
-										62849,
-										62856
-									],
-									[
-										62952,
-										62959
-									],
-									[
-										63043,
-										63050
-									],
-									[
-										63130,
-										63137
-									],
-									[
-										63228,
-										63235
-									],
-									[
-										63315,
-										63322
-									],
-									[
-										63406,
-										63413
-									],
-									[
-										63493,
-										63500
-									],
-									[
-										64114,
-										64121
-									],
-									[
-										64261,
-										64268
-									],
-									[
-										64560,
-										64567
-									],
-									[
-										64688,
-										64695
-									],
-									[
-										64947,
-										64954
-									],
-									[
-										65061,
-										65068
-									],
-									[
-										65286,
-										65293
-									],
-									[
-										65431,
-										65438
-									],
-									[
-										65777,
-										65784
-									],
-									[
-										65959,
-										65966
-									],
-									[
-										66720,
-										66727
-									],
-									[
-										66840,
-										66847
-									],
-									[
-										67210,
-										67217
-									],
-									[
-										67329,
-										67336
-									],
-									[
-										67717,
-										67724
-									],
-									[
-										67809,
-										67816
-									],
-									[
-										67971,
-										67978
-									],
-									[
-										68074,
-										68081
-									],
-									[
-										68299,
-										68306
-									],
-									[
-										68412,
-										68419
-									],
-									[
-										68759,
-										68766
-									],
-									[
-										68893,
-										68900
-									],
-									[
-										70078,
-										70085
-									],
-									[
-										70212,
-										70219
-									],
-									[
-										70439,
-										70446
-									],
-									[
-										71017,
-										71024
-									],
-									[
-										71151,
-										71158
-									],
-									[
-										71444,
-										71451
-									],
-									[
-										71588,
-										71595
-									],
-									[
-										71842,
-										71849
-									],
-									[
-										71975,
-										71982
-									],
-									[
-										72149,
-										72156
-									],
-									[
-										72293,
-										72300
-									],
-									[
-										72902,
-										72909
-									],
-									[
-										73070,
-										73077
-									],
-									[
-										73215,
-										73222
-									],
-									[
-										73383,
-										73390
-									],
-									[
-										73564,
-										73571
-									],
-									[
-										73732,
-										73739
-									],
-									[
-										74120,
-										74127
-									],
-									[
-										74254,
-										74261
-									],
-									[
-										74491,
-										74498
-									],
-									[
-										74563,
-										74570
-									],
-									[
-										74840,
-										74847
-									],
-									[
-										75006,
-										75013
-									],
-									[
-										75409,
-										75416
-									],
-									[
-										75565,
-										75572
-									],
-									[
-										75782,
-										75789
-									],
-									[
-										75919,
-										75926
-									],
-									[
-										76560,
-										76567
-									],
-									[
-										77174,
-										77181
-									],
-									[
-										77749,
-										77756
-									],
-									[
-										78035,
-										78042
-									],
-									[
-										78674,
-										78681
-									],
-									[
-										79249,
-										79256
-									],
-									[
-										79385,
-										79392
-									],
-									[
-										79720,
-										79727
-									],
-									[
-										79876,
-										79883
-									],
-									[
-										80298,
-										80305
-									],
-									[
-										80448,
-										80455
-									],
-									[
-										81198,
-										81205
-									],
-									[
-										81336,
-										81343
-									],
-									[
-										81762,
-										81769
-									],
-									[
-										81912,
-										81919
-									],
-									[
-										82416,
-										82423
-									],
-									[
-										82551,
-										82558
-									],
-									[
-										83055,
-										83062
-									],
-									[
-										83190,
-										83197
-									],
-									[
-										83468,
-										83475
-									],
-									[
-										83658,
-										83665
-									],
-									[
-										84022,
-										84029
-									],
-									[
-										84125,
-										84132
-									],
-									[
-										84216,
-										84223
-									],
-									[
-										84303,
-										84310
-									],
-									[
-										84401,
-										84408
-									],
-									[
-										84488,
-										84495
-									],
-									[
-										84579,
-										84586
-									],
-									[
-										84666,
-										84673
-									],
-									[
-										85287,
-										85294
-									],
-									[
-										85434,
-										85441
-									],
-									[
-										85733,
-										85740
-									],
-									[
-										85861,
-										85868
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								75774,
-								75774
+								91,
+								91
 							]
 						],
 						"settings":
@@ -2540,7 +1209,7 @@
 							"default_dir": "E:\\projects\\blog",
 							"detect_indentation": false,
 							"line_numbers": false,
-							"output_tag": 4,
+							"output_tag": 2,
 							"result_base_dir": "",
 							"result_file_regex": "^([^ \t].*):$",
 							"result_line_regex": "^ +([0-9]+):",
@@ -2548,383 +1217,19 @@
 							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 24699.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2013-01-02-steam-bigpicture.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 949,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								136,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_posts/2013-01-16-glow-engine-on-android.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 800,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_posts/2013-01-22-leap-motion-2.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_posts/2013-01-23-iron-cube-on-android.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 853,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "_posts/2013-02-28-why-android-is-better.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 382,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "_posts/2013-03-29-new-voxel-based-lighting.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 730,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2329,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 714,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "_posts/2013-12-23-one-more-screenshot.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 623,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "_posts/2014-01-07-iron-cube-0-31.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2211,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "_posts/2014-09-24-new-ambient-lighting-implementation.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 472,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "_posts/2014-12-20-directx-11.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								566,
-								567
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "_posts/2011-03-21-npc-with-several-lights.md",
+					"buffer": 2,
+					"file": "_posts/2011-12-22-a-lot-of-new-features-implemented.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 336,
+						"buffer_size": 556,
 						"regions":
 						{
 						},
@@ -2947,20 +1252,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "_posts/2011-12-22-a-lot-of-new-features-implemented.md",
+					"buffer": 3,
+					"file": "_posts/2011-12-26-deferred-reflections.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 570,
+						"buffer_size": 1121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								146
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2975,320 +1280,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "_posts/2011-12-26-deferred-reflections.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "_posts/2012-08-14-site-moved-to-amazon-ec2.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "_posts/2012-08-20-geometry-optimization.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1005,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "_posts/2012-10-04-google-nacl-build-of-glow-engine.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "_posts/2012-10-19-model-of-a-tank-for-a-new-game.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "_posts/2012-10-23-voxelization.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 791,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "_posts/2012-11-09-greedy-mesh-generation-for-voxel-field.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "_posts/2012-11-23-i-goes-deep-with-my-tank-game.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 504,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "_posts/2012-11-26-still-life-with-a-tank-and-a-tree.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "_posts/2012-12-06-iron-cube.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 588,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "_posts/2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 28,
+					"buffer": 4,
 					"file": "_posts/2012-05-10-first-opengl-screen.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 961,
+						"buffer_size": 971,
 						"regions":
 						{
 						},
@@ -3311,12 +1308,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 5,
 					"file": "_posts/2012-05-25-first-screen-of-voxel-field-update-throw-network.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 669,
+						"buffer_size": 676,
 						"regions":
 						{
 						},
@@ -3339,12 +1336,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 6,
 					"file": "_posts/2012-06-26-188.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 955,
+						"buffer_size": 973,
 						"regions":
 						{
 						},
@@ -3367,20 +1364,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 7,
 					"file": "_posts/2012-06-28-first-iteration-of-grass.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 435,
+						"buffer_size": 444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								435,
-								435
+								0,
+								0
 							]
 						],
 						"settings":
@@ -3395,20 +1392,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
-					"file": "_posts/2009-11-02-new-video-for-igf.md",
-					"semi_transient": true,
+					"buffer": 8,
+					"file": "_posts/2012-08-14-site-moved-to-amazon-ec2.md",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 595,
+						"buffer_size": 1194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								595,
-								595
+								0,
+								0
 							]
 						],
 						"settings":
@@ -3423,20 +1420,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
-					"file": "_posts/2009-08-11-4.md",
+					"buffer": 9,
+					"file": "_posts/2012-08-20-geometry-optimization.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1534,
+						"buffer_size": 1018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1534,
-								1534
+								0,
+								0
 							]
 						],
 						"settings":
@@ -3447,7 +1444,623 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_posts/2012-10-04-google-nacl-build-of-glow-engine.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_posts/2012-10-19-model-of-a-tank-for-a-new-game.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_posts/2012-10-23-voxelization.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_posts/2012-11-09-greedy-mesh-generation-for-voxel-field.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_posts/2012-11-23-i-goes-deep-with-my-tank-game.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "_posts/2012-11-26-still-life-with-a-tank-and-a-tree.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "_posts/2012-12-06-iron-cube.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "_posts/2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "_posts/2013-01-02-steam-bigpicture.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "_posts/2013-01-16-glow-engine-on-android.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "_posts/2013-01-22-leap-motion-2.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "_posts/2013-01-23-iron-cube-on-android.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "_posts/2013-02-28-why-android-is-better.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "_posts/2013-03-29-new-voxel-based-lighting.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1067,
+								1067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "_posts/2013-12-23-one-more-screenshot.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "_posts/2014-01-07-iron-cube-0-31.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1194,
+								1280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 194.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "_posts/2014-09-24-new-ambient-lighting-implementation.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "_posts/2014-12-20-directx-11.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -3496,7 +2109,7 @@
 	"project": "blog.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -3796,7 +2409,7 @@
 		[
 			[
 				"",
-				"E:\\projects\\glw_imgui\\imgui.sublime-project"
+				"E:\\projects\\glow3d.com\\glow3d.sublime-workspace"
 			]
 		],
 		"width": 475.0
@@ -3842,7 +2455,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 277.0,
+	"side_bar_width": 486.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
