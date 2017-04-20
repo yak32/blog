@@ -7,4 +7,4 @@ comments: true
 categories: [Uncategorized]
 ---
 I played a little with grenades and increased radios of explosions.
-<iframe width="640" height="360" src="http://www.youtube.com/embed/hwmJXeCAp_4" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/hwmJXeCAp_4" frameborder="0" allowfullscreen></iframe>

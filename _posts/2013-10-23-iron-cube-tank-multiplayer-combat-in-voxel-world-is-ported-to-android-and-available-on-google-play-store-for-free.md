@@ -22,7 +22,7 @@ Environment is fully destructible, water is dynamic.
 
 Gameplay video:
 
-<iframe src="http://www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe>
+<iframe src="//www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe>
 <div align="left"><a href="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-47-44.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-44" src="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-47-44.png" width="298" /></a> <a href="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-47-35.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-35" src="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-47-35.png" width="298" /></a>
 <a href="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-47-26.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-26" src="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-47-26.png" width="298" /></a> <a href="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-49-41.png" target="_blank"><img alt="Screenshot_2013-10-23-16-49-41" src="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-49-41.png" width="298" height="168" /></a>
 <a href="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png" target="_blank"><img alt="Screenshot_2013-10-23-16-50-08" src="http://media.moddb.com/blog/images/articles/1/142/141237/auto/Screenshot_2013-10-23-16-50-08.png" width="600" /></a>
