@@ -1,0 +1,18 @@
+---
+layout: post
+title: SSAO First steps
+date: 2011-12-08 17:14
+author: admin
+comments: true
+categories: [Uncategorized]
+---
+<a href="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg"><img id="BLOGGER_PHOTO_ID_5683807356322479218" style="width: 640px; border-style: solid; border-color: black; border-image: initial; border-width: 2px;" src="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg" alt="" width="640" height="534" border="0" /></a>
+
+Today's results - fancy Screen Space Ambient Occlusion!  It searches pixel's surroundings to check pixel's occlusion, after  that blurs results and blends with the screen.
+
+Video with a water:
+<iframe src="http://player.vimeo.com/video/33439317?portrait=0" frameborder="0" width="640" height="424"></iframe>
+
+&nbsp;
+
+Some additional effects like Light Scattering (God rays ) remains to implement and I can finally start work on the game!

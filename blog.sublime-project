@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns":[
+				"_site",
+				".git"
+			]
+		}
+	],
+ 	"build_systems":[
+	 {
+	 	"name": "glow3d.com",
+		"shell_cmd": "bundle exec jekyll serve",
+		"file_regex": "^[ .\\\\/]*([a-zA-Z]?:?[\\w.\\\\/]+)[()]([0-9]+)[)]([0-9]+)?:?(.*)$",
+		"working_dir": "${project_path}/",
+		"variants":
+	   	[
+	  	]
+	}
+	]
+}

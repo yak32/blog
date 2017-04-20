@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Yakov and I am ~~alcoholic~~ indie game developer.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I post here about development of Glow3D game engine, games, random stuff and life in London.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>
