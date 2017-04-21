@@ -12,4 +12,4 @@ I post here about development of Glow3D game engine, games, random stuff and lif
 
 ### Contact me
 
-<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>
+<a href="https://www.twitter.com/{{ site.footer-links.twitter }}" class="fa-twitter"><span class="label">Twitter</span></a>
