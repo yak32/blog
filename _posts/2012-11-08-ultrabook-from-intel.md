@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Ultrabook from Intel 
+title: Ultrabook from Intel
+subtitle: Ultrabook™ App Innovation Contest
 date: 2012-11-08 05:02
 author: admin
 comments: true
@@ -11,7 +12,7 @@ I am participating in <strong><a href="http://www.codeproject.com/Competitions/5
 It runs Windows 8, 64-bit. Working on Windows 8 is weird, but strangely convenient  - half PC, half Tablet. New interface is minimalistic  according to new design rules of Microsoft.
 
 Weight is only 3 pounds, it's light and it will be very convenient to use it during travel. More about this device <a href="http://www.hanselman.com/blog/InitialImpressionsOfThe3rdGenerationIvyBridgeIntelUltrabookReferenceHardwareForDevelopersOnWindows8.aspx">here</a>.
-<a title="IMG_5092 by yakovsum, on Flickr" href="http://www.flickr.com/photos/17044631@N00/8164304986/"><img src="http://farm9.staticflickr.com/8207/8164304986_3c09ebc6dd_z.jpg" alt="IMG_5092" width="640" height="427" /></a>
+<a title="IMG_5092 by yakovsum, on Flickr" href="http://www.flickr.com/photos/17044631@N00/8164304986/"><img src="http://farm9.staticflickr.com/8207/8164304986_3c09ebc6dd_z.jpg" class="image featured" alt="IMG_5092"  /></a>
 
 First Windows 8 screen.
-<a title="IMG_5107 by yakovsum, on Flickr" href="http://www.flickr.com/photos/17044631@N00/8164270587/"><img src="http://farm8.staticflickr.com/7252/8164270587_d492dddf48_z.jpg" alt="IMG_5107" width="640" height="427" /></a>
+<a title="IMG_5107 by yakovsum, on Flickr" href="http://www.flickr.com/photos/17044631@N00/8164270587/"><img class="image featured" src="http://farm8.staticflickr.com/7252/8164270587_d492dddf48_z.jpg" alt="IMG_5107"  /></a>

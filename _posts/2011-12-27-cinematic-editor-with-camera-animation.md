@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Cinematic editor with camera animation
+title: Cinematics
+subtitle: Editor of Cinematics + camera animation
 date: 2011-12-27 14:36
 author: yak32
 comments: true

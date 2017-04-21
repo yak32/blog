@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Iron Cube, tank multiplayer combat in voxel world, is ported to Android and available on Google Play store for free!
+title: Iron Cube!
+subtitle: Tank multiplayer combat in voxel world
 date: 2013-10-23 08:07
 author: admin
 comments: true
@@ -8,7 +9,7 @@ categories: [Uncategorized]
 ---
 Iron Cube, tank multiplayer combat in voxel world, is ported to Android and available on Google Play store for free!
 
-<a href="/blog/images/uploads/2013/01/iron_cube_android.jpg"><img class="aligncenter" alt="" src="/blog/images/uploads/2013/01/iron_cube_android.jpg" width="800" /></a>
+<a href="/blog/images/uploads/2013/01/iron_cube_android.jpg"><img class="image_featured" alt="" src="/blog/images/uploads/2013/01/iron_cube_android.jpg"/></a>
 
 <a href="https://play.google.com/store/apps/details?id=com.glow3d.ironcube"><img alt="" src="/blog/images/en_generic_rgb_wo_60.png" /></a>
 
@@ -23,6 +24,8 @@ Environment is fully destructible, water is dynamic.
 Gameplay video:
 
 <iframe src="//www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe>
+
 <div align="left"><a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-44.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-44" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-44.png" width="298" /></a> <a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-35.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-35" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-35.png" width="298" /></a>
-<a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-26.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-26" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-26.png" width="298" /></a> <a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-49-41.png" target="_blank"><img alt="Screenshot_2013-10-23-16-49-41" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-49-41.png" width="298" height="168" /></a>
-<a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-50-08.png" target="_blank"><img alt="Screenshot_2013-10-23-16-50-08" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-50-08.png" width="600" /></a>
+<a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-26.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-26" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-26.png" width="298" /></a> 
+
+<!--<a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-49-41.png" target="_blank"><img alt="Screenshot_2013-10-23-16-49-41" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-49-41.png" width="298" height="168" /></a><a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-50-08.png" target="_blank"><img alt="Screenshot_2013-10-23-16-50-08" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-50-08.png" width="600" /></a>-->

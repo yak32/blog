@@ -2,35 +2,48 @@
 layout: default
 ---
 
-<div class="posts">
-
-  <!-- Pagination links -->
+<!-- Pagination links -->
 <div class="pagination">
 
   {% for post in paginator.posts %}
-    <article class="post">
+          <!-- Post -->
+          <article class="post">
+            <header>
+              <div class="title">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.subtitle }}</p>
+              </div>
+              <div class="meta">
+                <time class="published" datetime={{ post.date }}>{{ post.date | date: "%B %e, %Y" }}</time>
+                <a href="#" class="author"><span class="name">Yakov</span><img src="https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png" alt="" /></a>
+              </div>
+            </header>
+            <p>{{ post.excerpt }}</p>
+            <footer>
+              <ul class="actions">
+                <li><a href="{{ site.baseurl }}{{ post.url }}" class="button big">Continue Reading</a></li>
+              </ul>
+              <ul class="stats">
+                <li><a href="{{ site.baseurl }}{{ post.url }}">General</a></li>
+                <li><a href="#" class="icon fa-heart">0</a></li>
+                <li><a href="{{ site.baseurl }}{{ post.url }}" class="icon fa-comment">0</a></li>
+              </ul>
+            </footer>
+          </article>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-	  <div class="date">
-	    Written on {{ post.date | date: "%B %e, %Y" }}
-	  </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Comments</a>
-    </article>
   {% endfor %}
    <br />
   <!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
 
+{% if paginator.total_pages > 1 %}
+  <ul class="actions pagination">
+
+  {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button big previous">Previous Page</a></li>
+  {% else %}
+      <li><a href="" class="disabled button big previous">Previous Page</a></li>
+  {% endif %}
+<!--
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <em>{{ page }}</em>
@@ -39,14 +52,15 @@ layout: default
     {% else %}
       <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
-  {% endfor %}
+  {% endfor %}-->
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button big next">Next Page</a></li>
   {% else %}
-    <span>Next &raquo;</span>
+    <span>Next  Page&raquo;</span>
   {% endif %}
-</div>
+</ul>
 {% endif %}
 
 </div>
+

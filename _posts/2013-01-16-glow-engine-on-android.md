@@ -6,7 +6,7 @@ author: admin
 comments: true
 categories: [Uncategorized]
 ---
-<a href="http://glow3d.com/blog/2013/01/16/glow-engine-on-android/glow_android/" rel="attachment wp-att-390"><img class="alignnone size-full wp-image-390" alt="glow_android" src="/blog/images/uploads/2013/01/glow_android.jpg" width="700" height="325" /></a>
+<img class="image featured" alt="glow_android" src="/blog/images/uploads/2013/01/glow_android.jpg" />
 
 OMG, I ported  Glow engine to Android over last weekends! (Honestly, port is based on Google NACL port of  the engine, and I spend a lot of time making Glow engine truly cross-platform recently. But anyway.)  More about it later.
 

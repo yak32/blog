@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Rasterization to voxels
+title: Voxels
+subtitle: Rasterization to voxels
 date: 2013-02-10 14:54
 author: admin
 comments: true

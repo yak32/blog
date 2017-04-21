@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iron Cube, cinematic effects
+title: Cinematic effects
 date: 2013-12-02 05:13
 author: admin
 comments: true

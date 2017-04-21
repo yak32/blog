@@ -11,4 +11,4 @@ Currently update of voxels is sent per chunk of voxels (32x32x64) and compressed
 Implemented using UDP networking, as other client-server communication. Update of voxel field is done
 on server and sent to client.
 
-<a href="/blog/images/uploads/2012/05/tarta_net_hole2.jpg"><img class="alignnone size-full wp-image-183" title="tarta_net_hole" src="/blog/images/uploads/2012/05/tarta_net_hole2.jpg" alt="" width="655" height="517" /></a>
+<a href="/blog/images/uploads/2012/05/tarta_net_hole2.jpg"><img class="image featured" title="tarta_net_hole" src="/blog/images/uploads/2012/05/tarta_net_hole2.jpg" alt=""  /></a>

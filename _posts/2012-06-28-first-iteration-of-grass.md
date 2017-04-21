@@ -6,5 +6,5 @@ author: yak32
 comments: true
 categories: [Uncategorized]
 ---
-<a href="/blog/images/uploads/2012/06/tarta_grass.jpg"><img class="alignnone size-large wp-image-197" title="tarta_grass" src="/blog/images/uploads/2012/06/tarta_grass-1024x839.jpg" alt="" width="695" height="569" /></a>
+<a href="/blog/images/uploads/2012/06/tarta_grass.jpg"><img class="image featured" title="tarta_grass" src="/blog/images/uploads/2012/06/tarta_grass-1024x839.jpg" alt=""/></a>
 I play with grass these days. Texture of grass should be changed to something more cubic.

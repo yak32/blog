@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Looks like the trees from Iron Cube game are real!
+title: Iron Cube vs Reality
+subtitle: Looks like the trees from Iron Cube game are real!
 date: 2012-12-11 05:44
 author: admin
 comments: true

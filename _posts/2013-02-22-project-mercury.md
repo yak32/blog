@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Project Mercury - 3d mesh editor with bare hands.
+title: Project Mercury
+subtitle: Project Mercury - 3d mesh editor with bare hands
 date: 2013-02-22 09:32
 author: admin
 comments: true
