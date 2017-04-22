@@ -16,6 +16,4 @@ Unboxing!
 <img class="image featured" alt="IMG_5656" src="/blog/images/uploads/2013/01/IMG_5656.jpg"/>
 
 It's some kind of multitouch without actual touch, and integration of multitouch to for Glow Android port is ready. ( btw port of Glow engine and Iron Cube game to Android is going very well I will show some materials later )
-
-<iframe src="//www.youtube.com/embed/y1zIgzqq1gw" height="360" width="640"></iframe>
-
+<div class="videoWrapper"><iframe src="//www.youtube.com/embed/y1zIgzqq1gw" height="360" width="640"></iframe></div>

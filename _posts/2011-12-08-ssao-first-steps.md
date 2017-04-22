@@ -11,7 +11,7 @@ categories: [Uncategorized]
 Today's results - fancy Screen Space Ambient Occlusion!  It searches pixel's surroundings to check pixel's occlusion, after  that blurs results and blends with the screen.
 
 Video with a water:
-<iframe src="http://player.vimeo.com/video/33439317?portrait=0" frameborder="0" width="640" height="424"></iframe>
+<div class="videoWrapper"><iframe src="http://player.vimeo.com/video/33439317?portrait=0" frameborder="0" width="640" height="424"></iframe></div>
 
 &nbsp;
 

@@ -6,4 +6,4 @@ author: admin
 comments: true
 categories: [Uncategorized]
 ---
-<iframe src="//www.youtube.com/embed/-SZ4KmlC43g" frameborder="0" width="640" height="360"></iframe>
+<div class="videoWrapper"><iframe src="//www.youtube.com/embed/-SZ4KmlC43g" frameborder="0" width="640" height="360"></iframe></div>

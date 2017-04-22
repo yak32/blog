@@ -22,9 +22,7 @@ Also it's possible to compete with AI-controlled bot.To win you should destroy e
 Environment is fully destructible, water is dynamic.
 
 Gameplay video:
-
-<iframe src="//www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe>
-
+<div class="videoWrapper"><iframe src="//www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe></div>
 <div align="left"><a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-44.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-44" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-44.png" width="298" /></a> <a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-35.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-35" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-35.png" width="298" /></a>
 <a href="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-26.png" target="_blank"><img alt="Screenshot_2013-10-23-16-47-26" src="/blog/images/uploads/2013/10/Screenshot_2013-10-23-16-47-26.png" width="298" /></a> 
 
