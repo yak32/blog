@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: Refactoring
 date: 2010-07-07 06:26
 author: admin
 comments: true

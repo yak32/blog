@@ -6,7 +6,7 @@ author: admin
 comments: true
 categories: [Uncategorized]
 ---
-<a href="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg"><img id="BLOGGER_PHOTO_ID_5683807356322479218" style="width: 640px; border-style: solid; border-color: black; border-image: initial; border-width: 2px;" src="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg" alt="" width="640" height="534" border="0" /></a>
+<a href="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg"><img id="BLOGGER_PHOTO_ID_5683807356322479218" class="image featured" src="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg" alt="" border="0" /></a>
 
 Today's results - fancy Screen Space Ambient Occlusion!  It searches pixel's surroundings to check pixel's occlusion, after  that blurs results and blends with the screen.
 

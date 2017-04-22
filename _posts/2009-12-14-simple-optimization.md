@@ -6,4 +6,10 @@ author: admin
 comments: true
 categories: [Uncategorized]
 ---
-If you have vector assignment in your code, <br />use Swap member function of std::vector, if<br />you will not need source vector anymore<br /><br />it will save you one memory allocation<br /><br />void SetPath_Dirty(vec3& path)<br />{<br />    m_path.swap(path);<br />}
+If you have vector assignment in your code, use Swap member function of std::vector, if you will not need source vector anymore it will save you one memory allocation
+
+```C++
+void SetPath_Dirty(vec3& path) {
+	m_path.swap(path);
+}
+```

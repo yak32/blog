@@ -1,6 +1,7 @@
 ---
 layout: post
-title:
+title: Concurrent scene graph
+subtitle: Multithreading
 date: 2011-01-27 01:42
 author: admin
 comments: true

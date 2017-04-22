@@ -10,4 +10,4 @@ I applied some optimization to the mesh generation. Previously, voxel mesh was g
 <a href="/blog/images/uploads/2012/08/screen_detail1.jpg"><img class="image featured" title="screen_detail" src="/blog/images/uploads/2012/08/screen_detail1.jpg" alt=""/></a>
 
 It's new version of mesh generation.
-<img class="image featured" title="tarta_greedy" src="/blog/images/uploads/2012/08/tarta_greedy1.jpg" alt="" width="695" />/>;
+<img class="image featured" title="tarta_greedy" src="/blog/images/uploads/2012/08/tarta_greedy1.jpg" alt="" />/>;
