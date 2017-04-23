@@ -5,9 +5,9 @@ subtitle: First expirience with Ludum Dare competition
 date: 2017-04-21 00:01
 author: admin
 comments: true
+image: /blog/images/ai.png
 categories: [Uncategorized]
 ---
-<a href="/blog/images/ai.png"><img src="/blog/images/ai.png" class = "image featured" alt="" /></a>
 
 “Pied Paper” – stupid little game about dancing zombies. It’s my first attempt to participate and finish game for Ludum Dare.
 
