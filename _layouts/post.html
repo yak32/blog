@@ -4,14 +4,23 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  <p>{{ page.subtitle }}</p>
 
-  <div class="entry">
-    {{ content }}
-  </div>
+	{% if page.image %}
+		<a href= "{{ page.image }}" class="image featured"><img src="{{ page.image }}" alt="" /></a>
+	{% endif %}
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+	<div class="entry">
+		{{ content }}
+	</div>
 
-  {% include disqus.html %}
+	<div class="date">
+		Written on {{ page.date | date: "%B %e, %Y" }}
+	</div>
+	{% if site.facebook_comments %}
+
+		<div class="fb-like" data-href="http://www.glow3d.com/blog{{ page.url }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true" style="display: inline-block; text-align: right; width: 100%"></div>
+
+		<div class="fb-comments" data-href="http://www.glow3d.com/blog{{ page.url }}" data-width="100%" data-numposts="20"></div>
+	{% endif %}
 </article>
