@@ -4,7 +4,7 @@ title: Simple steering behavior
 date: 2009-12-15 08:23
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine, ai]
 ---
 I added yesterday simple steering behavior for bots. Movement became more realistic than previous direct path following. Now bot has  velocity and acceleration, and it tries to move along current path line.
 

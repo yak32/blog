@@ -5,7 +5,7 @@ title: New game prototype - "Tarta"
 date: 2012-03-20 14:41
 author: yak32
 comments: true
-categories: [tarta, Uncategorized]
+categories: [game, voxel]
 ---
 I started new game prototype - "Tarta". Video from first prototype (built in 3 weeks):
 <div class="videoWrapper"><iframe src="//www.youtube.com/embed/-Q3I_B19HCQ" height="360" width="640" allowfullscreen="" frameborder="0"></iframe></div>

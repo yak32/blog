@@ -6,7 +6,7 @@ date: 2013-01-02 15:59
 author: admin
 comments: true
 image: /blog/images/uploads/2013/01/BigPicture1.jpg
-categories: [Uncategorized]
+categories: [personal, steam]
 ---
 Finally I became console player! But actually without a console. I became very excited after Steam BigPicture mode appeared. Having big library of games in Steam I didn't play it. It's not convenient to play it at workplace.
 

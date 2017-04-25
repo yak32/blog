@@ -4,7 +4,7 @@ title: First screen of voxel field update by network.
 date: 2012-05-25 00:09
 author: yak32
 comments: true
-categories: [Uncategorized]
+categories: [game, voxel]
 ---
 Cool,  today I implemented update of voxel field in multiplayer environment.
 Currently update of voxels is sent per chunk of voxels (32x32x64) and compressed by RLE.

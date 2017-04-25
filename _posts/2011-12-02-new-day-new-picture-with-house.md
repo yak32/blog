@@ -4,7 +4,7 @@ title: New day - new picture with the house )
 date: 2011-12-02 18:19
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 Playing with combination of atmospheric scattering, light
 intensity, dynamic sun and time of day.

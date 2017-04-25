@@ -5,7 +5,7 @@ subtitle: Bloated UI
 date: 2012-12-24 10:58
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 Code of button creation in CEGUI:
 

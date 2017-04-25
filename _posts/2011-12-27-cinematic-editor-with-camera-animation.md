@@ -5,7 +5,7 @@ subtitle: Editor of Cinematics + camera animation
 date: 2011-12-27 14:36
 author: yak32
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 I added animation of cameras in the editor. Some time later and I will make 3ds max :)
 <div class="videoWrapper"><iframe src="//www.youtube.com/embed/shtGSepC0WA" frameborder="0" width="640" height="480"></iframe></div>

@@ -6,7 +6,7 @@ date: 2017-04-21 00:01
 author: admin
 comments: true
 image: /blog/images/ai.png
-categories: [Uncategorized]
+categories: [engine, games]
 ---
 
 “Pied Paper” – stupid little game about dancing zombies. It’s my first attempt to participate and finish game for Ludum Dare.

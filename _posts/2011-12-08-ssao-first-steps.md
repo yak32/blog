@@ -4,7 +4,7 @@ title: SSAO First steps
 date: 2011-12-08 17:14
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 <a href="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg"><img id="BLOGGER_PHOTO_ID_5683807356322479218" class="image featured" src="http://2.bp.blogspot.com/-EeThf7i4jzY/TuDwrS1afHI/AAAAAAAABWI/2q7KZalJgxo/s1600/glow_ssao_stage2.jpg" alt="" border="0" /></a>
 

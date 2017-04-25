@@ -4,7 +4,7 @@ title: Color transformations
 date: 2011-04-04 08:40
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 Color transformations as Post-Process is added into Glow engine.
 

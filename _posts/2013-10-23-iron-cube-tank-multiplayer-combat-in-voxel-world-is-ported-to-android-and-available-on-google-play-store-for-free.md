@@ -6,7 +6,7 @@ date: 2013-10-23 08:07
 author: admin
 comments: true
 image: /blog/images/uploads/2013/01/iron_cube_android.jpg
-categories: [Uncategorized]
+categories: [game, iron cube]
 ---
 Iron Cube, tank multiplayer combat in voxel world, is ported to Android and available on Google Play store for free!
 

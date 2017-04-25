@@ -5,7 +5,7 @@ subtitle: Tank multiplayer combat in voxel world
 date: 2013-07-03 07:31
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [game, iron cube]
 ---
 <div class="videoWrapper"><iframe width="640" height="360" src="//www.youtube.com/embed/gOde2vm685M" frameborder="0" allowfullscreen></iframe></div>
 <a style="line-height: 1.4;" title="Download Iron Cube 0.15 - Mod DB" href="http://www.moddb.com/games/iron-cube/downloads/iron-cube-015" target="_blank"><img alt="Iron Cube 0.15" src="http://button.moddb.com/download/medium/56386.png" /></a>

@@ -4,7 +4,7 @@ title: Deferred reflections
 date: 2011-12-26 02:04
 author: yak32
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 <a href="/blog/images/uploads/2011/12/glow_deferred_reflections.jpg"><img class="image featured" title="glow_deferred_reflections" src="/blog/images/uploads/2011/12/glow_deferred_reflections.jpg" alt="Deferred reflections in Glow engine" /></a>
 

@@ -4,7 +4,7 @@ title: Voxelization
 date: 2012-10-23 17:46
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [game, iron cube, voxel]
 ---
 I played with automatic voxelization of 3d model.
 

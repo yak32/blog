@@ -6,7 +6,7 @@ date: 2013-03-28 00:52
 author: admin
 comments: true
 image: /blog/images/uploads/2013/03/perc-challenge-banner.jpg
-categories: [Uncategorized]
+categories: [challenge, Intel, winner]
 ---
 
 I am First Prize winner of Intel Perceptual Computing Challenge with <a href="http://glow3d.com/blog/2013/03/05/better-video-of-mercury-prototype/">Mercury prototype</a>.

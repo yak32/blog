@@ -4,7 +4,7 @@ title: First horde tests
 date: 2009-12-24 10:36
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine, ai]
 ---
 Spent day for implementing steering behaviors for horde. <br /> <br />Recast navigation + avoid nearest neighbor (with prediction, OpenSteer style) + avoid near walls
 

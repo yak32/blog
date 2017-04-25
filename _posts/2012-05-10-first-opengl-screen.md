@@ -4,7 +4,7 @@ title: First OpenGL screen
 date: 2012-05-10 02:25
 author: yak32
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 First screen of Tarta game, based on OpenGL renderer. Nothing special, but it's important for me - scheme, which I selected some time ago (some LONG ago) for cross platform development finally works.
 

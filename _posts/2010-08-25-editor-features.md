@@ -4,7 +4,7 @@ title: Editor features
 date: 2010-08-25 05:02
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 <div class="videoWrapper"><object width="425" height="344"><param name="movie" value="//www.youtube.com/v/N9XsXwIe9mQ?fs=1&amp;hl=en_US"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="//www.youtube.com/v/N9XsXwIe9mQ?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object></div>
 

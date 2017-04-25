@@ -5,7 +5,7 @@ subtitle: Project Mercury - 3d mesh editor with bare hands
 date: 2013-02-22 09:32
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [Mercury, prototype]
 ---
 I participated in Intel Perceptual Computing Challenge with project Mercury, Digital Sculpting Application - voxel-based 3D mesh edition with bare hands.
 

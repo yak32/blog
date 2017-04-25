@@ -4,7 +4,7 @@ title: Site moved to Amazon EC2
 date: 2012-08-14 15:42
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [personal]
 ---
 <a href="/blog/images/uploads/2012/08/AroundApp.png"><img class="image featured" title="AroundApp" src="/blog/images/uploads/2012/08/AroundApp.png" alt=""/></a>
 

@@ -4,7 +4,7 @@ title: Memory management
 date: 2009-12-01 09:47
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine]
 ---
 <a href="http://2.bp.blogspot.com/_LfYx03jjmdk/SxTmMikpqMI/AAAAAAAAAus/R4ZYOjH9OsE/s1600/LIttleZombieSusie2.jpg">
 

@@ -4,7 +4,7 @@ title: Recast dynamic navigation meshes
 date: 2009-12-07 15:59
 author: admin
 comments: true
-categories: [Uncategorized]
+categories: [engine, ai]
 ---
 Some examples of using Recast dynamic navigation meshes in gameplay
 
