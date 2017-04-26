@@ -6,7 +6,7 @@
 name: yak32 blog
 
 # Short bio or description (displayed in the header)
-description: Random stuff about game development.
+description: Yakov’s tech blog with tips and walkthroughs on games technologies and digital life. Main topics covered are game engine and games development, performance & scalability, computer security, database, game engine optimisation. Yakov is a passionate indie game developer living and working in London, UK. His roles as artist, developer and technology enthusiast overlap here on his web log.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png
