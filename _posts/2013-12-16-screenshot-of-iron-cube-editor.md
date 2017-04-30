@@ -8,8 +8,8 @@ comments: true
 image: /blog/images/uploads/2013/12/ironcube_editor.jpg
 categories: [game, iron cube]
 ---
-I am debugging some network issues of Iron Cube, Android version. Saving of network data on client , arrived from server,  became very useful for debugging bugs. You can record gameplay on Android device and playback it on Windows machine in Editor and it helps a lot to fix defects.
+I am debugging some network issues of Iron Cube's Android version. Saving of network data on the client that arrived from the server became very useful for debugging bugs. You can record gameplay on an Android device and play it back on a Windows machine in the Editor and it helps a lot to fix defects.
 
-There is one bug on Android version, when bullet is not disappearing from the scene. Hope to fix it soon.
+There is one bug on the Android version, when bullets are not disappearing from the screen. I hope to fix it soon.
 
 

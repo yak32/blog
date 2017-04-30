@@ -8,17 +8,16 @@ comments: true
 image: /blog/images/uploads/2013/01/iron_cube_android.jpg
 categories: [game, iron cube]
 ---
-Iron Cube, tank multiplayer combat in voxel world, is ported to Android and available on Google Play store for free!
+Iron Cube, a tank multiplayer combat game in a voxel world, is ported to Android and available on the Google Play store for free!
 
 <a href="https://play.google.com/store/apps/details?id=com.glow3d.ironcube"><img alt="" src="/blog/images/en_generic_rgb_wo_60.png" /></a>
 
-The app is available all Android 4.0+ (from Ice Cream Sandwich) devices and tested on Samsung Galaxy 3, Galaxy 4, Galaxy Note 2.
+The game is available on all Android 4.0+ (from Ice Cream Sandwich) devices and was tested on Samsung Galaxy Note 3, Samsung Galaxy Note 4 and Samsung Galaxy Note 2.
 
-Currently there are 3 levels and 2 tanks with different characteristics, M1 tank is more heavy and powerful, but slower than Merk tank. 2 players can play on local Wi-Fi network or using phones, connected by Wi-Fi Direct.
-Also it's possible to compete with AI-controlled bot.To win you should destroy enemy tank 5 times.
-(btw, bot is very smart and it kills me very often). Enemy is usually appear on opposite side of the map. After destroying enemy tank it will be respawn.
+Currently there are 3 levels and 2 tanks with different features, the M1 tank is more heavy and powerful, but slower than the Merk tank. 2 players can play by using local Wi-Fi network or by using phones, connected by Wi-Fi Direct.
+Also it's possible to compete with an AI-controlled bot. To win you should destroy the enemy tanks 5 times (by the way, the bot is very smart and it kills me very often). Enemies usually appear on the opposite side of the map. After destroying an enemy tank it will respawn.
 
-Environment is fully destructible, water is dynamic.
+Environment is fully destructible, the water is dynamic.
 
 Gameplay video:
 <div class="videoWrapper"><iframe src="//www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe></div>

@@ -8,10 +8,10 @@ comments: true
 categories: [voxel, Intel, challenge]
 ---
 <div class="videoWrapper"><iframe src="//www.youtube.com/embed/EzSByIMRiJk?rel=0&amp;wmode=opaque" height="480" width="640" frameborder="0"></iframe></div>
-I participated in Intel Perceptual Computing Challenge, stage 2, improved my first prototype, which <a href="http://glow3d.com/blog/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge/">won</a> First Prize of 1st stage. Intel SDK was improved since June, became more robust. Last time I received camera just before one day before deadline, so didn't have enough time to properly implement gesture support.
+I participated in the Intel Perceptual Computing Challenge, stage 2, where I improved my first prototype, which <a href="http://glow3d.com/blog/challenge/intel/winner/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge.html">won</a> a First Prize of a 1st stage. Intel SDK was improved since June, becoming more robust. Last time I received a camera one day before my deadline, so didn't have enough time to properly implement gesture support.
 
-In current demo, I added several new gestures - size of brush can be changed by "zoom" gesture (moving open hands), undo of previous operation is implemented by "circle" gesture, provided by SDK, start of "potter" mode by swipe gesture (up, down, left, right). Also API was changed from DirectX to OpenGL, lighting became more simpler (forward) to optimize rendering. Save/Load of model was added. There are many improvements with robustness and smoothness of brush movement there.
+In the current demo, I added several new gestures - the size of brush can be changed by a "zoom" gesture (moving open hands), undo of previous operation is implemented by a "circle" gesture, provided by SDK, start of "potter" mode by swiping up, down, left, or right. Also API was changed from DirectX to OpenGL and lighting became more simpler (forward) to optimize rendering. Save/Load of the model was added. There are many improvements with robustness and smoothness of brush movement there.
 
-It's became some kind of Paint editor for voxel models.
+It has now become some kind of Paint editor for voxel models.
 
 &nbsp;

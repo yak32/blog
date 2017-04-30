@@ -506,7 +506,8 @@
 	[
 		"/E/projects/sites/blog",
 		"/E/projects/sites/blog/_includes",
-		"/E/projects/sites/blog/_layouts"
+		"/E/projects/sites/blog/_layouts",
+		"/E/projects/sites/blog/_posts"
 	],
 	"file_history":
 	[
@@ -1745,7 +1746,7 @@
 		[
 			[
 				"",
-				"E:\\projects\\sites\\glow3d.com\\glow3d.sublime-project"
+				"E:\\projects\\glow\\glow.sublime-project"
 			]
 		],
 		"width": 475.0

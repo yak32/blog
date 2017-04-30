@@ -8,6 +8,6 @@ comments: true
 image: /blog/images/uploads/2014/09/ambient_vertex_colors.jpg
 categories: [game, iron cube]
 ---
-I made new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but should be faster.
+I made a new implementation for ambient lighting, based on vertex colors. Visually there is no difference, but it should be faster.
 
 
