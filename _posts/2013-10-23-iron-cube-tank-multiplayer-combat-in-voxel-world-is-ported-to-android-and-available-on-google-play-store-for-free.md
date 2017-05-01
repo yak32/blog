@@ -17,7 +17,7 @@ The game is available on all Android 4.0+ (from Ice Cream Sandwich) devices and 
 Currently there are 3 levels and 2 tanks with different features, the M1 tank is more heavy and powerful, but slower than the Merk tank. 2 players can play by using local Wi-Fi network or by using phones, connected by Wi-Fi Direct.
 Also it's possible to compete with an AI-controlled bot. To win you should destroy the enemy tanks 5 times (by the way, the bot is very smart and it kills me very often). Enemies usually appear on the opposite side of the map. After destroying an enemy tank it will respawn.
 
-Environment is fully destructible, the water is dynamic.
+The environment is fully destructible, the water is dynamic.
 
 Gameplay video:
 <div class="videoWrapper"><iframe src="//www.youtube.com/embed/RITw-muIarM" height="450" width="600"></iframe></div>

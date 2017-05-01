@@ -8,4 +8,4 @@ comments: true
 image: /blog/images/uploads/2013/03/iron_cube_lighting.jpg
 categories: [game, iron cube]
 ---
-I implemented new CPU based lighting, which will helps with rendering on mobile devices. Lighting divided into sky and local lighting. Sky emits lights from top to bottom of voxel world, it creates shadows and darken caves. Local lights currently without shadows but uses normals of objects. Lights are calculated in editor and saved to file to help with load time on mobile devices.
+I implemented the new CPU based lighting, which helps with rendering on mobile devices. Lighting is divided into sky and local lighting. Sky emits lights from top to bottom of the voxel world, also it creates shadows and darkens caves. Local light's currently without shadows, but uses normals of objects. Lights are calculated in the editor and then saved to the file to help with loading time on mobile devices.
