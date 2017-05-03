@@ -120,38 +120,22 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "_posts/2017-05-02-new-blog.md",
 			"settings":
 			{
-				"buffer_size": 2568,
+				"buffer_size": 2763,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_site/index.html",
+			"contents": "Searching 190 files for \"facebook\"\n\nE:\\projects\\sites\\blog\\_config.yml:\n   20    dribbble:\n   21    email:\n   22:   facebook: yakov.sum\n   23    flickr:\n   24    github: yak32\n   ..\n   36  # You can find your shortname on the Settings page of your Disqus account\n   37  disqus:\n   38: facebook_comments: yes\n   39  \n   40  paginate: 10\n\nE:\\projects\\sites\\blog\\README.md:\n   78  ✓ Syntax highlighting\n   79  ✓ Disqus commenting\n   80: ✓ Facebook commenting\n   81  ✓ Google Analytics integration\n   82  ✓ SVG social icons for your footer\n\nE:\\projects\\sites\\blog\\_includes\\fb.html:\n    1: {% if site.facebook_comments %}\n    2  <div class=\"comments\">\n    3  \t<div id=\"fb-root\"></div>\n    .\n    6  \t  if (d.getElementById(id)) return;\n    7  \t  js = d.createElement(s); js.id = id;\n    8: \t  js.src = \"//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.9&appId=268816753588999\";\n    9  \t  fjs.parentNode.insertBefore(js, fjs);\n   10: \t}(document, 'script', 'facebook-jssdk'));</script>\n   11: \t<noscript>Please enable JavaScript to view the comments powered by Facebook.</a></noscript>\n   12  </div>\n   13  {% endif %}\n\nE:\\projects\\sites\\blog\\_includes\\svg-icons.html:\n    1  {% if site.footer-links.dribbble %}<a href=\"https://dribbble.com/{{ site.footer-links.dribbble }}\"><i class=\"svg-icon dribbble\"></i></a>{% endif %}\n    2  {% if site.footer-links.email %}<a href=\"mailto:{{ site.footer-links.email }}\"><i class=\"svg-icon email\"></i></a>{% endif %}\n    3: {% if site.footer-links.facebook %}<a href=\"https://www.facebook.com/{{ site.footer-links.facebook }}\"><i class=\"svg-icon facebook\"></i></a>{% endif %}\n    4  {% if site.footer-links.flickr %}<a href=\"https://www.flickr.com/{{ site.footer-links.flickr }}\"><i class=\"svg-icon flickr\"></i></a>{% endif %}\n    5  {% if site.footer-links.github %}<a href=\"https://github.com/{{ site.footer-links.github }}\"><i class=\"svg-icon github\"></i></a>{% endif %}\n\nE:\\projects\\sites\\blog\\_layouts\\default.html:\n  159                  <ul class=\"icons\">\n  160                    <li><a href=\"https://www.twitter.com/{{ site.footer-links.twitter }}\" class=\"fa-twitter\"><span class=\"label\">Twitter</span></a></li>\n  161:                   <li><a href=\"https://www.facebook.com/{{ site.footer-links.facebook }}\" class=\"fa-facebook\"><span class=\"label\">Facebook</span></a></li>\n  162                    <li><a href=\"https://instagram.com/{{ site.footer-links.instagram }}\" class=\"fa-instagram\"><span class=\"label\">Instagram</span></a></li>\n  163                    <!-- <li><a href=\"#\" class=\"fa-rss\"><span class=\"label\">RSS</span></a></li>\n\nE:\\projects\\sites\\blog\\_layouts\\post.html:\n   18  \t\tWritten on {{ page.date | date: \"%B %e, %Y\" }}\n   19  \t</div>\n   20: \t{% if site.facebook_comments %}\n   21  \t\t<div class=\"fb-like\" data-href=\"http://www.glow3d.com/blog/{{ page.url }}\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n   22  \n\nE:\\projects\\sites\\blog\\_posts\\2017-05-02-new-blog.md:\n   17  Jekyll is relatively mature technology, started in 2008, so it's easy to find templates for a website. I liked design by company [html5up](https://html5up.net/) and it's under [Creative Commons license](https://html5up.net/license). I started from [simple Jekyll-based blog template Jekyll-Now](https://github.com/barryclark/jekyll-now) and applied html5up theme on top of it day later. Additional pain was porting of my old blog, exported from WordPress to Markdown but I used some scripts. [This link](https://vitobotta.com/2011/03/28/migrating-from-wordpress-to-jekyll-part-2-everything-you-need-to-know/) is useful to port WordPress blogs to Jekyll.\n   18  \n   19: I used Disqus for comments originally but after [this article](http://donw.io/post/github-comments/) (shortly - 105 additional network requests and a ton of tracking for some shady sites) replaced it with Facebook comments. The website and blog source can be checked on my GitHub account [here](https://github.com/yak32/).\n   20  \n   21  I hope that no exciting new technology will appear soon and I will not port this site to it again.\n\nE:\\projects\\sites\\blog\\_sass\\_svg-icons.scss:\n    6    &.dribbble      { background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPjxwYXRoIGQ9Ik0wLjIyNDU4MDY4OCwzMCBDMC4yMjQ1ODA2ODgsMTMuNDMxNDU2NyAxMy40NTQ5NDEsMCAyOS43NzU0MTkzLDAgQzQ2LjA5NTg5NzYsMCA1OS4zMjYyNTc5LDEzLjQzMTQ1NjcgNTkuMzI2MjU3OSwzMCBDNTkuMzI2MjU3OSw0Ni41Njg1NDMzIDQ2LjA5NTg5NzYsNjAgMjkuNzc1NDE5Myw2MCBDMTMuNDU0OTQxLDYwIDAuMjI0NTgwNjg4LDQ2LjU2ODU0MzMgMC4yMjQ1ODA2ODgsMzAgWiBNMC4yMjQ1ODA2ODgsMzAiIGZpbGw9IiNFQTRDODkiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD48cGF0aCBkPSJNNDYuODIwMTQwMiwyOS44MzA2MzA3IEM0Ni44MjAxNDAyLDMwLjk5MTA2NjIgNDYuNzAzOTM4MSwzMi4xNDk4OTIgNDYuNDc1Njk1OCwzMy4yNzk0NzczIEM0Ni4yNTMxMzQ4LDM0LjM4MjIzNjMgNDUuOTIzNDg4MSwzNS40NjQ4NzU3IDQ1LjQ5MTY0NDQsMzYuNDk5ODMxNCBDNDUuMDY5NzA5OSwzNy41MTY0NzgzIDQ0LjU0NjM3MSwzOC40OTYxNzIgNDMuOTM0ODQwMiwzOS40MDk4MDYyIEM0My4zMzI0MjU4LDQwLjMxNzY3MjcgNDIuNjM4NDUwMiw0MS4xNjk0MDUzIDQxLjg3NjEwMSw0MS45NDU4MjM0IEM0MS4xMTIxMDAzLDQyLjcxODg4ODEgNDAuMjcxNDY4Myw0My40MjI0NzI5IDM5LjM3ODkxMiw0NC4wMzc1MzEyIEMzOC40NzczMDUzLDQ0LjY1NDkzNjcgMzcuNTEyMjc5Niw0NS4xODYyMzAxIDM2LjUxMTcxMjgsNDUuNjE3MTkzNCBDMzUuNDkyMjUyNSw0Ni4wNTM5MjQ0IDM0LjQyNDg5NzUsNDYuMzg4NTgxNSAzMy4zNDExNTk0LDQ2LjYxNDQ1ODMgQzMyLjIyODYxODUsNDYuODQ3MTA4OCAzMS4wODQ2MzIzLDQ2Ljk2NTg4MTkgMjkuOTQxNTcwOSw0Ni45NjU4ODE5IEMyOC43OTc2NTA4LDQ2Ljk2NTg4MTkgMjcuNjUzNzMwNyw0Ni44NDcxMDg4IDI2LjU0Mjc3NTIsNDYuNjE0NDU4MyBDMjUuNDU3Mzg1NSw0Ni4zODg1ODE1IDI0LjM5MDA5NjcsNDYuMDUzOTI0NCAyMy4zNzE0MjkxLDQ1LjYxNzE5MzQgQzIyLjM3MDkyODQsNDUuMTg2MjMwMSAyMS40MDQ5Nzc4LDQ0LjY1NDkzNjcgMjAuNTAzMzcxMSw0NC4wMzc1MzEyIEMxOS42MTA4MTQ4LDQzLjQyMjU0IDE4Ljc3MDE4MjgsNDIuNzE4ODg4MSAxOC4wMDc4MzM2LDQxLjk0NTgyMzQgQzE3LjI0NDY5MTcsNDEuMTY5NDA1MyAxNi41NTA3MTYxLDQwLjMxNzY3MjcgMTUuOTQ3NDQyOSwzOS40MDk4MDYyIEMxNS4zMzkyMTUxLDM4LjQ5NjE3MiAxNC44MTUwMTc1LDM3LjUxNjQxMTIgMTQuMzkxNDMxNCwzNi40OTk4MzE0IEMxMy45NTk1MjE2LDM1LjQ2NDg3NTcgMTMuNjI5MDgyMywzNC4zODIxNjkyIDEzLjQwNTcyODUsMzMuMjc5NDc3MyBDMTMuMTc5OTMwNCwzMi4xNDk4OTIgMTMuMDY0NTIxMSwzMC45OTEwNjYyIDEzLjA2NDUyMTEsMjkuODMwNjMwNyBDMTMuMDY0NTIxMSwyOC42NjkzMjM1IDEzLjE3OTg2NDQsMjcuNTA4MDE2MiAxMy40MDU3OTQ1LDI2LjM4MDkxMjMgQzEzLjYyOTE0ODMsMjUuMjc4MTUzMyAxMy45NTk1ODc3LDI0LjE5MzgzNzMgMTQuMzkxNDk3NSwyMy4xNjA1NTgyIEMxNC44MTUwODM1LDIyLjE0MzE3MzYgMTUuMzM5MjgxMiwyMS4xNjI2MDggMTUuOTQ3NTA5LDIwLjI0ODkwNjggQzE2LjU1MDc4MjIsMTkuMzQwMzAyNSAxNy4yNDQ3NTc3LDE4LjQ5MDE3OTUgMTguMDA3ODk5NiwxNy43MTI4ODk2IEMxOC43NzAyNDg4LDE2LjkzOTc1NzggMTkuNjEwODgwOCwxNi4yMzc4NDk2IDIwLjUwMzQzNzEsMTUuNjIzNzMwMyBDMjEuNDA1MDQzOCwxNS4wMDM3MDkyIDIyLjM3MDk5NDQsMTQuNDcyNDgyOCAyMy4zNzE0OTUxLDE0LjA0MDcxNDcgQzI0LjM5MDE2MjcsMTMuNjAzMDQ0OSAyNS40NTczODU1LDEzLjI2NzU4MjkgMjYuNTQyODQxMywxMy4wNDMzODI4IEMyNy42NTM3OTY3LDEyLjgxMjQ3NiAyOC43OTc3MTY5LDEyLjY5NTMxMjUgMjkuOTQxNjM3LDEyLjY5NTMxMjUgQzMxLjA4NDY5ODMsMTIuNjk1MzEyNSAzMi4yMjg2MTg1LDEyLjgxMjQ3NiAzMy4zNDEyMjU1LDEzLjA0MzM4MjggQzM0LjQyNDk2MzYsMTMuMjY3NjUgMzUuNDkyMjUyNSwxMy42MDMxMTIgMzYuNTExNzc4OSwxNC4wNDA3MTQ3IEMzNy41MTIyNzk2LDE0LjQ3MjQxNTggMzguNDc3MzcxNCwxNS4wMDM3MDkyIDM5LjM3ODk3ODEsMTUuNjIzNzMwMyBDNDAuMjcxNTM0NCwxNi4yMzc4NDk2IDQxLjExMjIzMjQsMTYuOTM5NzU3OCA0MS44NzYxNjcxLDE3LjcxMjg4OTYgQzQyLjYzODUxNjMsMTguNDkwMTc5NSA0My4zMzI0OTE4LDE5LjM0MDMwMjUgNDMuOTM0OTA2MiwyMC4yNDg5MDY4IEM0NC41NDYzNzEsMjEuMTYyNjA4IDQ1LjA2OTcwOTksMjIuMTQzMjQwNyA0NS40OTE2NDQ0LDIzLjE2MDU1ODIgQzQ1LjkyMzQ4ODEsMjQuMTkzODM3MyA0Ni4yNTMxMzQ4LDI1LjI3ODE1MzMgNDYuNDc1Njk1OCwyNi4zODA5MTIzIEM0Ni43MDM5MzgxLDI3LjUwODAxNjIgNDYuODIwMTQwMiwyOC42NjkzMjM1IDQ2LjgyMDE0MDIsMjkuODMwNjMwNyBaIE0yMy43OTE3MTIsMTYuNTk1MTA3OSBDMTkuNzcyMjY5LDE4LjUyMjAzNTYgMTYuNzcyMzUyMywyMi4yODIwNjY0IDE1LjgzNjkyMjEsMjYuODEzNTUyMyBDMTYuMjE2OTA3NiwyNi44MTY5MDU2IDIyLjIyMzM0NzEsMjYuODkzODk2OCAyOS4xNDM3NDY4LDI1LjAyNzE5NCBDMjYuNjQ5MDY4MSwyMC41Mjc0OTcxIDIzLjk4Mzc1MjcsMTYuODU1Mzg5MyAyMy43OTE3MTIsMTYuNTk1MTA3OSBaIE0zMC4zMzc5Mzk3LDI3LjI4MDQ2MjcgQzIyLjkxNjQ2MzgsMjkuNTM2MDc4OCAxNS43OTQ5MDcsMjkuMzczNzgwMSAxNS41Mzk0NDc0LDI5LjM2Mzc4NzMgQzE1LjUzNTI4NTUsMjkuNTIxMDU2MSAxNS41Mjc4ODY2LDI5LjY3MzI5NDkgMTUuNTI3ODg2NiwyOS44MzA2MzA3IEMxNS41Mjc4ODY2LDMzLjU4OTc4OTYgMTYuOTI0ODIyMSwzNy4wMTY4Mzk5IDE5LjIyMDkyMDEsMzkuNjA4MTE5MSBDMTkuMjE1OTY1NCwzOS42MDA1NDA2IDIzLjE2MDQyODgsMzIuNDk2Mjg1NiAzMC45Mzg3Njg2LDI5Ljk0Mjc2NDMgQzMxLjEyNjY0NzQsMjkuODc5MTg2MiAzMS4zMTc4OTUzLDI5LjgyMjI0NzUgMzEuNTA3NDI1NiwyOS43NjcwNTI2IEMzMS4xNDU2NzMsMjguOTM1NDM5NiAzMC43NTA4MjM3LDI4LjEwMjA4MjkgMzAuMzM3OTM5NywyNy4yODA0NjI3IFogTTM5LjQ2MDU2NCwxOC44NDgzMDk2IEMzNi45MjI5NDU0LDE2LjU3NjY2NDkgMzMuNTkwOTM3OCwxNS4xOTg3MzU4IDI5Ljk0MTU3MDksMTUuMTk4NzM1OCBDMjguNzcwNDMzNSwxNS4xOTg3MzU4IDI3LjYzMzkxMjIsMTUuMzQyNjU4NSAyNi41NDUyMTk1LDE1LjYwODcwNzYgQzI2Ljc2MTEwODMsMTUuOTAzMjU5NSAyOS40Njg1MDQ5LDE5LjU0OTQ4IDMxLjkzMzUyMTksMjQuMTQ0NDc3IEMzNy4zNzIxNjMyLDIyLjA3NDU2NTUgMzkuNDI1MDg5LDE4LjkwMTgyNzkgMzkuNDYwNTY0LDE4Ljg0ODMwOTYgWiBNMzIuNDg5ODI1NCwzMi4xOTE3NDA5IEMzMi40NTc3MTk2LDMyLjIwMjUzODUgMzIuNDI1NjEzNywzMi4yMTE4NjA2IDMyLjM5NDIzNDUsMzIuMjIzNTMgQzIzLjg4OTkyNDgsMzUuMjMzMzIxNiAyMS4xMTI3MjcyLDQxLjI5ODkxNTEgMjEuMDgyNjc5Myw0MS4zNjUxMjg2IEMyMy41Mjk2NDYyLDQzLjI5Njk5MzIgMjYuNTk4Nzk1Myw0NC40NjI1MjU2IDI5Ljk0MTU3MDksNDQuNDYyNTI1NiBDMzEuOTM3NjE3OCw0NC40NjI1MjU2IDMzLjgzODkzMjUsNDQuMDQ5OTM4MyAzNS41Njg4MTc3LDQzLjMwMjg5NSBDMzUuMzU1MzczMSw0Mi4wMjQ0MjQyIDM0LjUxODA0NDIsMzcuNTQzMTcwNCAzMi40ODk4MjU0LDMyLjE5MTc0MDkgWiBNMzcuOTk2MDQ3Niw0MS45NjU4NzYgQzQxLjIzMjQ2NDMsMzkuNzQ4Njg4NSA0My41MzEwMDY1LDM2LjIyNzk0NzYgNDQuMTcyMTk5LDMyLjE0OTgyNDkgQzQzLjg3NTUxNywzMi4wNTI3ODExIDM5Ljg0MjkyNzcsMzAuNzU2NzM5MSAzNS4xOTA1NDk4LDMxLjUxMzk3NjMgQzM3LjA4MTE2MjUsMzYuNzg4NDgxNiAzNy44NDkzMjUxLDQxLjA4NDAzMDkgMzcuOTk2MDQ3Niw0MS45NjU4NzYgWiBNMzMuMDQyODkxOSwyNi4zMjQ5MTI2IEMzMy4zNzc0MjcxLDI3LjAyMjcyOTggMzMuNzAxMzkyNSwyNy43MzI5NTQxIDM0LjAwMDUxODgsMjguNDQ2NzMyOSBDMzQuMTA2ODc3NywyOC43MDI3ODkyIDM0LjIxMDcyNjMsMjguOTUzODE1NiAzNC4zMTIwNjQ2LDI5LjIwNDc3NDkgQzM5LjI2MzU2ODcsMjguNTcyMjEyNSA0NC4xNDE3NDQ2LDI5LjYzNjQ3NTkgNDQuMzUwMzAwNiwyOS42Nzk5MzQ0IEM0NC4zMTczMzYsMjYuMjExMTAyMyA0My4wOTUwNjcsMjMuMDI3NTAwMSA0MS4wNzI2NjE2LDIwLjUzNTA3NTUgQzQxLjA0NTQ0NDMsMjAuNTc0MzA4OSAzOC43MzM2ODk4LDIzLjk2NTQxMiAzMy4wNDI4OTE5LDI2LjMyNDkxMjYgWiBNMzMuMDQyODkxOSwyNi4zMjQ5MTI2IiBpZD0iUGF0aCIgZmlsbD0iI0ZGRkZGRiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPjxwYXRoIGQ9Ik01OS4zMjYyNTc5LDMwIEM1OS4zMjYyNTc5LDQ2LjU2ODU0MzMgNDYuMDk1ODk3Niw2MCAyOS43NzU0MTkzLDYwIEMyMy43MjI1NDA1LDYwIDE4LjA5NDcwNTEsNTguMTUyNTEzNCAxMy40MDkzMjQ0LDU0Ljk4Mjc3NTQgTDQ3LjI2OTU0NTgsNS44MTk0MTEwMyBDNTQuNTgxNDQzOCwxMS4yODA2NTAzIDU5LjMyNjI1NzksMjAuMDc3Nzk3MyA1OS4zMjYyNTc5LDMwIFogTTU5LjMyNjI1NzksMzAiIGlkPSJyZWZsZWMiIGZpbGwtb3BhY2l0eT0iMC4wOCIgZmlsbD0iIzAwMDAwMCIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPjwvc3ZnPgo=); }\n    7    &.email         { background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPg0KICAgIDxwYXRoIGQ9Ik0wLjIyNDU4MDY4OCwzMCBDMC4yMjQ1ODA2ODgsMTMuNDMxNDU2NyAxMy40NTQ5NDEsMCAyOS43NzU0MTkzLDAgQzQ2LjA5NTg5NzYsMCA1OS4zMjYyNTc5LDEzLjQzMTQ1NjcgNTkuMzI2MjU3OSwzMCBDNTkuMzI2MjU3OSw0Ni41Njg1NDMzIDQ2LjA5NTg5NzYsNjAgMjkuNzc1NDE5Myw2MCBDMTMuNDU0OTQxLDYwIDAuMjI0NTgwNjg4LDQ2LjU2ODU0MzMgMC4yMjQ1ODA2ODgsMzAgWiBNMC4yMjQ1ODA2ODgsMzAiIGZpbGw9IiNGRkZGRkYiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4NCiAgICA8cGF0aCBkPSJNMzUuMDM4NDMyNCwzMS42Mzg0MDA2IEw0Ny4yMTMxMTQ4LDQwLjU3NjQyNjQgTDQ3LjIxMzExNDgsMjAgTDM1LjAzODQzMjQsMzEuNjM4NDAwNiBaIE0xMy43NzA0OTE4LDIwIEwxMy43NzA0OTE4LDQwLjU3NjQyNjQgTDI1Ljk0NDkxMjksMzEuNjM3MTQ5MSBMMTMuNzcwNDkxOCwyMCBaIE0zMC40OTE4MDMzLDM1Ljk4NDQ4OTEgTDI3LjU4NTEwMzcsMzMuMjA2NTIxNyBMMTMuNzcwNDkxOCw0MiBMNDcuMjEzMTE0OCw0MiBMMzMuMzk4MTc2MiwzMy4yMDY1MjE3IEwzMC40OTE4MDMzLDM1Ljk4NDQ4OTEgWiBNNDYuMjA5ODM2MSwyMCBMMTQuNzczNzcwNSwyMCBMMzAuNDkxODAzMywzMi40NTQ5MzA0IEw0Ni4yMDk4MzYxLDIwIFogTTQ2LjIwOTgzNjEsMjAiIGlkPSJTaGFwZSIgZmlsbD0iIzMzMzMzMyIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPg0KICAgIDxwYXRoIGQ9Ik01OS4zMjYyNTc5LDMwIEM1OS4zMjYyNTc5LDQ2LjU2ODU0MzMgNDYuMDk1ODk3Niw2MCAyOS43NzU0MTkzLDYwIEMyMy43MjI1NDA1LDYwIDE4LjA5NDcwNTEsNTguMTUyNTEzNCAxMy40MDkzMjQ0LDU0Ljk4Mjc3NTQgTDQ3LjI2OTU0NTgsNS44MTk0MTEwMyBDNTQuNTgxNDQzOCwxMS4yODA2NTAzIDU5LjMyNjI1NzksMjAuMDc3Nzk3MyA1OS4zMjYyNTc5LDMwIFogTTU5LjMyNjI1NzksMzAiIGlkPSJyZWZsZWMiIGZpbGwtb3BhY2l0eT0iMC4wOCIgZmlsbD0iIzAwMDAwMCIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPg0KPC9zdmc+); }\n    8:   &.facebook      { background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPg0KICAgIDxwYXRoIGQ9Ik0wLjExMjI5MDM0NCwzMCBDMC4xMTIyOTAzNDQsMTMuNDMxNDU2NyAxMy4zNDI2NTA2LDAgMjkuNjYzMTI5LDAgQzQ1Ljk4MzYwNzMsMCA1OS4yMTM5Njc2LDEzLjQzMTQ1NjcgNTkuMjEzOTY3NiwzMCBDNTkuMjEzOTY3Niw0Ni41Njg1NDMzIDQ1Ljk4MzYwNzMsNjAgMjkuNjYzMTI5LDYwIEMxMy4zNDI2NTA2LDYwIDAuMTEyMjkwMzQ0LDQ2LjU2ODU0MzMgMC4xMTIyOTAzNDQsMzAgWiBNMC4xMTIyOTAzNDQsMzAiIGZpbGw9IiMzQjU5OTgiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4NCgk8cGF0aCBkPSJNMzIuMTM0MTQ1Nyw0Ni4zMTk2NzI5IEwzMi4xMzQxNDU3LDI5Ljk5ODA4OTEgTDM2LjU2NTc1NjUsMjkuOTk4MDg5MSBMMzcuMTUzMDQwNiwyNC4zNzM1ODA5IEwzMi4xMzQxNDU3LDI0LjM3MzU4MDkgTDMyLjE0MTY3NSwyMS41NTg0NjA0IEMzMi4xNDE2NzUsMjAuMDkxNTAyIDMyLjI3ODc3MDcsMTkuMzA1NDcyMiAzNC4zNTEyMDYsMTkuMzA1NDcyMiBMMzcuMTIxNjY4NiwxOS4zMDU0NzIyIEwzNy4xMjE2Njg2LDEzLjY4MDMyNzEgTDMyLjY4OTQzMDQsMTMuNjgwMzI3MSBDMjcuMzY1NTk5NSwxMy42ODAzMjcxIDI1LjQ5MTc0OSwxNi40MDg4MTg3IDI1LjQ5MTc0OSwyMC45OTcyODM1IEwyNS40OTE3NDksMjQuMzc0MjE3OSBMMjIuMTczMjE3MywyNC4zNzQyMTc5IEwyMi4xNzMyMTczLDI5Ljk5ODcyNiBMMjUuNDkxNzQ5LDI5Ljk5ODcyNiBMMjUuNDkxNzQ5LDQ2LjMxOTY3MjkgTDMyLjEzNDE0NTcsNDYuMzE5NjcyOSBaIE0zMi4xMzQxNDU3LDQ2LjMxOTY3MjkiIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+DQoJPHBhdGggZD0iTTU5LjIxMzk2NzYsMzAgQzU5LjIxMzk2NzYsNDYuNTY4NTQzMyA0NS45ODM2MDczLDYwIDI5LjY2MzEyOSw2MCBDMjMuNjEwMjUwMiw2MCAxNy45ODI0MTQ3LDU4LjE1MjUxMzQgMTMuMjk3MDM0MSw1NC45ODI3NzU0IEw0Ny4xNTcyNTU0LDUuODE5NDExMDMgQzU0LjQ2OTE1MzQsMTEuMjgwNjUwMyA1OS4yMTM5Njc2LDIwLjA3Nzc5NzMgNTkuMjEzOTY3NiwzMCBaIE01OS4yMTM5Njc2LDMwIiBpZD0icmVmbGVjIiBmaWxsLW9wYWNpdHk9IjAuMDgiIGZpbGw9IiMwMDAwMDAiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4NCjwvc3ZnPg==); }\n    9    &.flickr        { background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPg0KICAgIDxwYXRoIGQ9Ik0wLjMzNjg3MTAzMiwyOS41MDgxOTY3IEMwLjMzNjg3MTAzMiwxMy4yMTEyNjg5IDEzLjU2NzIzMTMsMCAyOS44ODc3MDk3LDAgQzQ2LjIwODE4OCwwIDU5LjQzODU0ODMsMTMuMjExMjY4OSA1OS40Mzg1NDgzLDI5LjUwODE5NjcgQzU5LjQzODU0ODMsNDUuODA1MTI0NiA0Ni4yMDgxODgsNTkuMDE2MzkzNCAyOS44ODc3MDk3LDU5LjAxNjM5MzQgQzEzLjU2NzIzMTMsNTkuMDE2MzkzNCAwLjMzNjg3MTAzMiw0NS44MDUxMjQ2IDAuMzM2ODcxMDMyLDI5LjUwODE5NjcgWiBNMC4zMzY4NzEwMzIsMjkuNTA4MTk2NyIgZmlsbD0iI0ZGMDA4NCIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPg0KICAgIDxwYXRoIGQ9Ik0yMi40OTk5NzM1LDIzLjYwNjU1NzQgQzE4Ljk2Mzc2MzUsMjMuNjA2NTU3NCAxNi4wOTczMTgzLDI2LjQ2ODgwMTcgMTYuMDk3MzE4MywyOS45OTk5NDcyIEMxNi4wOTczMTgzLDMzLjUzMTE0NTUgMTguOTYzNzYzNSwzNi4zOTMzODk4IDIyLjQ5OTk3MzUsMzYuMzkzNDQyNiBDMjYuMDM2MjM2NSwzNi4zOTM0NDI2IDI4LjkwMjY4MTcsMzMuNTMxMTQ1NSAyOC45MDI2ODE3LDI5Ljk5OTk0NzIgQzI4LjkwMjY4MTcsMjYuNDY4ODAxNyAyNi4wMzYyODk0LDIzLjYwNjUwNDUgMjIuNDk5OTczNSwyMy42MDY1NTc0IFogTTIyLjQ5OTk3MzUsMjMuNjA2NTU3NCIgaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4NCiAgICA8cGF0aCBkPSJNMzEuODU3NzY1NiwyOS45OTk5NDcyIEMzMS44NTc3NjU2LDMzLjUzMTE0NTUgMzQuNzI0MjEwOCwzNi4zOTM0NDI2IDM4LjI2MDQyMDgsMzYuMzkzNDQyNiBDNDEuNzk2NzM2NiwzNi4zOTM0NDI2IDQ0LjY2MzEyOSwzMy41MzExNDU1IDQ0LjY2MzEyOSwyOS45OTk5NDcyIEM0NC42NjMxMjksMjYuNDY4ODU0NSA0MS43OTY2ODM3LDIzLjYwNjU1NzQgMzguMjYwNDIwOCwyMy42MDY1NTc0IEMzNC43MjQxNTc5LDIzLjYwNjU1NzQgMzEuODU3NzY1NiwyNi40Njg4NTQ1IDMxLjg1Nzc2NTYsMjkuOTk5OTQ3MiBaIE0zMy44MjY0MDAxLDMwIEMzMy44MjY0MDAxLDI3LjU1NTQ2MDggMzUuODA4MDkwNCwyNS41NzM3NzA1IDM4LjI1MjYyOTYsMjUuNTczNzcwNSBDNDAuNjk3MTY4OCwyNS41NzM3NzA1IDQyLjY3ODg1OTEsMjcuNTU1NDYwOCA0Mi42Nzg4NTkxLDMwIEM0Mi42Nzg4NTkxLDMyLjQ0NDUzOTIgNDAuNjk3MTY4OCwzNC40MjYyMjk1IDM4LjI1MjYyOTYsMzQuNDI2MjI5NSBDMzUuODA4MDkwNCwzNC40MjYyMjk1IDMzLjgyNjQwMDEsMzIuNDQ0NTM5MiAzMy44MjY0MDAxLDMwIFogTTMzLjgyNjQwMDEsMzAiIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+DQogICAgPHBhdGggZD0iTTU5LjIxMzk2NzYsMjkuNjg1ODI1MiBDNTkuMjEzOTY3Niw0NS45ODI3NTMxIDQ1Ljk4MzYwNzMsNTkuMTk0MDIxOSAyOS42NjMxMjksNTkuMTk0MDIxOSBDMjMuNjEwMjUwMiw1OS4xOTQwMjE5IDE3Ljk4MjQxNDcsNTcuMzc2ODIyIDEzLjI5NzAzNDEsNTQuMjU5MDQ2OSBMNDcuMTU3MjU1NCw1LjkwMTYzOTM0IEM1NC40NjkxNTM0LDExLjI3MzM1MDEgNTkuMjEzOTY3NiwxOS45MjYyODE2IDU5LjIxMzk2NzYsMjkuNjg1ODI1MiBaIE01OS4yMTM5Njc2LDI5LjY4NTgyNTIiIGlkPSJyZWZsZWMiIGZpbGwtb3BhY2l0eT0iMC4wOCIgZmlsbD0iIzAwMDAwMCIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPg0KPC9zdmc+); }\n   10    &.github        { background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPg0KICAgIDxwYXRoIGQ9Ik0wLjMzNjg3MTAzMiwzMCBDMC4zMzY4NzEwMzIsMTMuNDMxNDU2NyAxMy41NjcyMzEzLDAgMjkuODg3NzA5NywwIEM0Ni4yMDgxODgsMCA1OS40Mzg1NDgzLDEzLjQzMTQ1NjcgNTkuNDM4NTQ4MywzMCBDNTkuNDM4NTQ4Myw0Ni41Njg1NDMzIDQ2LjIwODE4OCw2MCAyOS44ODc3MDk3LDYwIEMxMy41NjcyMzEzLDYwIDAuMzM2ODcxMDMyLDQ2LjU2ODU0MzMgMC4zMzY4NzEwMzIsMzAgWiBNMC4zMzY4NzEwMzIsMzAiIGlkPSJHaXRodWIiIGZpbGw9IiMzMzMzMzMiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4NCiAgICA8cGF0aCBkPSJNMTguMjE4NDI0NSwzMS45MzU1NTY2IEMxOS42MDY4NTA2LDM0LjQ1MDc5MDIgMjIuMjg0NTI5NSwzNi4wMTU2NzY0IDI2LjgwMDcyODcsMzYuNDQ4NTE3MyBDMjYuMTU2MTAyMywzNi45MzY1MzM1IDI1LjM4MTc4NzcsMzcuODYzMDk4NCAyNS4yNzQ5ODU3LDM4LjkzNDI2MDcgQzI0LjQ2NDQzNDgsMzkuNDU3NDc0OSAyMi44MzQ3NTA2LDM5LjYyOTY2IDIxLjU2NzQzMDMsMzkuMjMxMDY1OSBDMTkuNzkxODQ2OSwzOC42NzE3MDIzIDE5LjExMTkzNzcsMzUuMTY0MjY0MiAxNi40NTMzMzA2LDM1LjY2MzY5NTkgQzE1Ljg3NzM2MjYsMzUuNzcyMTQ0IDE1Ljk5MTc5MzMsMzYuMTUwNzYwOSAxNi40ODk1NjcsMzYuNDcyMjk5OCBDMTcuMzAwMTE3OSwzNi45OTU1MTQxIDE4LjA2Mjk4OTQsMzcuNjUwMDA3NSAxOC42NTEzNTQxLDM5LjA0MzY2IEMxOS4xMDMzNTU0LDQwLjExMzg3MSAyMC4wNTMxMzA0LDQyLjAyNTk4MTMgMjMuMDU2OTM2OSw0Mi4wMjU5ODEzIEMyNC4yNDg5MjM2LDQyLjAyNTk4MTMgMjUuMDg0MjY3OSw0MS44ODMyODY1IDI1LjA4NDI2NzksNDEuODgzMjg2NSBDMjUuMDg0MjY3OSw0MS44ODMyODY1IDI1LjEwNzE1NCw0NC42MTQ0NjQ5IDI1LjEwNzE1NCw0NS42NzYxMTQyIEMyNS4xMDcxNTQsNDYuOTAwNDM1NSAyMy40NTA3NjkzLDQ3LjI0NTc1NjkgMjMuNDUwNzY5Myw0Ny44MzQ2MTA4IEMyMy40NTA3NjkzLDQ4LjA2NzY3OSAyMy45OTkwODMyLDQ4LjA4OTU1ODggMjQuNDM5NjQxNSw0OC4wODk1NTg4IEMyNS4zMTAyNjg1LDQ4LjA4OTU1ODggMjcuMTIyMDg4Myw0Ny4zNjQ2NjkzIDI3LjEyMjA4ODMsNDYuMDkxODMxNyBDMjcuMTIyMDg4Myw0NS4wODA2MDEyIDI3LjEzODI5OTMsNDEuNjgwNjU5OSAyNy4xMzgyOTkzLDQxLjA4NjA5ODIgQzI3LjEzODI5OTMsMzkuNzg1NjczIDI3LjgzNzI4MDMsMzkuMzczNzYwNyAyNy44MzcyODAzLDM5LjM3Mzc2MDcgQzI3LjgzNzI4MDMsMzkuMzczNzYwNyAyNy45MjQwNTcsNDYuMzE1Mzg2OSAyNy42NzA0MDIyLDQ3LjI0NTc1NjkgQzI3LjM3Mjg4MjMsNDguMzM5NzUwNCAyNi44MzYwMTE1LDQ4LjE4NDY4ODcgMjYuODM2MDExNSw0OC42NzI3MDQ5IEMyNi44MzYwMTE1LDQ5LjM5ODU0NTggMjkuMDE2ODcwNCw0OC44NTA1OTc4IDI5LjczOTY5MTEsNDcuMjU3MTcyNSBDMzAuMjk4NDk0NSw0Ni4wMTY2NzkxIDMwLjA1NDM3NTYsMzkuMjA3MjgzNCAzMC4wNTQzNzU2LDM5LjIwNzI4MzQgTDMwLjY1MDM2OSwzOS4xOTQ5MTY1IEMzMC42NTAzNjksMzkuMTk0OTE2NSAzMC42ODM3NDQ2LDQyLjMxMjMyMjIgMzAuNjYzNzE5Miw0My43MzczNjc1IEMzMC42NDI3NDAyLDQ1LjIxMjgzMTcgMzAuNTQyNjEzNCw0Ny4wNzkyNzk3IDMxLjQyMDg2OTIsNDcuOTU5MjMwOSBDMzEuOTk3NzkwNyw0OC41Mzc2MjA1IDMzLjg2ODczMyw0OS41NTI2NTYyIDMzLjg2ODczMyw0OC42MjUxNCBDMzMuODY4NzMzLDQ4LjA4NTc1MzYgMzIuODQzNjI0NSw0Ny42NDI0NDg1IDMyLjg0MzYyNDUsNDYuMTgzMTU2NCBMMzIuODQzNjI0NSwzOS40Njg4OTA1IEMzMy42NjE4MDQyLDM5LjQ2ODg5MDUgMzMuNTM4NzkxMSw0MS42NzY4NTQ3IDMzLjUzODc5MTEsNDEuNjc2ODU0NyBMMzMuNTk4ODY3Myw0NS43Nzg4NTQ0IEMzMy41OTg4NjczLDQ1Ljc3ODg1NDQgMzMuNDE4NjM4OSw0Ny4yNzMzNDQ2IDM1LjIxOTAxNTYsNDcuODk5Mjk5MSBDMzUuODU0MTA2MSw0OC4xMjA5NTE3IDM3LjIxMzkyNDUsNDguMTgwODgzNSAzNy4yNzc4MTUsNDcuODA4OTI1NyBDMzcuMzQxNzA1NSw0Ny40MzYwMTY3IDM1LjY0MDUwMjEsNDYuODgxNDA5NiAzNS42MjUyNDQ2LDQ1LjcyMzY3OTEgQzM1LjYxNTcwODgsNDUuMDE3ODE1NSAzNS42NTY3MTMxLDQ0LjYwNTkwMzIgMzUuNjU2NzEzMSw0MS41Mzc5NjUxIEMzNS42NTY3MTMxLDM4LjQ3MDAyNyAzNS4yNDM4MDg5LDM3LjMzNjA3OSAzMy44MDQ4NDI2LDM2LjQzMjM0NTMgQzM4LjI0NTcwODIsMzUuOTc2NjczMiA0MC45OTM5NTI3LDM0Ljg4MDY4MiA0Mi4zMzM3NDU4LDMxLjk0NTA2OTUgQzQyLjQzODM2MTksMzEuOTQ4NDk2NiA0Mi44NzkxNDkxLDMwLjU3Mzc3NDIgNDIuODIxOTgzNSwzMC41NzQyNDgyIEM0My4xMjIzNjQyLDI5LjQ2NTk4NTMgNDMuMjg0NDc0NCwyOC4xNTUwOTU3IDQzLjMxNjg5NjQsMjYuNjAyNTc2NCBDNDMuMzA5MjY3NywyMi4zOTMwNzk5IDQxLjI4OTU2NTQsMjAuOTA0Mjk3NSA0MC45MDE0NTQ2LDIwLjIwNTA5MyBDNDEuNDczNjA4MiwxNy4wMTgyNDI1IDQwLjgwNjA5NTYsMTUuNTY3NTEyMSA0MC40OTYxNzkxLDE1LjA2OTk4MjkgQzM5LjM1MTg3MTksMTQuNjYzNzc4NCAzNi41MTQ5NDM1LDE2LjExNDUwODggMzQuOTY1MzYwOCwxNy4xMzcxNTQ4IEMzMi40MzgzNDksMTYuMzk5ODk4NCAyNy4wOTgyNDg2LDE2LjQ3MTI0NTggMjUuMDk1NzEwOSwxNy4zMjc0MTQ2IEMyMS40MDA1NTIyLDE0LjY4NzU2MDggMTkuNDQ1Njk0LDE1LjA5MTg2MjggMTkuNDQ1Njk0LDE1LjA5MTg2MjggQzE5LjQ0NTY5NCwxNS4wOTE4NjI4IDE4LjE4MjE4ODEsMTcuMzUxMTk3IDE5LjExMTkzNzcsMjAuNjU2OTU5OCBDMTcuODk2MTExMywyMi4yMDI4MjAxIDE2Ljk5MDIwMTQsMjMuMjk2ODEzNiAxNi45OTAyMDE0LDI2LjE5NjM3MTggQzE2Ljk5MDIwMTQsMjcuODI5NzUxNiAxNy4xODI4MjY0LDI5LjI5MTg5NzYgMTcuNjE3NjYzMiwzMC41Njg1NDA0IEMxNy41NjQzNTc3LDMwLjU2ODQwOTMgMTguMjAwODQ5MywzMS45MzU5Nzc3IDE4LjIxODQyNDUsMzEuOTM1NTU2NiBaIE0xOC4yMTg0MjQ1LDMxLjkzNTU1NjYiIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+DQogICAgPHBhdGggZD0iTTU5LjQzODU0ODMsMzAgQzU5LjQzODU0ODMsNDYuNTY4NTQzMyA0Ni4yMDgxODgsNjAgMjkuODg3NzA5Nyw2MCBDMjMuODM0ODMwOCw2MCAxOC4yMDY5OTU0LDU4LjE1MjUxMzQgMTMuNTIxNjE0OCw1NC45ODI3NzU0IEw0Ny4zODE4MzYxLDUuODE5NDExMDMgQzU0LjY5MzczNDEsMTEuMjgwNjUwMyA1OS40Mzg1NDgzLDIwLjA3Nzc5NzMgNTkuNDM4NTQ4MywzMCBaIE01OS40Mzg1NDgzLDMwIiBpZD0icmVmbGVjIiBmaWxsLW9wYWNpdHk9IjAuMDgiIGZpbGw9IiMwMDAwMDAiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4NCjwvc3ZnPg==); }\n\nE:\\projects\\sites\\blog\\assets\\css\\font-awesome.min.css:\n    2   *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome\n    3   *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\n    4:  */@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.6.3');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-fw{width:1.28571429em;text-align:center}.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.fa-ul>li{position:relative}.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}.fa-li.fa-lg{left:-1.85714286em}.fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left{margin-right:.3em}.fa.fa-pull-right{margin-left:.3em}.pull-right{float:right}.pull-left{float:left}.fa.pull-left{margin-right:.3em}.fa.pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.fa-rotate-90{-ms-filter:\"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)\";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-ms-filter:\"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)\";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-ms-filter:\"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)\";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-ms-filter:\"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)\";-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1)}.fa-flip-vertical{-ms-filter:\"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\";-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1)}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical{filter:none}.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}.fa-stack-1x{line-height:inherit}.fa-stack-2x{font-size:2em}.fa-inverse{color:#fff}.fa-glass:before{content:\"\\f000\"}.fa-music:before{content:\"\\f001\"}.fa-search:before{content:\"\\f002\"}.fa-envelope-o:before{content:\"\\f003\"}.fa-heart:before{content:\"\\f004\"}.fa-star:before{content:\"\\f005\"}.fa-star-o:before{content:\"\\f006\"}.fa-user:before{content:\"\\f007\"}.fa-film:before{content:\"\\f008\"}.fa-th-large:before{content:\"\\f009\"}.fa-th:before{content:\"\\f00a\"}.fa-th-list:before{content:\"\\f00b\"}.fa-check:before{content:\"\\f00c\"}.fa-remove:before,.fa-close:before,.fa-times:before{content:\"\\f00d\"}.fa-search-plus:before{content:\"\\f00e\"}.fa-search-minus:before{content:\"\\f010\"}.fa-power-off:before{content:\"\\f011\"}.fa-signal:before{content:\"\\f012\"}.fa-gear:before,.fa-cog:before{content:\"\\f013\"}.fa-trash-o:before{content:\"\\f014\"}.fa-home:before{content:\"\\f015\"}.fa-file-o:before{content:\"\\f016\"}.fa-clock-o:before{content:\"\\f017\"}.fa-road:before{content:\"\\f018\"}.fa-download:before{content:\"\\f019\"}.fa-arrow-circle-o-down:before{content:\"\\f01a\"}.fa-arrow-circle-o-up:before{content:\"\\f01b\"}.fa-inbox:before{content:\"\\f01c\"}.fa-play-circle-o:before{content:\"\\f01d\"}.fa-rotate-right:before,.fa-repeat:before{content:\"\\f01e\"}.fa-refresh:before{content:\"\\f021\"}.fa-list-alt:before{content:\"\\f022\"}.fa-lock:before{content:\"\\f023\"}.fa-flag:before{content:\"\\f024\"}.fa-headphones:before{content:\"\\f025\"}.fa-volume-off:before{content:\"\\f026\"}.fa-volume-down:before{content:\"\\f027\"}.fa-volume-up:before{content:\"\\f028\"}.fa-qrcode:before{content:\"\\f029\"}.fa-barcode:before{content:\"\\f02a\"}.fa-tag:before{content:\"\\f02b\"}.fa-tags:before{content:\"\\f02c\"}.fa-book:before{content:\"\\f02d\"}.fa-bookmark:before{content:\"\\f02e\"}.fa-print:before{content:\"\\f02f\"}.fa-camera:before{content:\"\\f030\"}.fa-font:before{content:\"\\f031\"}.fa-bold:before{content:\"\\f032\"}.fa-italic:before{content:\"\\f033\"}.fa-text-height:before{content:\"\\f034\"}.fa-text-width:before{content:\"\\f035\"}.fa-align-left:before{content:\"\\f036\"}.fa-align-center:before{content:\"\\f037\"}.fa-align-right:before{content:\"\\f038\"}.fa-align-justify:before{content:\"\\f039\"}.fa-list:before{content:\"\\f03a\"}.fa-dedent:before,.fa-outdent:before{content:\"\\f03b\"}.fa-indent:before{content:\"\\f03c\"}.fa-video-camera:before{content:\"\\f03d\"}.fa-photo:before,.fa-image:before,.fa-picture-o:before{content:\"\\f03e\"}.fa-pencil:before{content:\"\\f040\"}.fa-map-marker:before{content:\"\\f041\"}.fa-adjust:before{content:\"\\f042\"}.fa-tint:before{content:\"\\f043\"}.fa-edit:before,.fa-pencil-square-o:before{content:\"\\f044\"}.fa-share-square-o:before{content:\"\\f045\"}.fa-check-square-o:before{content:\"\\f046\"}.fa-arrows:before{content:\"\\f047\"}.fa-step-backward:before{content:\"\\f048\"}.fa-fast-backward:before{content:\"\\f049\"}.fa-backward:before{content:\"\\f04a\"}.fa-play:before{content:\"\\f04b\"}.fa-pause:before{content:\"\\f04c\"}.fa-stop:before{content:\"\\f04d\"}.fa-forward:before{content:\"\\f04e\"}.fa-fast-forward:before{content:\"\\f050\"}.fa-step-forward:before{content:\"\\f051\"}.fa-eject:before{content:\"\\f052\"}.fa-chevron-left:before{content:\"\\f053\"}.fa-chevron-right:before{content:\"\\f054\"}.fa-plus-circle:before{content:\"\\f055\"}.fa-minus-circle:before{content:\"\\f056\"}.fa-times-circle:before{content:\"\\f057\"}.fa-check-circle:before{content:\"\\f058\"}.fa-question-circle:before{content:\"\\f059\"}.fa-info-circle:before{content:\"\\f05a\"}.fa-crosshairs:before{content:\"\\f05b\"}.fa-times-circle-o:before{content:\"\\f05c\"}.fa-check-circle-o:before{content:\"\\f05d\"}.fa-ban:before{content:\"\\f05e\"}.fa-arrow-left:before{content:\"\\f060\"}.fa-arrow-right:before{content:\"\\f061\"}.fa-arrow-up:before{content:\"\\f062\"}.fa-arrow-down:before{content:\"\\f063\"}.fa-mail-forward:before,.fa-share:before{content:\"\\f064\"}.fa-expand:before{content:\"\\f065\"}.fa-compress:before{content:\"\\f066\"}.fa-plus:before{content:\"\\f067\"}.fa-minus:before{content:\"\\f068\"}.fa-asterisk:before{content:\"\\f069\"}.fa-exclamation-circle:before{content:\"\\f06a\"}.fa-gift:before{content:\"\\f06b\"}.fa-leaf:before{content:\"\\f06c\"}.fa-fire:before{content:\"\\f06d\"}.fa-eye:before{content:\"\\f06e\"}.fa-eye-slash:before{content:\"\\f070\"}.fa-warning:before,.fa-exclamation-triangle:before{content:\"\\f071\"}.fa-plane:before{content:\"\\f072\"}.fa-calendar:before{content:\"\\f073\"}.fa-random:before{content:\"\\f074\"}.fa-comment:before{content:\"\\f075\"}.fa-magnet:before{content:\"\\f076\"}.fa-chevron-up:before{content:\"\\f077\"}.fa-chevron-down:before{content:\"\\f078\"}.fa-retweet:before{content:\"\\f079\"}.fa-shopping-cart:before{content:\"\\f07a\"}.fa-folder:before{content:\"\\f07b\"}.fa-folder-open:before{content:\"\\f07c\"}.fa-arrows-v:before{content:\"\\f07d\"}.fa-arrows-h:before{content:\"\\f07e\"}.fa-bar-chart-o:before,.fa-bar-chart:before{content:\"\\f080\"}.fa-twitter-square:before{content:\"\\f081\"}.fa-facebook-square:before{content:\"\\f082\"}.fa-camera-retro:before{content:\"\\f083\"}.fa-key:before{content:\"\\f084\"}.fa-gears:before,.fa-cogs:before{content:\"\\f085\"}.fa-comments:before{content:\"\\f086\"}.fa-thumbs-o-up:before{content:\"\\f087\"}.fa-thumbs-o-down:before{content:\"\\f088\"}.fa-star-half:before{content:\"\\f089\"}.fa-heart-o:before{content:\"\\f08a\"}.fa-sign-out:before{content:\"\\f08b\"}.fa-linkedin-square:before{content:\"\\f08c\"}.fa-thumb-tack:before{content:\"\\f08d\"}.fa-external-link:before{content:\"\\f08e\"}.fa-sign-in:before{content:\"\\f090\"}.fa-trophy:before{content:\"\\f091\"}.fa-github-square:before{content:\"\\f092\"}.fa-upload:before{content:\"\\f093\"}.fa-lemon-o:before{content:\"\\f094\"}.fa-phone:before{content:\"\\f095\"}.fa-square-o:before{content:\"\\f096\"}.fa-bookmark-o:before{content:\"\\f097\"}.fa-phone-square:before{content:\"\\f098\"}.fa-twitter:before{content:\"\\f099\"}.fa-facebook-f:before,.fa-facebook:before{content:\"\\f09a\"}.fa-github:before{content:\"\\f09b\"}.fa-unlock:before{content:\"\\f09c\"}.fa-credit-card:before{content:\"\\f09d\"}.fa-feed:before,.fa-rss:before{content:\"\\f09e\"}.fa-hdd-o:before{content:\"\\f0a0\"}.fa-bullhorn:before{content:\"\\f0a1\"}.fa-bell:before{content:\"\\f0f3\"}.fa-certificate:before{content:\"\\f0a3\"}.fa-hand-o-right:before{content:\"\\f0a4\"}.fa-hand-o-left:before{content:\"\\f0a5\"}.fa-hand-o-up:before{content:\"\\f0a6\"}.fa-hand-o-down:before{content:\"\\f0a7\"}.fa-arrow-circle-left:before{content:\"\\f0a8\"}.fa-arrow-circle-right:before{content:\"\\f0a9\"}.fa-arrow-circle-up:before{content:\"\\f0aa\"}.fa-arrow-circle-down:before{content:\"\\f0ab\"}.fa-globe:before{content:\"\\f0ac\"}.fa-wrench:before{content:\"\\f0ad\"}.fa-tasks:before{content:\"\\f0ae\"}.fa-filter:before{content:\"\\f0b0\"}.fa-briefcase:before{content:\"\\f0b1\"}.fa-arrows-alt:before{content:\"\\f0b2\"}.fa-group:before,.fa-users:before{content:\"\\f0c0\"}.fa-chain:before,.fa-link:before{content:\"\\f0c1\"}.fa-cloud:before{content:\"\\f0c2\"}.fa-flask:before{content:\"\\f0c3\"}.fa-cut:before,.fa-scissors:before{content:\"\\f0c4\"}.fa-copy:before,.fa-files-o:before{content:\"\\f0c5\"}.fa-paperclip:before{content:\"\\f0c6\"}.fa-save:before,.fa-floppy-o:before{content:\"\\f0c7\"}.fa-square:before{content:\"\\f0c8\"}.fa-navicon:before,.fa-reorder:before,.fa-bars:before{content:\"\\f0c9\"}.fa-list-ul:before{content:\"\\f0ca\"}.fa-list-ol:before{content:\"\\f0cb\"}.fa-strikethrough:before{content:\"\\f0cc\"}.fa-underline:before{content:\"\\f0cd\"}.fa-table:before{content:\"\\f0ce\"}.fa-magic:before{content:\"\\f0d0\"}.fa-truck:before{content:\"\\f0d1\"}.fa-pinterest:before{content:\"\\f0d2\"}.fa-pinterest-square:before{content:\"\\f0d3\"}.fa-google-plus-square:before{content:\"\\f0d4\"}.fa-google-plus:before{content:\"\\f0d5\"}.fa-money:before{content:\"\\f0d6\"}.fa-caret-down:before{content:\"\\f0d7\"}.fa-caret-up:before{content:\"\\f0d8\"}.fa-caret-left:before{content:\"\\f0d9\"}.fa-caret-right:before{content:\"\\f0da\"}.fa-columns:before{content:\"\\f0db\"}.fa-unsorted:before,.fa-sort:before{content:\"\\f0dc\"}.fa-sort-down:before,.fa-sort-desc:before{content:\"\\f0dd\"}.fa-sort-up:before,.fa-sort-asc:before{content:\"\\f0de\"}.fa-envelope:before{content:\"\\f0e0\"}.fa-linkedin:before{content:\"\\f0e1\"}.fa-rotate-left:before,.fa-undo:before{content:\"\\f0e2\"}.fa-legal:before,.fa-gavel:before{content:\"\\f0e3\"}.fa-dashboard:before,.fa-tachometer:before{content:\"\\f0e4\"}.fa-comment-o:before{content:\"\\f0e5\"}.fa-comments-o:before{content:\"\\f0e6\"}.fa-flash:before,.fa-bolt:before{content:\"\\f0e7\"}.fa-sitemap:before{content:\"\\f0e8\"}.fa-umbrella:before{content:\"\\f0e9\"}.fa-paste:before,.fa-clipboard:before{content:\"\\f0ea\"}.fa-lightbulb-o:before{content:\"\\f0eb\"}.fa-exchange:before{content:\"\\f0ec\"}.fa-cloud-download:before{content:\"\\f0ed\"}.fa-cloud-upload:before{content:\"\\f0ee\"}.fa-user-md:before{content:\"\\f0f0\"}.fa-stethoscope:before{content:\"\\f0f1\"}.fa-suitcase:before{content:\"\\f0f2\"}.fa-bell-o:before{content:\"\\f0a2\"}.fa-coffee:before{content:\"\\f0f4\"}.fa-cutlery:before{content:\"\\f0f5\"}.fa-file-text-o:before{content:\"\\f0f6\"}.fa-building-o:before{content:\"\\f0f7\"}.fa-hospital-o:before{content:\"\\f0f8\"}.fa-ambulance:before{content:\"\\f0f9\"}.fa-medkit:before{content:\"\\f0fa\"}.fa-fighter-jet:before{content:\"\\f0fb\"}.fa-beer:before{content:\"\\f0fc\"}.fa-h-square:before{content:\"\\f0fd\"}.fa-plus-square:before{content:\"\\f0fe\"}.fa-angle-double-left:before{content:\"\\f100\"}.fa-angle-double-right:before{content:\"\\f101\"}.fa-angle-double-up:before{content:\"\\f102\"}.fa-angle-double-down:before{content:\"\\f103\"}.fa-angle-left:before{content:\"\\f104\"}.fa-angle-right:before{content:\"\\f105\"}.fa-angle-up:before{content:\"\\f106\"}.fa-angle-down:before{content:\"\\f107\"}.fa-desktop:before{content:\"\\f108\"}.fa-laptop:before{content:\"\\f109\"}.fa-tablet:before{content:\"\\f10a\"}.fa-mobile-phone:before,.fa-mobile:before{content:\"\\f10b\"}.fa-circle-o:before{content:\"\\f10c\"}.fa-quote-left:before{content:\"\\f10d\"}.fa-quote-right:before{content:\"\\f10e\"}.fa-spinner:before{content:\"\\f110\"}.fa-circle:before{content:\"\\f111\"}.fa-mail-reply:before,.fa-reply:before{content:\"\\f112\"}.fa-github-alt:before{content:\"\\f113\"}.fa-folder-o:before{content:\"\\f114\"}.fa-folder-open-o:before{content:\"\\f115\"}.fa-smile-o:before{content:\"\\f118\"}.fa-frown-o:before{content:\"\\f119\"}.fa-meh-o:before{content:\"\\f11a\"}.fa-gamepad:before{content:\"\\f11b\"}.fa-keyboard-o:before{content:\"\\f11c\"}.fa-flag-o:before{content:\"\\f11d\"}.fa-flag-checkered:before{content:\"\\f11e\"}.fa-terminal:before{content:\"\\f120\"}.fa-code:before{content:\"\\f121\"}.fa-mail-reply-all:before,.fa-reply-all:before{content:\"\\f122\"}.fa-star-half-empty:before,.fa-star-half-full:before,.fa-star-half-o:before{content:\"\\f123\"}.fa-location-arrow:before{content:\"\\f124\"}.fa-crop:before{content:\"\\f125\"}.fa-code-fork:before{content:\"\\f126\"}.fa-unlink:before,.fa-chain-broken:before{content:\"\\f127\"}.fa-question:before{content:\"\\f128\"}.fa-info:before{content:\"\\f129\"}.fa-exclamation:before{content:\"\\f12a\"}.fa-superscript:before{content:\"\\f12b\"}.fa-subscript:before{content:\"\\f12c\"}.fa-eraser:before{content:\"\\f12d\"}.fa-puzzle-piece:before{content:\"\\f12e\"}.fa-microphone:before{content:\"\\f130\"}.fa-microphone-slash:before{content:\"\\f131\"}.fa-shield:before{content:\"\\f132\"}.fa-calendar-o:before{content:\"\\f133\"}.fa-fire-extinguisher:before{content:\"\\f134\"}.fa-rocket:before{content:\"\\f135\"}.fa-maxcdn:before{content:\"\\f136\"}.fa-chevron-circle-left:before{content:\"\\f137\"}.fa-chevron-circle-right:before{content:\"\\f138\"}.fa-chevron-circle-up:before{content:\"\\f139\"}.fa-chevron-circle-down:before{content:\"\\f13a\"}.fa-html5:before{content:\"\\f13b\"}.fa-css3:before{content:\"\\f13c\"}.fa-anchor:before{content:\"\\f13d\"}.fa-unlock-alt:before{content:\"\\f13e\"}.fa-bullseye:before{content:\"\\f140\"}.fa-ellipsis-h:before{content:\"\\f141\"}.fa-ellipsis-v:before{content:\"\\f142\"}.fa-rss-square:before{content:\"\\f143\"}.fa-play-circle:before{content:\"\\f144\"}.fa-ticket:before{content:\"\\f145\"}.fa-minus-square:before{content:\"\\f146\"}.fa-minus-square-o:before{content:\"\\f147\"}.fa-level-up:before{content:\"\\f148\"}.fa-level-down:before{content:\"\\f149\"}.fa-check-square:before{content:\"\\f14a\"}.fa-pencil-square:before{content:\"\\f14b\"}.fa-external-link-square:before{content:\"\\f14c\"}.fa-share-square:before{content:\"\\f14d\"}.fa-compass:before{content:\"\\f14e\"}.fa-toggle-down:before,.fa-caret-square-o-down:before{content:\"\\f150\"}.fa-toggle-up:before,.fa-caret-square-o-up:before{content:\"\\f151\"}.fa-toggle-right:before,.fa-caret-square-o-right:before{content:\"\\f152\"}.fa-euro:before,.fa-eur:before{content:\"\\f153\"}.fa-gbp:before{content:\"\\f154\"}.fa-dollar:before,.fa-usd:before{content:\"\\f155\"}.fa-rupee:before,.fa-inr:before{content:\"\\f156\"}.fa-cny:before,.fa-rmb:before,.fa-yen:before,.fa-jpy:before{content:\"\\f157\"}.fa-ruble:before,.fa-rouble:before,.fa-rub:before{content:\"\\f158\"}.fa-won:before,.fa-krw:before{content:\"\\f159\"}.fa-bitcoin:before,.fa-btc:before{content:\"\\f15a\"}.fa-file:before{content:\"\\f15b\"}.fa-file-text:before{content:\"\\f15c\"}.fa-sort-alpha-asc:before{content:\"\\f15d\"}.fa-sort-alpha-desc:before{content:\"\\f15e\"}.fa-sort-amount-asc:before{content:\"\\f160\"}.fa-sort-amount-desc:before{content:\"\\f161\"}.fa-sort-numeric-asc:before{content:\"\\f162\"}.fa-sort-numeric-desc:before{content:\"\\f163\"}.fa-thumbs-up:before{content:\"\\f164\"}.fa-thumbs-down:before{content:\"\\f165\"}.fa-youtube-square:before{content:\"\\f166\"}.fa-youtube:before{content:\"\\f167\"}.fa-xing:before{content:\"\\f168\"}.fa-xing-square:before{content:\"\\f169\"}.fa-youtube-play:before{content:\"\\f16a\"}.fa-dropbox:before{content:\"\\f16b\"}.fa-stack-overflow:before{content:\"\\f16c\"}.fa-instagram:before{content:\"\\f16d\"}.fa-flickr:before{content:\"\\f16e\"}.fa-adn:before{content:\"\\f170\"}.fa-bitbucket:before{content:\"\\f171\"}.fa-bitbucket-square:before{content:\"\\f172\"}.fa-tumblr:before{content:\"\\f173\"}.fa-tumblr-square:before{content:\"\\f174\"}.fa-long-arrow-down:before{content:\"\\f175\"}.fa-long-arrow-up:before{content:\"\\f176\"}.fa-long-arrow-left:before{content:\"\\f177\"}.fa-long-arrow-right:before{content:\"\\f178\"}.fa-apple:before{content:\"\\f179\"}.fa-windows:before{content:\"\\f17a\"}.fa-android:before{content:\"\\f17b\"}.fa-linux:before{content:\"\\f17c\"}.fa-dribbble:before{content:\"\\f17d\"}.fa-skype:before{content:\"\\f17e\"}.fa-foursquare:before{content:\"\\f180\"}.fa-trello:before{content:\"\\f181\"}.fa-female:before{content:\"\\f182\"}.fa-male:before{content:\"\\f183\"}.fa-gittip:before,.fa-gratipay:before{content:\"\\f184\"}.fa-sun-o:before{content:\"\\f185\"}.fa-moon-o:before{content:\"\\f186\"}.fa-archive:before{content:\"\\f187\"}.fa-bug:before{content:\"\\f188\"}.fa-vk:before{content:\"\\f189\"}.fa-weibo:before{content:\"\\f18a\"}.fa-renren:before{content:\"\\f18b\"}.fa-pagelines:before{content:\"\\f18c\"}.fa-stack-exchange:before{content:\"\\f18d\"}.fa-arrow-circle-o-right:before{content:\"\\f18e\"}.fa-arrow-circle-o-left:before{content:\"\\f190\"}.fa-toggle-left:before,.fa-caret-square-o-left:before{content:\"\\f191\"}.fa-dot-circle-o:before{content:\"\\f192\"}.fa-wheelchair:before{content:\"\\f193\"}.fa-vimeo-square:before{content:\"\\f194\"}.fa-turkish-lira:before,.fa-try:before{content:\"\\f195\"}.fa-plus-square-o:before{content:\"\\f196\"}.fa-space-shuttle:before{content:\"\\f197\"}.fa-slack:before{content:\"\\f198\"}.fa-envelope-square:before{content:\"\\f199\"}.fa-wordpress:before{content:\"\\f19a\"}.fa-openid:before{content:\"\\f19b\"}.fa-institution:before,.fa-bank:before,.fa-university:before{content:\"\\f19c\"}.fa-mortar-board:before,.fa-graduation-cap:before{content:\"\\f19d\"}.fa-yahoo:before{content:\"\\f19e\"}.fa-google:before{content:\"\\f1a0\"}.fa-reddit:before{content:\"\\f1a1\"}.fa-reddit-square:before{content:\"\\f1a2\"}.fa-stumbleupon-circle:before{content:\"\\f1a3\"}.fa-stumbleupon:before{content:\"\\f1a4\"}.fa-delicious:before{content:\"\\f1a5\"}.fa-digg:before{content:\"\\f1a6\"}.fa-pied-piper-pp:before{content:\"\\f1a7\"}.fa-pied-piper-alt:before{content:\"\\f1a8\"}.fa-drupal:before{content:\"\\f1a9\"}.fa-joomla:before{content:\"\\f1aa\"}.fa-language:before{content:\"\\f1ab\"}.fa-fax:before{content:\"\\f1ac\"}.fa-building:before{content:\"\\f1ad\"}.fa-child:before{content:\"\\f1ae\"}.fa-paw:before{content:\"\\f1b0\"}.fa-spoon:before{content:\"\\f1b1\"}.fa-cube:before{content:\"\\f1b2\"}.fa-cubes:before{content:\"\\f1b3\"}.fa-behance:before{content:\"\\f1b4\"}.fa-behance-square:before{content:\"\\f1b5\"}.fa-steam:before{content:\"\\f1b6\"}.fa-steam-square:before{content:\"\\f1b7\"}.fa-recycle:before{content:\"\\f1b8\"}.fa-automobile:before,.fa-car:before{content:\"\\f1b9\"}.fa-cab:before,.fa-taxi:before{content:\"\\f1ba\"}.fa-tree:before{content:\"\\f1bb\"}.fa-spotify:before{content:\"\\f1bc\"}.fa-deviantart:before{content:\"\\f1bd\"}.fa-soundcloud:before{content:\"\\f1be\"}.fa-database:before{content:\"\\f1c0\"}.fa-file-pdf-o:before{content:\"\\f1c1\"}.fa-file-word-o:before{content:\"\\f1c2\"}.fa-file-excel-o:before{content:\"\\f1c3\"}.fa-file-powerpoint-o:before{content:\"\\f1c4\"}.fa-file-photo-o:before,.fa-file-picture-o:before,.fa-file-image-o:before{content:\"\\f1c5\"}.fa-file-zip-o:before,.fa-file-archive-o:before{content:\"\\f1c6\"}.fa-file-sound-o:before,.fa-file-audio-o:before{content:\"\\f1c7\"}.fa-file-movie-o:before,.fa-file-video-o:before{content:\"\\f1c8\"}.fa-file-code-o:before{content:\"\\f1c9\"}.fa-vine:before{content:\"\\f1ca\"}.fa-codepen:before{content:\"\\f1cb\"}.fa-jsfiddle:before{content:\"\\f1cc\"}.fa-life-bouy:before,.fa-life-buoy:before,.fa-life-saver:before,.fa-support:before,.fa-life-ring:before{content:\"\\f1cd\"}.fa-circle-o-notch:before{content:\"\\f1ce\"}.fa-ra:before,.fa-resistance:before,.fa-rebel:before{content:\"\\f1d0\"}.fa-ge:before,.fa-empire:before{content:\"\\f1d1\"}.fa-git-square:before{content:\"\\f1d2\"}.fa-git:before{content:\"\\f1d3\"}.fa-y-combinator-square:before,.fa-yc-square:before,.fa-hacker-news:before{content:\"\\f1d4\"}.fa-tencent-weibo:before{content:\"\\f1d5\"}.fa-qq:before{content:\"\\f1d6\"}.fa-wechat:before,.fa-weixin:before{content:\"\\f1d7\"}.fa-send:before,.fa-paper-plane:before{content:\"\\f1d8\"}.fa-send-o:before,.fa-paper-plane-o:before{content:\"\\f1d9\"}.fa-history:before{content:\"\\f1da\"}.fa-circle-thin:before{content:\"\\f1db\"}.fa-header:before{content:\"\\f1dc\"}.fa-paragraph:before{content:\"\\f1dd\"}.fa-sliders:before{content:\"\\f1de\"}.fa-share-alt:before{content:\"\\f1e0\"}.fa-share-alt-square:before{content:\"\\f1e1\"}.fa-bomb:before{content:\"\\f1e2\"}.fa-soccer-ball-o:before,.fa-futbol-o:before{content:\"\\f1e3\"}.fa-tty:before{content:\"\\f1e4\"}.fa-binoculars:before{content:\"\\f1e5\"}.fa-plug:before{content:\"\\f1e6\"}.fa-slideshare:before{content:\"\\f1e7\"}.fa-twitch:before{content:\"\\f1e8\"}.fa-yelp:before{content:\"\\f1e9\"}.fa-newspaper-o:before{content:\"\\f1ea\"}.fa-wifi:before{content:\"\\f1eb\"}.fa-calculator:before{content:\"\\f1ec\"}.fa-paypal:before{content:\"\\f1ed\"}.fa-google-wallet:before{content:\"\\f1ee\"}.fa-cc-visa:before{content:\"\\f1f0\"}.fa-cc-mastercard:before{content:\"\\f1f1\"}.fa-cc-discover:before{content:\"\\f1f2\"}.fa-cc-amex:before{content:\"\\f1f3\"}.fa-cc-paypal:before{content:\"\\f1f4\"}.fa-cc-stripe:before{content:\"\\f1f5\"}.fa-bell-slash:before{content:\"\\f1f6\"}.fa-bell-slash-o:before{content:\"\\f1f7\"}.fa-trash:before{content:\"\\f1f8\"}.fa-copyright:before{content:\"\\f1f9\"}.fa-at:before{content:\"\\f1fa\"}.fa-eyedropper:before{content:\"\\f1fb\"}.fa-paint-brush:before{content:\"\\f1fc\"}.fa-birthday-cake:before{content:\"\\f1fd\"}.fa-area-chart:before{content:\"\\f1fe\"}.fa-pie-chart:before{content:\"\\f200\"}.fa-line-chart:before{content:\"\\f201\"}.fa-lastfm:before{content:\"\\f202\"}.fa-lastfm-square:before{content:\"\\f203\"}.fa-toggle-off:before{content:\"\\f204\"}.fa-toggle-on:before{content:\"\\f205\"}.fa-bicycle:before{content:\"\\f206\"}.fa-bus:before{content:\"\\f207\"}.fa-ioxhost:before{content:\"\\f208\"}.fa-angellist:before{content:\"\\f209\"}.fa-cc:before{content:\"\\f20a\"}.fa-shekel:before,.fa-sheqel:before,.fa-ils:before{content:\"\\f20b\"}.fa-meanpath:before{content:\"\\f20c\"}.fa-buysellads:before{content:\"\\f20d\"}.fa-connectdevelop:before{content:\"\\f20e\"}.fa-dashcube:before{content:\"\\f210\"}.fa-forumbee:before{content:\"\\f211\"}.fa-leanpub:before{content:\"\\f212\"}.fa-sellsy:before{content:\"\\f213\"}.fa-shirtsinbulk:before{content:\"\\f214\"}.fa-simplybuilt:before{content:\"\\f215\"}.fa-skyatlas:before{content:\"\\f216\"}.fa-cart-plus:before{content:\"\\f217\"}.fa-cart-arrow-down:before{content:\"\\f218\"}.fa-diamond:before{content:\"\\f219\"}.fa-ship:before{content:\"\\f21a\"}.fa-user-secret:before{content:\"\\f21b\"}.fa-motorcycle:before{content:\"\\f21c\"}.fa-street-view:before{content:\"\\f21d\"}.fa-heartbeat:before{content:\"\\f21e\"}.fa-venus:before{content:\"\\f221\"}.fa-mars:before{content:\"\\f222\"}.fa-mercury:before{content:\"\\f223\"}.fa-intersex:before,.fa-transgender:before{content:\"\\f224\"}.fa-transgender-alt:before{content:\"\\f225\"}.fa-venus-double:before{content:\"\\f226\"}.fa-mars-double:before{content:\"\\f227\"}.fa-venus-mars:before{content:\"\\f228\"}.fa-mars-stroke:before{content:\"\\f229\"}.fa-mars-stroke-v:before{content:\"\\f22a\"}.fa-mars-stroke-h:before{content:\"\\f22b\"}.fa-neuter:before{content:\"\\f22c\"}.fa-genderless:before{content:\"\\f22d\"}.fa-facebook-official:before{content:\"\\f230\"}.fa-pinterest-p:before{content:\"\\f231\"}.fa-whatsapp:before{content:\"\\f232\"}.fa-server:before{content:\"\\f233\"}.fa-user-plus:before{content:\"\\f234\"}.fa-user-times:before{content:\"\\f235\"}.fa-hotel:before,.fa-bed:before{content:\"\\f236\"}.fa-viacoin:before{content:\"\\f237\"}.fa-train:before{content:\"\\f238\"}.fa-subway:before{content:\"\\f239\"}.fa-medium:before{content:\"\\f23a\"}.fa-yc:before,.fa-y-combinator:before{content:\"\\f23b\"}.fa-optin-monster:before{content:\"\\f23c\"}.fa-opencart:before{content:\"\\f23d\"}.fa-expeditedssl:before{content:\"\\f23e\"}.fa-battery-4:before,.fa-battery-full:before{content:\"\\f240\"}.fa-battery-3:before,.fa-battery-three-quarters:before{content:\"\\f241\"}.fa-battery-2:before,.fa-battery-half:before{content:\"\\f242\"}.fa-battery-1:before,.fa-battery-quarter:before{content:\"\\f243\"}.fa-battery-0:before,.fa-battery-empty:before{content:\"\\f244\"}.fa-mouse-pointer:before{content:\"\\f245\"}.fa-i-cursor:before{content:\"\\f246\"}.fa-object-group:before{content:\"\\f247\"}.fa-object-ungroup:before{content:\"\\f248\"}.fa-sticky-note:before{content:\"\\f249\"}.fa-sticky-note-o:before{content:\"\\f24a\"}.fa-cc-jcb:before{content:\"\\f24b\"}.fa-cc-diners-club:before{content:\"\\f24c\"}.fa-clone:before{content:\"\\f24d\"}.fa-balance-scale:before{content:\"\\f24e\"}.fa-hourglass-o:before{content:\"\\f250\"}.fa-hourglass-1:before,.fa-hourglass-start:before{content:\"\\f251\"}.fa-hourglass-2:before,.fa-hourglass-half:before{content:\"\\f252\"}.fa-hourglass-3:before,.fa-hourglass-end:before{content:\"\\f253\"}.fa-hourglass:before{content:\"\\f254\"}.fa-hand-grab-o:before,.fa-hand-rock-o:before{content:\"\\f255\"}.fa-hand-stop-o:before,.fa-hand-paper-o:before{content:\"\\f256\"}.fa-hand-scissors-o:before{content:\"\\f257\"}.fa-hand-lizard-o:before{content:\"\\f258\"}.fa-hand-spock-o:before{content:\"\\f259\"}.fa-hand-pointer-o:before{content:\"\\f25a\"}.fa-hand-peace-o:before{content:\"\\f25b\"}.fa-trademark:before{content:\"\\f25c\"}.fa-registered:before{content:\"\\f25d\"}.fa-creative-commons:before{content:\"\\f25e\"}.fa-gg:before{content:\"\\f260\"}.fa-gg-circle:before{content:\"\\f261\"}.fa-tripadvisor:before{content:\"\\f262\"}.fa-odnoklassniki:before{content:\"\\f263\"}.fa-odnoklassniki-square:before{content:\"\\f264\"}.fa-get-pocket:before{content:\"\\f265\"}.fa-wikipedia-w:before{content:\"\\f266\"}.fa-safari:before{content:\"\\f267\"}.fa-chrome:before{content:\"\\f268\"}.fa-firefox:before{content:\"\\f269\"}.fa-opera:before{content:\"\\f26a\"}.fa-internet-explorer:before{content:\"\\f26b\"}.fa-tv:before,.fa-television:before{content:\"\\f26c\"}.fa-contao:before{content:\"\\f26d\"}.fa-500px:before{content:\"\\f26e\"}.fa-amazon:before{content:\"\\f270\"}.fa-calendar-plus-o:before{content:\"\\f271\"}.fa-calendar-minus-o:before{content:\"\\f272\"}.fa-calendar-times-o:before{content:\"\\f273\"}.fa-calendar-check-o:before{content:\"\\f274\"}.fa-industry:before{content:\"\\f275\"}.fa-map-pin:before{content:\"\\f276\"}.fa-map-signs:before{content:\"\\f277\"}.fa-map-o:before{content:\"\\f278\"}.fa-map:before{content:\"\\f279\"}.fa-commenting:before{content:\"\\f27a\"}.fa-commenting-o:before{content:\"\\f27b\"}.fa-houzz:before{content:\"\\f27c\"}.fa-vimeo:before{content:\"\\f27d\"}.fa-black-tie:before{content:\"\\f27e\"}.fa-fonticons:before{content:\"\\f280\"}.fa-reddit-alien:before{content:\"\\f281\"}.fa-edge:before{content:\"\\f282\"}.fa-credit-card-alt:before{content:\"\\f283\"}.fa-codiepie:before{content:\"\\f284\"}.fa-modx:before{content:\"\\f285\"}.fa-fort-awesome:before{content:\"\\f286\"}.fa-usb:before{content:\"\\f287\"}.fa-product-hunt:before{content:\"\\f288\"}.fa-mixcloud:before{content:\"\\f289\"}.fa-scribd:before{content:\"\\f28a\"}.fa-pause-circle:before{content:\"\\f28b\"}.fa-pause-circle-o:before{content:\"\\f28c\"}.fa-stop-circle:before{content:\"\\f28d\"}.fa-stop-circle-o:before{content:\"\\f28e\"}.fa-shopping-bag:before{content:\"\\f290\"}.fa-shopping-basket:before{content:\"\\f291\"}.fa-hashtag:before{content:\"\\f292\"}.fa-bluetooth:before{content:\"\\f293\"}.fa-bluetooth-b:before{content:\"\\f294\"}.fa-percent:before{content:\"\\f295\"}.fa-gitlab:before{content:\"\\f296\"}.fa-wpbeginner:before{content:\"\\f297\"}.fa-wpforms:before{content:\"\\f298\"}.fa-envira:before{content:\"\\f299\"}.fa-universal-access:before{content:\"\\f29a\"}.fa-wheelchair-alt:before{content:\"\\f29b\"}.fa-question-circle-o:before{content:\"\\f29c\"}.fa-blind:before{content:\"\\f29d\"}.fa-audio-description:before{content:\"\\f29e\"}.fa-volume-control-phone:before{content:\"\\f2a0\"}.fa-braille:before{content:\"\\f2a1\"}.fa-assistive-listening-systems:before{content:\"\\f2a2\"}.fa-asl-interpreting:before,.fa-american-sign-language-interpreting:before{content:\"\\f2a3\"}.fa-deafness:before,.fa-hard-of-hearing:before,.fa-deaf:before{content:\"\\f2a4\"}.fa-glide:before{content:\"\\f2a5\"}.fa-glide-g:before{content:\"\\f2a6\"}.fa-signing:before,.fa-sign-language:before{content:\"\\f2a7\"}.fa-low-vision:before{content:\"\\f2a8\"}.fa-viadeo:before{content:\"\\f2a9\"}.fa-viadeo-square:before{content:\"\\f2aa\"}.fa-snapchat:before{content:\"\\f2ab\"}.fa-snapchat-ghost:before{content:\"\\f2ac\"}.fa-snapchat-square:before{content:\"\\f2ad\"}.fa-pied-piper:before{content:\"\\f2ae\"}.fa-first-order:before{content:\"\\f2b0\"}.fa-yoast:before{content:\"\\f2b1\"}.fa-themeisle:before{content:\"\\f2b2\"}.fa-google-plus-circle:before,.fa-google-plus-official:before{content:\"\\f2b3\"}.fa-fa:before,.fa-font-awesome:before{content:\"\\f2b4\"}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}\n    5  \n\nE:\\projects\\sites\\blog\\assets\\fonts\\FontAwesome.otf:\n    <binary>\n\n24 matches across 10 files\n\n\nSearching 190 files for \"www.glow3d.com\"\n\nE:\\projects\\sites\\blog\\_config.yml:\n   47  # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)\n   48  # Used for Sitemap.xml and your RSS feed\n   49: url: www.glow3d.com\n   50  \n   51  # If you're hosting your site at a Project repository on GitHub pages\n\nE:\\projects\\sites\\blog\\robots.txt:\n    3  \n    4  User-agent: *\n    5: Sitemap: www.glow3d.com/blog/sitemap.xml\n    6  \n\nE:\\projects\\sites\\blog\\_layouts\\default.html:\n   14          <!-- Header -->\n   15            <header id=\"header\">\n   16:             <h1><a href=\"http://www.glow3d.com\">Home</a></h1>\n   17              <nav class=\"links\">\n   18                <ul>\n   ..\n   50                  <ul class=\"links\">\n   51                    <li>\n   52:                     <a href=\"http://www.glow3d.com\">\n   53                        <h3>The Site</h3>\n   54:                       <p>http://www.glow3d.com</p>\n   55                      </a>\n   56                    </li>\n\nE:\\projects\\sites\\blog\\_layouts\\post.html:\n   19  \t</div>\n   20  \t{% if site.facebook_comments %}\n   21: \t\t<div class=\"fb-like\" data-href=\"http://www.glow3d.com/blog/{{ page.url }}\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n   22  \n   23: \t\t<div class=\"fb-comments\" data-href=\"http://www.glow3d.com/blog{{ page.url }}\" data-width=\"100%\" data-numposts=\"20\"></div>\n   24  \t{% endif %}\n   25  </article>\n\nE:\\projects\\sites\\blog\\_posts\\2010-07-28-site.md:\n    7  categories: [engine]\n    8  ---\n    9: I prepared site for the engine: <a href=\"http://www.glow3d.com/\">www.glow3d.com</a> 3 days with CSS, html and Photoshop.\n   10  \n\nE:\\projects\\sites\\blog\\_posts\\2011-02-21-site-is-updated.md:\n    7  categories: [personal]\n    8  ---\n    9: www.glow3d.com is updated to reflect all recent changes.\n   10  \n\nE:\\projects\\sites\\blog\\_posts\\2017-05-02-new-blog.md:\n   10  ---\n   11  \n   12: I spent several evenings on rebuilding my website and blog - **[http://www.glow3d.com](www.glow3d.com)**.\n   13  The first platform I used to write periodically about my hobby game engine was blogger.com. I started it several years ago but for some reason decided to switch to AWS based website and WordPress - basically the only reason was to learn basics of html and web site development. Also, I wanted to try it as a server for my prototypes of multiplayer games. WordPress-based blog was bad - SQL database periodically crashed for some reason and I had no idea why. (probably memory configuration). I tired and cancelled my subscription to AWS services (honestly the main reason was expiration of the free period) and closed the website and blog.\n   14  \n\n12 matches across 7 files\n",
 			"settings":
 			{
-				"buffer_size": 39551,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_site/page5/index.html",
-			"settings":
-			{
-				"buffer_size": 34007,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_site/engine/2014/12/20/directx-11.html",
-			"settings":
-			{
-				"buffer_size": 15062,
-				"line_ending": "Unix"
+				"buffer_size": 54345,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
@@ -159,250 +143,14 @@
 			"settings":
 			{
 				"buffer_size": 793,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_includes/head.html",
+			"file": "_includes/fb.html",
 			"settings":
 			{
-				"buffer_size": 76,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/meta.html",
-			"settings":
-			{
-				"buffer_size": 1302,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 2923,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2017-04-21-pied-piper.md",
-			"settings":
-			{
-				"buffer_size": 1490,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2017-04-20-voxel-project.md",
-			"settings":
-			{
-				"buffer_size": 372,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2014-12-20-directx-11.md",
-			"settings":
-			{
-				"buffer_size": 680,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2014-09-24-new-ambient-lighting-implementation.md",
-			"settings":
-			{
-				"buffer_size": 361,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2014-01-07-iron-cube-0-31.md",
-			"settings":
-			{
-				"buffer_size": 2213,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-12-23-one-more-screenshot.md",
-			"settings":
-			{
-				"buffer_size": 552,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
-			"settings":
-			{
-				"buffer_size": 650,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-12-02-iron-cube-cinematic-effects.md",
-			"settings":
-			{
-				"buffer_size": 1230,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-11-12-intel-perceptual-computing-challenge-stage-2.md",
-			"settings":
-			{
-				"buffer_size": 1374,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
-			"settings":
-			{
-				"buffer_size": 461,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
-			"settings":
-			{
-				"buffer_size": 2547,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-03-29-new-voxel-based-lighting.md",
-			"settings":
-			{
-				"buffer_size": 627,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-03-05-better-video-of-mercury-prototype.md",
-			"settings":
-			{
-				"buffer_size": 518,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-02-22-project-mercury.md",
-			"settings":
-			{
-				"buffer_size": 1727,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-02-10-rasterization-to-voxels.md",
-			"settings":
-			{
-				"buffer_size": 451,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-01-23-iron-cube-on-android.md",
-			"settings":
-			{
-				"buffer_size": 663,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-01-22-leap-motion-2.md",
-			"settings":
-			{
-				"buffer_size": 1174,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-01-16-glow-engine-on-android.md",
-			"settings":
-			{
-				"buffer_size": 626,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-01-02-steam-bigpicture.md",
-			"settings":
-			{
-				"buffer_size": 844,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/yak32/Desktop/demos/fantasy_demo/village_data/project.glow",
-			"settings":
-			{
-				"buffer_size": 243,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
-			"settings":
-			{
-				"buffer_size": 2513,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 7278,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 188 files for \"meta.ht\"\n\n0 matches\n\nSearching 188 files for \".description\"\n\nE:\\projects\\sites\\blog\\_includes\\head.html:\n    4  \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    5  \t\t<meta name=\"robots\" content=\"noodp, noydir\" />\n    6: \t\t<meta name=\"description\" content={{ site.description }} />\n    7  \n    8  \t\t<!--[if lte IE 8]><script src=\"{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js\"></script><![endif]-->\n\nE:\\projects\\sites\\blog\\_includes\\meta.html:\n    8      <meta property=\"og:description\" content=\"{{ page.excerpt| strip_html }}\" />\n    9      {% else %}\n   10:     <meta name=\"description\" content=\"{{ site.description }}\">\n   11:     <meta property=\"og:description\" content=\"{{ site.description }}\" />\n   12      {% endif %}\n   13      <meta name=\"author\" content=\"{{ site.name }}\" />\n\n3 matches across 2 files\n\n\nSearching 188 files for \"<head>\"\n\nE:\\projects\\sites\\blog\\_includes\\head.html:\n    1: <head>\n    2  \t\t<title>{{ site.title }}</title>\n    3  </head>\n\n1 match in 1 file\n\n\nSearching 188 files for \"fb_co\"\n\n0 matches\n\nSearching 194 files for \"site.url\"\n\nE:\\projects\\sites\\blog\\robots.txt:\n    3  \n    4  User-agent: *\n    5: Sitemap: {{ site.url }}/sitemap.xml\n\nE:\\projects\\sites\\blog\\_includes\\meta.html:\n   19      {% endif %}\n   20  \n   21:     <!--[if lte IE 8]><script src=\"{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   22      <link rel=\"stylesheet\" href=\"{{ site.baseurl }}/assets/css/main.css\" />\n   23:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"{{ site.url }}{{ site.baseurl }}/assets/css/ie9.css\" /><![endif]-->\n   24:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"{{ site.url }}{{ site.baseurl }}/assets/css/ie8.css\" /><![endif]-->\n   25  \n   26  \n\nE:\\projects\\sites\\blog\\_site\\robots.txt:\n    3  \n    4  User-agent: *\n    5: Sitemap: {{ site.url }}/sitemap.xml\n\n5 matches across 3 files\n\n\nSearching 193 files for \"first place\"\n\nE:\\projects\\sites\\blog\\_includes\\featured.html:\n   14                      <article class=\"mini-post\">\n   15                        <header>\n   16:                         <h3><a href=\"{{ site.baseurl }}/challenge/intel/winner/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge.html\">First Place!</a></h3>\n   17                          <time class=\"published\" datetime=\"2015-10-18\">March 28, 2013</time>\n   18                          <a href=\"{{ site.baseurl }}/about\" class=\"author\"><img src=\"https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png\" alt=\"\" /></a>\n\nE:\\projects\\sites\\blog\\_posts\\2009-09-03-winner.md:\n    7  categories: [game]\n    8  ---\n    9:  AAAAA! I am winner of Intel Level Up 2009!  First place in Best Game Optimized for Intel® Graphics  and second place in Best Threaded Game!  <br />  and judges was most famous game developers and designers on the planet!  <a href=\"http://software.intel.com/en-us/articles/levelup-judges/\">http://software.intel.com/en-us/articles/levelup-judges/</a>  <br />  Thanks, Intel!\n   10  \n\nE:\\projects\\sites\\blog\\_site\\engine\\2014\\12\\20\\directx-11.html:\n  187                      <article class=\"mini-post\">\n  188                        <header>\n  189:                         <h3><a href=\"/blog/challenge/intel/winner/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge.html\">First Place!</a></h3>\n  190                          <time class=\"published\" datetime=\"2015-10-18\">March 28, 2013</time>\n  191                          <a href=\"/blog/about\" class=\"author\"><img src=\"https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png\" alt=\"\" /></a>\n\nE:\\projects\\sites\\blog\\_site\\index.html:\n  594                      <article class=\"mini-post\">\n  595                        <header>\n  596:                         <h3><a href=\"/blog/challenge/intel/winner/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge.html\">First Place!</a></h3>\n  597                          <time class=\"published\" datetime=\"2015-10-18\">March 28, 2013</time>\n  598                          <a href=\"/blog/about\" class=\"author\"><img src=\"https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png\" alt=\"\" /></a>\n\nE:\\projects\\sites\\blog\\_site\\page5\\index.html:\n  549                      <article class=\"mini-post\">\n  550                        <header>\n  551:                         <h3><a href=\"/blog/challenge/intel/winner/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge.html\">First Place!</a></h3>\n  552                          <time class=\"published\" datetime=\"2015-10-18\">March 28, 2013</time>\n  553                          <a href=\"/blog/about\" class=\"author\"><img src=\"https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png\" alt=\"\" /></a>\n\n5 matches across 5 files\n\n\nSearching 193 files for \"yak32.github\"\n\nE:\\projects\\sites\\blog\\_config.yml:\n   47  # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)\n   48  # Used for Sitemap.xml and your RSS feed\n   49: url: https://yak32.github.io\n   50  \n   51  # If you're hosting your site at a Project repository on GitHub pages\n\nE:\\projects\\sites\\blog\\robots.txt:\n    3  \n    4  User-agent: *\n    5: Sitemap: https://yak32.github.io/blog/sitemap.xml\n    6  \n\nE:\\projects\\sites\\blog\\_layouts\\default.html:\n   14          <!-- Header -->\n   15            <header id=\"header\">\n   16:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   17              <nav class=\"links\">\n   18                <ul>\n   ..\n   52                      <a href=\"http://www.glow3d.com\">\n   53                        <h3>The Site</h3>\n   54:                       <p>https://yak32.github.io</p>\n   55                      </a>\n   56                    </li>\n\nE:\\projects\\sites\\blog\\_layouts\\post.html:\n   19  \t</div>\n   20  \t{% if site.facebook_comments %}\n   21: \t\t<div class=\"fb-like\" data-href=\"https://yak32.github.io/blog/{{ page.url }}\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n   22  \n   23: \t\t<div class=\"fb-comments\" data-href=\"https://yak32.github.io/blog{{ page.url }}\" data-width=\"100%\" data-numposts=\"20\"></div>\n   24  \t{% endif %}\n   25  </article>\n\nE:\\projects\\sites\\blog\\_site\\engine\\2014\\12\\20\\directx-11.html:\n   37      \n   38  \n   39:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   40      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   41:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   42:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   43  \n   44  \n   ..\n   67          <!-- Header -->\n   68            <header id=\"header\">\n   69:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   70              <nav class=\"links\">\n   71                <ul>\n   ..\n  105                      <a href=\"http://www.glow3d.com\">\n  106                        <h3>The Site</h3>\n  107:                       <p>https://yak32.github.io</p>\n  108                      </a>\n  109                    </li>\n  ...\n  150  \t</div>\n  151  \t\n  152: \t\t<div class=\"fb-like\" data-href=\"https://yak32.github.io/blog//engine/2014/12/20/directx-11.html\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n  153  \n  154: \t\t<div class=\"fb-comments\" data-href=\"https://yak32.github.io/blog/engine/2014/12/20/directx-11.html\" data-width=\"100%\" data-numposts=\"20\"></div>\n  155  \t\n  156  </article>\n\nE:\\projects\\sites\\blog\\_site\\index.html:\n   22      \n   23  \n   24:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   25      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   26:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   27:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   28  \n   29  \n   ..\n   52          <!-- Header -->\n   53            <header id=\"header\">\n   54:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   55              <nav class=\"links\">\n   56                <ul>\n   ..\n   90                      <a href=\"http://www.glow3d.com\">\n   91                        <h3>The Site</h3>\n   92:                       <p>https://yak32.github.io</p>\n   93                      </a>\n   94                    </li>\n\nE:\\projects\\sites\\blog\\_site\\page5\\index.html:\n   22      \n   23  \n   24:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   25      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   26:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   27:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   28  \n   29  \n   ..\n   52          <!-- Header -->\n   53            <header id=\"header\">\n   54:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   55              <nav class=\"links\">\n   56                <ul>\n   ..\n   90                      <a href=\"http://www.glow3d.com\">\n   91                        <h3>The Site</h3>\n   92:                       <p>https://yak32.github.io</p>\n   93                      </a>\n   94                    </li>\n\n23 matches across 7 files\n\n\nSearching 193 files for \"yak32.git\"\n\nE:\\projects\\sites\\blog\\robots.txt:\n    3  \n    4  User-agent: *\n    5: Sitemap: https://yak32.github.io/blog/sitemap.xml\n    6  \n\nE:\\projects\\sites\\blog\\_layouts\\default.html:\n   14          <!-- Header -->\n   15            <header id=\"header\">\n   16:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   17              <nav class=\"links\">\n   18                <ul>\n   ..\n   52                      <a href=\"http://www.glow3d.com\">\n   53                        <h3>The Site</h3>\n   54:                       <p>https://yak32.github.io</p>\n   55                      </a>\n   56                    </li>\n\nE:\\projects\\sites\\blog\\_layouts\\post.html:\n   19  \t</div>\n   20  \t{% if site.facebook_comments %}\n   21: \t\t<div class=\"fb-like\" data-href=\"https://yak32.github.io/blog/{{ page.url }}\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n   22  \n   23: \t\t<div class=\"fb-comments\" data-href=\"https://yak32.github.io/blog{{ page.url }}\" data-width=\"100%\" data-numposts=\"20\"></div>\n   24  \t{% endif %}\n   25  </article>\n\nE:\\projects\\sites\\blog\\_site\\engine\\2014\\12\\20\\directx-11.html:\n   37      \n   38  \n   39:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   40      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   41:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   42:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   43  \n   44  \n   ..\n   67          <!-- Header -->\n   68            <header id=\"header\">\n   69:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   70              <nav class=\"links\">\n   71                <ul>\n   ..\n  105                      <a href=\"http://www.glow3d.com\">\n  106                        <h3>The Site</h3>\n  107:                       <p>https://yak32.github.io</p>\n  108                      </a>\n  109                    </li>\n  ...\n  150  \t</div>\n  151  \t\n  152: \t\t<div class=\"fb-like\" data-href=\"https://yak32.github.io/blog//engine/2014/12/20/directx-11.html\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n  153  \n  154: \t\t<div class=\"fb-comments\" data-href=\"https://yak32.github.io/blog/engine/2014/12/20/directx-11.html\" data-width=\"100%\" data-numposts=\"20\"></div>\n  155  \t\n  156  </article>\n\nE:\\projects\\sites\\blog\\_site\\index.html:\n   22      \n   23  \n   24:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   25      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   26:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   27:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   28  \n   29  \n   ..\n   52          <!-- Header -->\n   53            <header id=\"header\">\n   54:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   55              <nav class=\"links\">\n   56                <ul>\n   ..\n   90                      <a href=\"http://www.glow3d.com\">\n   91                        <h3>The Site</h3>\n   92:                       <p>https://yak32.github.io</p>\n   93                      </a>\n   94                    </li>\n\nE:\\projects\\sites\\blog\\_site\\page5\\index.html:\n   22      \n   23  \n   24:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   25      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   26:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   27:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   28  \n   29  \n   ..\n   52          <!-- Header -->\n   53            <header id=\"header\">\n   54:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   55              <nav class=\"links\">\n   56                <ul>\n   ..\n   90                      <a href=\"http://www.glow3d.com\">\n   91                        <h3>The Site</h3>\n   92:                       <p>https://yak32.github.io</p>\n   93                      </a>\n   94                    </li>\n\n22 matches across 6 files\n\n\nSearching 193 files for \"yak32.git\"\n\nE:\\projects\\sites\\blog\\_layouts\\default.html:\n   14          <!-- Header -->\n   15            <header id=\"header\">\n   16:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   17              <nav class=\"links\">\n   18                <ul>\n   ..\n   52                      <a href=\"http://www.glow3d.com\">\n   53                        <h3>The Site</h3>\n   54:                       <p>https://yak32.github.io</p>\n   55                      </a>\n   56                    </li>\n\nE:\\projects\\sites\\blog\\_layouts\\post.html:\n   19  \t</div>\n   20  \t{% if site.facebook_comments %}\n   21: \t\t<div class=\"fb-like\" data-href=\"https://yak32.github.io/blog/{{ page.url }}\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n   22  \n   23: \t\t<div class=\"fb-comments\" data-href=\"https://yak32.github.io/blog{{ page.url }}\" data-width=\"100%\" data-numposts=\"20\"></div>\n   24  \t{% endif %}\n   25  </article>\n\nE:\\projects\\sites\\blog\\_site\\engine\\2014\\12\\20\\directx-11.html:\n   37      \n   38  \n   39:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   40      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   41:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   42:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   43  \n   44  \n   ..\n   67          <!-- Header -->\n   68            <header id=\"header\">\n   69:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   70              <nav class=\"links\">\n   71                <ul>\n   ..\n  105                      <a href=\"http://www.glow3d.com\">\n  106                        <h3>The Site</h3>\n  107:                       <p>https://yak32.github.io</p>\n  108                      </a>\n  109                    </li>\n  ...\n  150  \t</div>\n  151  \t\n  152: \t\t<div class=\"fb-like\" data-href=\"https://yak32.github.io/blog//engine/2014/12/20/directx-11.html\" data-layout=\"button_count\" data-action=\"like\" data-size=\"small\" data-show-faces=\"false\" data-share=\"true\" style=\"display: inline-block; text-align: right; width: 100%\"></div>\n  153  \n  154: \t\t<div class=\"fb-comments\" data-href=\"https://yak32.github.io/blog/engine/2014/12/20/directx-11.html\" data-width=\"100%\" data-numposts=\"20\"></div>\n  155  \t\n  156  </article>\n\nE:\\projects\\sites\\blog\\_site\\index.html:\n   22      \n   23  \n   24:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   25      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   26:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   27:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   28  \n   29  \n   ..\n   52          <!-- Header -->\n   53            <header id=\"header\">\n   54:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   55              <nav class=\"links\">\n   56                <ul>\n   ..\n   90                      <a href=\"http://www.glow3d.com\">\n   91                        <h3>The Site</h3>\n   92:                       <p>https://yak32.github.io</p>\n   93                      </a>\n   94                    </li>\n\nE:\\projects\\sites\\blog\\_site\\page5\\index.html:\n   22      \n   23  \n   24:     <!--[if lte IE 8]><script src=\"https://yak32.github.io/blog/assets/js/ie/html5shiv.js\"></script><![endif]-->\n   25      <link rel=\"stylesheet\" href=\"/blog/assets/css/main.css\" />\n   26:     <!--[if lte IE 9]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie9.css\" /><![endif]-->\n   27:     <!--[if lte IE 8]><link rel=\"stylesheet\" href=\"https://yak32.github.io/blog/assets/css/ie8.css\" /><![endif]-->\n   28  \n   29  \n   ..\n   52          <!-- Header -->\n   53            <header id=\"header\">\n   54:             <h1><a href=\"https://yak32.github.io\">Home</a></h1>\n   55              <nav class=\"links\">\n   56                <ul>\n   ..\n   90                      <a href=\"http://www.glow3d.com\">\n   91                        <h3>The Site</h3>\n   92:                       <p>https://yak32.github.io</p>\n   93                      </a>\n   94                    </li>\n\n21 matches across 5 files\n\n\nSearching 193 files for \"yak32.github.io\"\n\n0 matches",
-			"settings":
-			{
-				"buffer_size": 18916,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "_includes/featured.html",
-			"settings":
-			{
-				"buffer_size": 4184,
-				"encoding": "UTF-8",
+				"buffer_size": 535,
 				"line_ending": "Windows"
 			}
 		}
@@ -518,10 +266,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 135.0,
-		"last_filter": "format",
+		"height": 335.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"format",
 				"Clang Format: Format Selection"
@@ -639,10 +391,6 @@
 				"Preferences: Package Control Settings – User"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"ctags",
 				"CTags: Show Symbols (all)"
 			],
@@ -686,11 +434,40 @@
 	[
 		"/E/projects/sites/blog",
 		"/E/projects/sites/blog/_includes",
-		"/E/projects/sites/blog/_layouts",
-		"/E/projects/sites/blog/_posts"
+		"/E/projects/sites/blog/_layouts"
 	],
 	"file_history":
 	[
+		"/E/projects/sites/blog/index.html",
+		"/E/projects/sites/blog/_site/index.html",
+		"/E/projects/sites/blog/_site/page5/index.html",
+		"/E/projects/sites/blog/_site/engine/2014/12/20/directx-11.html",
+		"/E/projects/sites/blog/_layouts/post.html",
+		"/E/projects/sites/blog/_includes/head.html",
+		"/E/projects/sites/blog/_includes/meta.html",
+		"/E/projects/sites/blog/_config.yml",
+		"/E/projects/sites/blog/_posts/2017-04-21-pied-piper.md",
+		"/E/projects/sites/blog/_posts/2017-04-20-voxel-project.md",
+		"/E/projects/sites/blog/_posts/2014-12-20-directx-11.md",
+		"/E/projects/sites/blog/_posts/2014-09-24-new-ambient-lighting-implementation.md",
+		"/E/projects/sites/blog/_posts/2014-01-07-iron-cube-0-31.md",
+		"/E/projects/sites/blog/_posts/2013-12-23-one-more-screenshot.md",
+		"/E/projects/sites/blog/_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
+		"/E/projects/sites/blog/_posts/2013-12-02-iron-cube-cinematic-effects.md",
+		"/E/projects/sites/blog/_posts/2013-11-12-intel-perceptual-computing-challenge-stage-2.md",
+		"/E/projects/sites/blog/_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
+		"/E/projects/sites/blog/_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
+		"/E/projects/sites/blog/_posts/2013-03-29-new-voxel-based-lighting.md",
+		"/E/projects/sites/blog/_posts/2013-03-05-better-video-of-mercury-prototype.md",
+		"/E/projects/sites/blog/_posts/2013-02-22-project-mercury.md",
+		"/E/projects/sites/blog/_posts/2013-02-10-rasterization-to-voxels.md",
+		"/E/projects/sites/blog/_posts/2013-01-23-iron-cube-on-android.md",
+		"/E/projects/sites/blog/_posts/2013-01-22-leap-motion-2.md",
+		"/E/projects/sites/blog/_posts/2013-01-16-glow-engine-on-android.md",
+		"/C/Users/yak32/Desktop/demos/fantasy_demo/village_data/project.glow",
+		"/E/projects/sites/blog/_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
+		"/E/projects/sites/blog/_layouts/default.html",
+		"/E/projects/sites/blog/_includes/featured.html",
 		"/E/projects/sites/blog/robots.txt",
 		"/E/projects/sites/blog/_site/robots.txt",
 		"/E/projects/sites/blog/_site/sitemap.xml",
@@ -755,30 +532,13 @@
 		"/E/projects/sites/blog/_posts/2009-08-18-dynamic-paths-in-glow-engine.md",
 		"/E/projects/sites/blog/_posts/2009-08-12-5.md",
 		"/E/projects/sites/blog/_posts/2009-08-11-4.md",
-		"/E/projects/sites/blog/_posts/2014-01-07-iron-cube-0-31.md",
-		"/E/projects/sites/blog/_posts/2013-12-23-one-more-screenshot.md",
-		"/E/projects/sites/blog/_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
-		"/E/projects/sites/blog/_posts/2013-12-02-iron-cube-cinematic-effects.md",
-		"/E/projects/sites/blog/_posts/2013-11-12-intel-perceptual-computing-challenge-stage-2.md",
-		"/E/projects/sites/blog/_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
-		"/E/projects/sites/blog/_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
-		"/E/projects/sites/blog/_posts/2013-03-29-new-voxel-based-lighting.md",
-		"/E/projects/sites/blog/_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
-		"/E/projects/sites/blog/_posts/2013-03-05-better-video-of-mercury-prototype.md",
 		"/E/projects/sites/blog/_posts/2013-02-28-why-android-is-better.md",
-		"/E/projects/sites/blog/_posts/2013-02-22-project-mercury.md",
-		"/E/projects/sites/blog/_posts/2013-02-10-rasterization-to-voxels.md",
-		"/E/projects/sites/blog/_posts/2013-01-23-iron-cube-on-android.md",
-		"/E/projects/sites/blog/_posts/2013-01-22-leap-motion-2.md",
-		"/E/projects/sites/blog/_posts/2013-01-16-glow-engine-on-android.md",
 		"/E/projects/sites/blog/_posts/2013-01-02-steam-bigpicture.md",
 		"/E/projects/sites/blog/_posts/2012-12-24-to-create-button-in-cegui.md",
 		"/E/projects/sites/blog/_posts/2012-12-23-leap-motion.md",
 		"/E/projects/sites/blog/_posts/2012-12-11-looks-like-the-trees-from-iron-cube-game-is-real.md",
 		"/E/projects/sites/blog/_layouts/page.html",
 		"/E/projects/sites/blog/_includes/fb.html",
-		"/E/projects/sites/blog/index.html",
-		"/E/projects/sites/blog/_config.yml",
 		"/E/projects/sites/blog/about.md",
 		"/E/projects/sites/blog/blog.sublime-project",
 		"/E/projects/sites/blog/_posts/2011-12-01-atmospheric-scattering.md",
@@ -805,20 +565,7 @@
 		"/E/projects/sites/blog/_posts/2012-10-23-voxelization.md",
 		"/E/projects/sites/blog/_posts/2012-11-08-ultrabook-from-intel.md",
 		"/E/projects/sites/blog/_posts/2012-11-09-greedy-mesh-generation-for-voxel-field.md",
-		"/E/projects/sites/blog/_posts/2012-11-23-i-goes-deep-with-my-tank-game.md",
-		"/E/projects/sites/blog/_posts/2014-09-24-new-ambient-lighting-implementation.md",
-		"/E/projects/sites/blog/_posts/2014-12-20-directx-11.md",
-		"/E/projects/sites/blog/_posts/2017-04-20-voxel-project.md",
-		"/E/projects/sites/blog/_posts/2017-04-21-pied-piper.md",
-		"/E/projects/sites/blog/_includes/selected.html",
-		"/E/projects/sites/blog/_layouts/default.html",
-		"/E/projects/sites/blog/_layouts/post.html",
-		"/E/projects/sites/blog/_posts/2009-11-05-13.md",
-		"/E/projects/sites/blog/_posts/2012-06-26-the-art8.md",
-		"/E/projects/sites/blog/_posts/2012-06-28-first-iteration-of-grass.md",
-		"/E/projects/sites/blog/_posts/2012-11-26-still-life-with-a-tank-and-a-tree.md",
-		"/E/projects/sites/blog/_posts/2012-12-06-iron-cube.md",
-		"/E/projects/sites/blog/_posts/2012-12-06-performance-test-of-glow-engine.md"
+		"/E/projects/sites/blog/_posts/2012-11-23-i-goes-deep-with-my-tank-game.md"
 	],
 	"find":
 	{
@@ -894,6 +641,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"www.glow3d.com",
+			"facebook",
+			"Search",
 			"yak32.github.io",
 			"https://yak32.github.io",
 			"yak32.git",
@@ -1018,10 +768,7 @@
 			"medium",
 			"XLARGE",
 			"medium",
-			"large",
-			"xlarge",
-			"resize",
-			"xlarge"
+			"large"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1167,131 +914,218 @@
 	"groups":
 	[
 		{
-			"selected": 30,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "_posts/2017-05-02-new-blog.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2568,
+						"buffer_size": 2763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1272,
-								1272
+								318,
+								318
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_site/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39551,
+						"buffer_size": 54345,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										116,
+										124
+									],
+									[
+										285,
+										293
+									],
+									[
+										436,
+										444
+									],
+									[
+										597,
+										605
+									],
+									[
+										808,
+										816
+									],
+									[
+										958,
+										966
+									],
+									[
+										1061,
+										1069
+									],
+									[
+										1487,
+										1495
+									],
+									[
+										1519,
+										1527
+									],
+									[
+										1553,
+										1561
+									],
+									[
+										1585,
+										1593
+									],
+									[
+										2210,
+										2218
+									],
+									[
+										2244,
+										2252
+									],
+									[
+										2267,
+										2275
+									],
+									[
+										2297,
+										2305
+									],
+									[
+										2719,
+										2727
+									],
+									[
+										3943,
+										3951
+									],
+									[
+										12669,
+										12677
+									],
+									[
+										30306,
+										30314
+									],
+									[
+										31176,
+										31184
+									],
+									[
+										31198,
+										31206
+									],
+									[
+										45953,
+										45961
+									],
+									[
+										51763,
+										51777
+									],
+									[
+										51944,
+										51958
+									],
+									[
+										52139,
+										52153
+									],
+									[
+										52355,
+										52369
+									],
+									[
+										52458,
+										52472
+									],
+									[
+										52687,
+										52701
+									],
+									[
+										52958,
+										52972
+									],
+									[
+										53220,
+										53234
+									],
+									[
+										53237,
+										53251
+									],
+									[
+										53411,
+										53425
+									],
+									[
+										53628,
+										53642
+									],
+									[
+										53644,
+										53658
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								1423,
-								1423
+								52583,
+								52583
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"default_dir": "E:\\projects\\sites\\blog",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6629.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_site/page5/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34007,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1424,
-								1424
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 168.0,
+						"translation.y": 14232.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_site/engine/2014/12/20/directx-11.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15062,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5501,
-								5522
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3453.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "_layouts/post.html",
 					"semi_transient": false,
 					"settings":
@@ -1303,8 +1137,8 @@
 						"selection":
 						[
 							[
-								645,
-								645
+								256,
+								256
 							]
 						],
 						"settings":
@@ -1313,47 +1147,19 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_includes/head.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 76,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76,
-								76
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "_includes/meta.html",
+					"buffer": 3,
+					"file": "_includes/fb.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1302,
+						"buffer_size": 535,
 						"regions":
 						{
 						},
@@ -1366,1058 +1172,13 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1449,
-								1449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 629.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "_posts/2017-04-21-pied-piper.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1490,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								788,
-								788
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 38.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_posts/2017-04-20-voxel-project.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 372,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								312,
-								312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "_posts/2014-12-20-directx-11.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								444,
-								444
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "_posts/2014-09-24-new-ambient-lighting-implementation.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								341,
-								341
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "_posts/2014-01-07-iron-cube-0-31.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2213,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								569,
-								569
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "_posts/2013-12-23-one-more-screenshot.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 552,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								397,
-								397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "_posts/2013-12-16-screenshot-of-iron-cube-editor.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 650,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								647,
-								647
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "_posts/2013-12-02-iron-cube-cinematic-effects.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1230,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "_posts/2013-11-12-intel-perceptual-computing-challenge-stage-2.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1315,
-								1315
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 35.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "_posts/2013-03-28-first-prize-winner-of-intel-perceptual-computing-challenge.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 461,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								344,
-								344
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "_posts/2013-07-03-iron-cube-pre-alpha-release-0-15.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2547,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2532,
-								2532
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 72.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "_posts/2013-03-29-new-voxel-based-lighting.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 627,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								602,
-								602
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "_posts/2013-03-05-better-video-of-mercury-prototype.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 518,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								371,
-								371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "_posts/2013-02-22-project-mercury.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1727,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1726,
-								1726
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 27,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "_posts/2013-02-10-rasterization-to-voxels.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 26,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "_posts/2013-01-23-iron-cube-on-android.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 663,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								663,
-								663
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 25,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "_posts/2013-01-22-leap-motion-2.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1056,
-								1056
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "_posts/2013-01-16-glow-engine-on-android.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								591,
-								591
-							]
-						],
-						"settings":
-						{
-							"parser": null,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"target": "disk"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "_posts/2013-01-02-steam-bigpicture.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "/C/Users/yak32/Desktop/demos/fantasy_demo/village_data/project.glow",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 28,
-					"type": "text"
-				},
-				{
-					"buffer": 28,
-					"file": "_posts/2013-10-23-iron-cube-tank-multiplayer-combat-in-voxel-world-is-ported-to-android-and-available-on-google-play-store-for-free.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1179,
-								1179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 384.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 29,
-					"file": "_layouts/default.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1675,
-								1675
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 741.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 30,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18916,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										315,
-										327
-									],
-									[
-										670,
-										682
-									],
-									[
-										747,
-										759
-									],
-									[
-										963,
-										969
-									],
-									[
-										1210,
-										1218
-									],
-									[
-										1355,
-										1363
-									],
-									[
-										1578,
-										1586
-									],
-									[
-										1704,
-										1712
-									],
-									[
-										1875,
-										1883
-									],
-									[
-										2269,
-										2280
-									],
-									[
-										2710,
-										2721
-									],
-									[
-										3355,
-										3366
-									],
-									[
-										3925,
-										3936
-									],
-									[
-										4501,
-										4512
-									],
-									[
-										5048,
-										5060
-									],
-									[
-										5238,
-										5250
-									],
-									[
-										5435,
-										5447
-									],
-									[
-										5684,
-										5696
-									],
-									[
-										5915,
-										5927
-									],
-									[
-										6188,
-										6200
-									],
-									[
-										6441,
-										6453
-									],
-									[
-										6647,
-										6659
-									],
-									[
-										6769,
-										6781
-									],
-									[
-										6956,
-										6968
-									],
-									[
-										7205,
-										7217
-									],
-									[
-										7367,
-										7379
-									],
-									[
-										7660,
-										7672
-									],
-									[
-										7899,
-										7911
-									],
-									[
-										8105,
-										8117
-									],
-									[
-										8227,
-										8239
-									],
-									[
-										8414,
-										8426
-									],
-									[
-										8663,
-										8675
-									],
-									[
-										8864,
-										8876
-									],
-									[
-										9070,
-										9082
-									],
-									[
-										9192,
-										9204
-									],
-									[
-										9379,
-										9391
-									],
-									[
-										9628,
-										9640
-									],
-									[
-										9865,
-										9874
-									],
-									[
-										10062,
-										10071
-									],
-									[
-										10311,
-										10320
-									],
-									[
-										10542,
-										10551
-									],
-									[
-										10815,
-										10824
-									],
-									[
-										11068,
-										11077
-									],
-									[
-										11274,
-										11283
-									],
-									[
-										11396,
-										11405
-									],
-									[
-										11583,
-										11592
-									],
-									[
-										11832,
-										11841
-									],
-									[
-										11994,
-										12003
-									],
-									[
-										12287,
-										12296
-									],
-									[
-										12526,
-										12535
-									],
-									[
-										12732,
-										12741
-									],
-									[
-										12854,
-										12863
-									],
-									[
-										13041,
-										13050
-									],
-									[
-										13290,
-										13299
-									],
-									[
-										13491,
-										13500
-									],
-									[
-										13697,
-										13706
-									],
-									[
-										13819,
-										13828
-									],
-									[
-										14006,
-										14015
-									],
-									[
-										14255,
-										14264
-									],
-									[
-										14559,
-										14568
-									],
-									[
-										14808,
-										14817
-									],
-									[
-										15039,
-										15048
-									],
-									[
-										15312,
-										15321
-									],
-									[
-										15565,
-										15574
-									],
-									[
-										15771,
-										15780
-									],
-									[
-										15893,
-										15902
-									],
-									[
-										16080,
-										16089
-									],
-									[
-										16329,
-										16338
-									],
-									[
-										16491,
-										16500
-									],
-									[
-										16784,
-										16793
-									],
-									[
-										17023,
-										17032
-									],
-									[
-										17229,
-										17238
-									],
-									[
-										17351,
-										17360
-									],
-									[
-										17538,
-										17547
-									],
-									[
-										17787,
-										17796
-									],
-									[
-										17988,
-										17997
-									],
-									[
-										18194,
-										18203
-									],
-									[
-										18316,
-										18325
-									],
-									[
-										18503,
-										18512
-									],
-									[
-										18752,
-										18761
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								18916,
-								18916
-							]
-						],
-						"settings":
-						{
-							"default_dir": "E:\\projects\\sites\\blog",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 10,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 11688.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 31,
-					"file": "_includes/featured.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1922,
-								1922
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
