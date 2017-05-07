@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zelda-like game.
+title: Voxel adventure game.
 subtitle: The game prototype without title.
 date: 2017-05-07 23:13
 author: admin
