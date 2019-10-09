@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Emscripten
-subtitle: v0.1 - First release of my IMGUI library.
+subtitle: Iron Cube on the web
 date: 2019-10-10 00:21
 author: admin
 comments: true
