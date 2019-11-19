@@ -6,7 +6,8 @@ author: admin
 comments: true
 categories: [engine]
 ---
-<a href="http://2.bp.blogspot.com/_LfYx03jjmdk/SxTmMikpqMI/AAAAAAAAAus/R4ZYOjH9OsE/s1600/LIttleZombieSusie2.jpg">
+
+![](http://2.bp.blogspot.com/_LfYx03jjmdk/SxTmMikpqMI/AAAAAAAAAus/R4ZYOjH9OsE/s1600/LIttleZombieSusie2.jpg){:class="img-responsive"}
 
 <img class="image featured" border="3" alt="" src="http://2.bp.blogspot.com/_LfYx03jjmdk/SxTmMikpqMI/AAAAAAAAAus/R4ZYOjH9OsE/s320/LIttleZombieSusie2.jpg" id="BLOGGER_PHOTO_ID_5410202155492157634" /></a>
 

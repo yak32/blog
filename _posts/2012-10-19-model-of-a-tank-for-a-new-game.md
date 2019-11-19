@@ -7,4 +7,4 @@ comments: true
 categories: [game, iron cube]
 ---
 I found free model for my new game, just don't sure, will it fits well in a voxel world.
-<a href="/blog/images/uploads/2012/10/tank_in_editor.jpg"><img class="image featured" title="tank_in_editor" src="/blog/images/uploads/2012/10/tank_in_editor.jpg" alt=""/></a>
+![](/blog/images/uploads/2012/10/tank_in_editor.jpg){:class="img-responsive"}

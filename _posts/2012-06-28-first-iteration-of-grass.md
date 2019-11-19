@@ -6,5 +6,5 @@ author: yak32
 comments: true
 categories: [voxel, game]
 ---
-<a href="/blog/images/uploads/2012/06/tarta_grass.jpg"><img class="image featured" title="tarta_grass" src="/blog/images/uploads/2012/06/tarta_grass-1024x839.jpg" alt=""/></a>
+![](/blog/images/uploads/2012/06/tarta_grass.jpg){:class="img-responsive"}
 I play with grass these days. Texture of grass should be changed to something more cubic.

@@ -5,9 +5,11 @@ subtitle: First expirience with Ludum Dare competition
 date: 2017-04-21 00:01
 author: admin
 comments: true
-image: /blog/images/ai.png
 categories: [engine, games]
+youtubeId: WzFJMvE0L60
 ---
+
+![](/blog/images/ai.png){:class="img-responsive"}
 
 “Pied Piper” – stupid little game about dancing zombies. It’s my first attempt to participate and finish a game for Ludum Dare.
 
@@ -17,6 +19,7 @@ categories: [engine, games]
 
 This is my first LD, so the goal was just to finish something. Engine is mature now and can be used for next LD. I'll probably continue to work on Pied Piper if I receive positive feedback from the community.
 
-**[Youtube video of the latest version](https://www.youtube.com/watch?v=gfFYABZgync)**
+<a href="/blog/images/uploads/2017/pied_piper.gif"><img src="/blog/images/uploads/2017/pied_piper.gif" width="284" alt="" /></a>
 
-<a href="http://ludumdare.com/compo/wp-content/uploads/2015/04/pied_piper.gif"><img src="http://ludumdare.com/compo/wp-content/uploads/2015/04/pied_piper.gif" width="284" alt="" /></a>
+**[Youtube video of the latest version is here](https://www.youtube.com/watch?v=gfFYABZgync)**
+

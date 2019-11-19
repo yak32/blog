@@ -5,5 +5,8 @@ date: 2012-10-22 13:01
 author: admin
 comments: true
 categories: [game, iron cube, voxel]
+youtubeId: -SZ4KmlC43g
 ---
-<div class="videoWrapper"><iframe src="//www.youtube.com/embed/-SZ4KmlC43g" frameborder="0" width="640" height="360"></iframe></div>
+
+{% include youtubePlayer.html id=page.youtubeId %}
+

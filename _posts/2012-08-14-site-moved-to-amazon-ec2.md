@@ -6,7 +6,7 @@ author: admin
 comments: true
 categories: [personal]
 ---
-<a href="/blog/images/uploads/2012/08/AroundApp.png"><img class="image featured" title="AroundApp" src="/blog/images/uploads/2012/08/AroundApp.png" alt=""/></a>
+![](/blog/images/uploads/2012/08/AroundApp.png){:class="img-responsive"}
 
 I moved blog and site to Amazon Elastic Cloud - spent several days on that. Previously I pay around 10 USD per month on Hostgator hosting, but decided to switch to free  (tr1.micro, 1st year) Amazon hosting. Basically because it was interesting to try Amazon services and play with virtual machine. It provided to you without any additional services, so you should install everything manually. Also it can be scaled very easily and you pay as much as you spend.
 

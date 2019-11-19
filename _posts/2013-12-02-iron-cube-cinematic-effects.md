@@ -5,6 +5,7 @@ date: 2013-12-02 05:13
 author: admin
 comments: true
 categories: [game, iron cube, engine]
+youtubeId: Wg4ERZKFAF8
 ---
 I am reading books and articles about mobile/indie game marketing, and it's quite interesting. One of the most important things for game marketing is a good trailer, so I decided to add movie recording/playback to Iron Cube and Glow engine.
 
@@ -12,5 +13,7 @@ The task looked complicated but actually has simple solution - to record a game 
 
 And this allows many interesting options - for example you can reduce the speed of playback to have Matrix-like slow motion!
 
-<div class="videoWrapper"><iframe src="//www.youtube.com/embed/Wg4ERZKFAF8?rel=0" height="360" width="640" allowfullscreen="" frameborder="0"></iframe></div>
+
+{% include youtubePlayer.html id=page.youtubeId %}
+
 There is no interpolation between frames, so it may look slightly laggy.

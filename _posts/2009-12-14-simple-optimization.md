@@ -8,7 +8,7 @@ categories: [engine, C++]
 ---
 If you have vector assignment in your code, use Swap member function of std::vector, if you will not need source vector anymore it will save you one memory allocation
 
-```C++
+```cpp
 void SetPath_Dirty(vec3& path) {
 	m_path.swap(path);
 }

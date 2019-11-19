@@ -5,17 +5,18 @@ subtitle:
 date: 2019-10-16 12:13
 author: admin
 comments: true
-image: /blog/images/uploads/2019/iron_cube_fullscreen.jpg
 categories: [ironcube, emscripten]
 ---
+
 I spent an evening making my emscripten game demo working in full screen mode. So basically, Emscripen supports 2 modes - "proper" fullscreen, and soft fullscreen. First one is similiar to a fullscreen mode of a native app, but it seems not supported in all browsers. Soft fullscreen is just running the app fully resized in the browser window, and it's exactly what I needed.
 
+![](/blog/images/uploads/2019/iron_cube_fullscreen.jpg){:class="img-responsive"}
 
 It is 2 steps, assuming SDL2 usage for a platform layer:
 
 1) switch to fullscreen after SDL window is created
 
-```C++
+```cpp
 	if (fullscreen){
 		EmscriptenFullscreenStrategy strategy;
 		strategy.scaleMode = EMSCRIPTEN_FULLSCREEN_CANVAS_SCALE_STDDEF;
@@ -29,7 +30,7 @@ It is 2 steps, assuming SDL2 usage for a platform layer:
 
 2) create a callback to handle window resize event
 
-```C++
+```cpp
 EM_BOOL emscripten_window_resized_callback(int eventType, const void *reserved, void *userData){
 	METHOD();
 

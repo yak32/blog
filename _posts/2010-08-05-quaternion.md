@@ -8,7 +8,7 @@ categories: [engine]
 ---
 Long time ago i wrote function, which creates quaternion for rotation from 0,0,1 to any unit vector. Function was very long, contained asin, acos, several conditions etc... So today i returned and after some time: dir should be unit
 
-```C++
+```cpp
 void Quaternion::from_direction(const vec3 dir){
 	x = dir.y;
 	y = -dir.x;  z = 0;

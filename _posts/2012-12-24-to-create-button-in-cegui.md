@@ -9,7 +9,7 @@ categories: [engine]
 ---
 Code of button creation in CEGUI:
 
-```C++
+```cpp
 
   // Create Window
 wnd = CEGUI::WindowManager::getSingleton().createWindow(TaharezLook/Button,JumpPushButton);
@@ -24,7 +24,7 @@ It's really ugly. Reminds me joke by Charlie Bloom.
 
 How creation and button usage should look like:
 
-```C++
+```cpp
 if ( gui.button(Cancel)  )
    cancel_job();
 ```

@@ -6,10 +6,11 @@ date: 2013-02-22 09:32
 author: admin
 comments: true
 categories: [Mercury, prototype]
+youtubeId: y6779QOnh6A
 ---
 I participated in the Intel Perceptual Computing Challenge with project Mercury, Digital Sculpting Application - voxel-based 3D mesh edition with bare hands.
 
-<div class="videoWrapper"><iframe src="//www.youtube.com/embed/y6779QOnh6A" height="360" width="640"></iframe></div>
+{% include youtubePlayer.html id=page.youtubeId %}
 
 The prototype is based on the Glow engine and uses a voxel engine, which was made for the <a href="http://www.moddb.com/games/iron-cube">Iron Cube</a> game. Smooth mesh generation was additionally written, which is based on Surface Nets (like modification of Matching Cubes)
 

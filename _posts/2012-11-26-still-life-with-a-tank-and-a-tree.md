@@ -5,8 +5,10 @@ subtitle: Still Life with a tank and a tree
 date: 2012-11-26 10:10
 author: admin
 comments: true
-image: /blog/images/uploads/2012/11/screen.jpg
 categories: [game, iron cube]
 ---
+
+![](/blog/images/uploads/2012/11/screen.jpg){:class="img-responsive"}
+
 One day to release!
 

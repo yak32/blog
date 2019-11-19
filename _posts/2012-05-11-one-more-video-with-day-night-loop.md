@@ -5,5 +5,7 @@ date: 2012-05-11 13:27
 author: yak32
 comments: true
 categories: [game, voxel]
+youtubeId: 5AWa8brxup0
 ---
-<div class="videoWrapper"><iframe width="640" height="360" src="//www.youtube.com/embed/5AWa8brxup0?feature=player_embedded" frameborder="0" allowfullscreen></iframe></div></div>
+{% include youtubePlayer.html id=page.youtubeId %}
+

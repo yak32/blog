@@ -1,89 +1,44 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Jekyll configuration
 
-# Name of your site (displayed in the header)
-name: yak32 blog
+name: Iakov's blog
+description: Yet another boring technical blog.
 
-# Short bio or description (displayed in the header)
-description: Yakov’s tech blog with tips and walkthroughs on games technologies and digital life. Main topics covered are game engine and games development, performance & scalability, computer security, database, game engine optimisation. Yakov is a passionate indie game developer living and working in London, UK. His roles as artist, developer and technology enthusiast overlap here on his web log.
+# url is currently only used only for the RSS feed in feed.xml
+url: http://www.glow3d.com
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/yak32/blog/gh-pages/images/avatar.png
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: "/blog"
 
-#
-# Flags below are optional
-#
+# These can be '' to hide the Github or Gitlab nav buttons
+github: 'yak32'
+gitlab: ''
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook: yakov.sum
-  flickr:
-  github: yak32
-  instagram: yak32
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: yak32
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: yak32
-  googleplus: # anything in your profile username that comes after plus.google.com/
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
 
+# The 'comments' setting enables comments. You'll need to select either
+# disqus or isso below to choose a comment system. Individual posts can
+# override 'comments' to disable on a post-by-post basis.
+comments: false
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-facebook_comments: yes
+# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
+isso: ''
 
+# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+disqus: ''
+
+permalink: /:year/:month/:title
 paginate: 10
-excerpt_separator: <!--more-->
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-97733057-1
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://www.glow3d.com
+highlighter: rouge
+markdown: kramdown
+gems: ['jekyll-paginate']
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: "/blog"
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+exclude: ['README.md', 'LICENSE']

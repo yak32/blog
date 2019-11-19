@@ -5,15 +5,17 @@ date: 2009-12-24 10:36
 author: admin
 comments: true
 categories: [engine, ai]
+youtubeId: uH4lo1gW2K8
 ---
 Spent day for implementing steering behaviors for horde. <br /> <br />Recast navigation + avoid nearest neighbor (with prediction, OpenSteer style) + avoid near walls
 
-<div class="videoWrapper">
-<object width="425" height="344"><param name="movie" value="//www.youtube.com/v/uH4lo1gW2K8&amp;hl=en_US&amp;fs=1&amp;"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="//www.youtube.com/v/uH4lo1gW2K8&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object></div>
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 Recast navigation + avoid nearest neighbor (with prediction, OpenSteer style) + avoid walls only after collision + avoid dynamic obstacles
 
-<div class="videoWrapper">
-<object width="425" height="344"><param name="movie" value="//www.youtube.com/v/_gStLaNyJ24&amp;hl=en_US&amp;fs=1&amp;"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="//www.youtube.com/v/_gStLaNyJ24&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object><div class="videoWrapper">
+{% include youtubePlayer.html id="_gStLaNyJ24" %}
+
+
 
 It needs time to update nav mesh (usually nav mesh updated with 0.5 sec intervals), so sometimes bots can go throw obstacle. Maybe for moving obstacles I need to use same steering behavior as for another bots. Does it look natural? Or need some enhancements?
