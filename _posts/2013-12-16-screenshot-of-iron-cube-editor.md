@@ -6,9 +6,8 @@ date: 2013-12-16 15:16
 author: admin
 comments: true
 categories: [game, iron cube]
+image: /blog/images/uploads/2013/12/ironcube_editor.jpg
 ---
-
-![](/blog/images/uploads/2013/12/ironcube_editor.jpg){:class="img-responsive"}
 
 I am debugging some network issues of Iron Cube's Android version. Saving of network data on the client that arrived from the server became very useful for debugging bugs. You can record gameplay on an Android device and play it back on a Windows machine in the Editor and it helps a lot to fix defects.
 

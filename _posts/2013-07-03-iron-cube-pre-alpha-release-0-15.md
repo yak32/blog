@@ -8,7 +8,6 @@ comments: true
 categories: [game, iron cube]
 youtubeId: gOde2vm685M
 ---
-{% include youtubePlayer.html id=page.youtubeId %}
 
 <a style="line-height: 1.4;" title="Download Iron Cube 0.15 - Mod DB" href="http://www.moddb.com/games/iron-cube/downloads/iron-cube-015" target="_blank"><img alt="Iron Cube 0.15" src="http://button.moddb.com/download/medium/56386.png" /></a>
 

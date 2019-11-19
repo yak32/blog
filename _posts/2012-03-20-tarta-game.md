@@ -10,8 +10,6 @@ youtubeId: -Q3I_B19HCQ
 ---
 
 I started new game prototype - "Tarta". Video from first prototype (built in 3 weeks):
-{% include youtubePlayer.html id=page.youtubeId %}
-
 
 Currently prototype has next features:
 <ul>
@@ -22,8 +20,6 @@ Currently prototype has next features:
 	<li>HDR,  lense flare, dynamic shadows, reflective/refractive water, Deferred Shading from Glow engine.</li>
 </ul>
 It's obviously inspired by Minecraft, but goes in different direction. It will be more survival oriented, with various enemies and with more shooter/adventure elements, plus massive usage of terra-morphing in gameplay. Current gameplay document contains several pages of various ideas.
-
-{% include youtubePlayer.html id=page.youtubeId %}
 
 One more video with results of volume (sphere) extraction from voxel landscape:
 {% include youtubePlayer.html id="p3I_j0qnuKg" %}

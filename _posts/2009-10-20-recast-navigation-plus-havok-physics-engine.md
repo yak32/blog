@@ -8,6 +8,4 @@ categories: [engine, ai]
 youtubeId: WzFJMvE0L60
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 Demonstration of the <a href="http://code.google.com/p/recastnavigation/">Recast</a> navigation plus Havok physics engine<br /><br />

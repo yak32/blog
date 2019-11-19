@@ -6,9 +6,8 @@ date: 2011-12-22 01:32
 author: yak32
 comments: true
 categories: [engine]
+image: /blog/images/uploads/2011/12/glow_screen_village1.jpg 
 ---
-![](/blog/images/uploads/2011/12/glow_screen_village1.jpg){:class="img-responsive"}
-
 Many new features are implemented, exponential shadow maps, soft particles, cinematic editor, UI improvements
 
 I need some time to summarize and write blog post about it.

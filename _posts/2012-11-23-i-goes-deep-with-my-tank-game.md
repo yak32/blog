@@ -6,8 +6,7 @@ date: 2012-11-23 11:42
 author: admin
 comments: true
 categories: [game, iron cube]
+image: /blog/images/uploads/2012/11/tank_game.jpg
 ---
-
-![](/blog/images/uploads/2012/11/tank_game.jpg){:class="img-responsive"}
 
 My game for the Intel Ultrabook Contest close to finish. Problem is I am still don't have certificate from Symantec to sign code, but anyway. More about that game later.

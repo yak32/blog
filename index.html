@@ -14,6 +14,18 @@ layout: default
             {% endif %}
         {% endif %}
         <div class="content">
+            {% if post.image %}
+
+            {% capture my_include %}{% include image.md  id=post.image %}{% endcapture %}
+            {{ my_include | markdownify }}
+            
+            {% endif %}
+
+
+            {% if post.youtubeId %}
+            {% include youtubePlayer.html id=post.youtubeId %}
+            {% endif %}
+
             {{ post.content }}
         </div>
     </div>

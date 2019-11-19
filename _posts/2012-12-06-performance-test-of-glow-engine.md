@@ -9,8 +9,6 @@ categories: [engine]
 youtubeId: NSS2AC4OMFY
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 6000 animated entities in the frame. There is no special optimization, like instancing, here.
 
 It can be faster actually.

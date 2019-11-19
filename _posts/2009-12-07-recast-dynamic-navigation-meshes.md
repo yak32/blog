@@ -9,6 +9,5 @@ youtubeId: Q0rZRqXM-4g
 ---
 Some examples of using Recast dynamic navigation meshes in gameplay
 
-{% include youtubePlayer.html id=page.youtubeId %}
 
 

@@ -9,5 +9,4 @@ youtubeId: GJTE5_e4IIg
 ---
 path following force + steering behaviors + wall repulse force red line - path from Recast grreen line - resulting velocity blue line - wall repulse force
 
-{% include youtubePlayer.html id=page.youtubeId %}
 

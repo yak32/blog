@@ -8,8 +8,6 @@ comments: true
 categories: [engine]
 youtubeId: shtGSepC0WA
 ---
-{% include youtubePlayer.html id=page.youtubeId %}
-
 
 Camera can be animated as any of entities in the editor - just drug the frame slider
 and change object's orientation/position/scale - it will create animation key, and after that position of object will be interpolated between key frames.

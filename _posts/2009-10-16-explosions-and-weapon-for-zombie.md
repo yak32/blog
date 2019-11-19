@@ -8,6 +8,4 @@ categories: [engine, game]
 youtubeId: 4GKm21eshm4
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 Trying to finish demo for IGF competition (1st november)...<br /><br />

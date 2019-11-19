@@ -9,5 +9,4 @@ youtubeId: hwmJXeCAp_4
 ---
 
 I played a little with grenades and increased radios of explosions.
-{% include youtubePlayer.html id=page.youtubeId %}
 

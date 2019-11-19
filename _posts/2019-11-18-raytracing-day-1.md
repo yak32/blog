@@ -9,6 +9,6 @@ image: /blog/images/uploads/2019/raytracing_blog.png
 categories: [ironcube, emscripten]
 ---
 
-![](/blog/images/uploads/2019/raytracing_blog.png){:class="img-responsive"}
+
 
 

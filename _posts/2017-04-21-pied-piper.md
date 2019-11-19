@@ -6,10 +6,8 @@ date: 2017-04-21 00:01
 author: admin
 comments: true
 categories: [engine, games]
-youtubeId: WzFJMvE0L60
+image: /blog/images/ai.png
 ---
-
-![](/blog/images/ai.png){:class="img-responsive"}
 
 “Pied Piper” – stupid little game about dancing zombies. It’s my first attempt to participate and finish a game for Ludum Dare.
 

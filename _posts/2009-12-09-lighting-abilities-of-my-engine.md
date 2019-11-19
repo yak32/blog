@@ -8,6 +8,4 @@ categories: [engine]
 youtubeId: b3pquOn39EI
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 Deferred shading (plus Doom3-like lighting for slow hardware), more than 1000 lights (without shadows) possible simultaneously, soft shadow maps for omni lights, attenuation maps, fog, bump maps, specular maps, ambient etc.

@@ -9,7 +9,6 @@ categories: [voxel, Intel, challenge]
 youtubeId: EzSByIMRiJk
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
 
 I participated in the Intel Perceptual Computing Challenge, stage 2, where I improved my first prototype, which <a href="http://glow3d.com/blog/challenge/intel/winner/2013/03/28/first-prize-winner-of-intel-perceptual-computing-challenge.html">won</a> a First Prize of a 1st stage. Intel SDK was improved since June, becoming more robust. Last time I received a camera one day before my deadline, so didn't have enough time to properly implement gesture support.
 

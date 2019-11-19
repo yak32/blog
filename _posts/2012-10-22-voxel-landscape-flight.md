@@ -8,5 +8,3 @@ categories: [game, iron cube, voxel]
 youtubeId: -SZ4KmlC43g
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
-

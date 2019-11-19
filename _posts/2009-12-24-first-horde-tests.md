@@ -9,9 +9,6 @@ youtubeId: uH4lo1gW2K8
 ---
 Spent day for implementing steering behaviors for horde. <br /> <br />Recast navigation + avoid nearest neighbor (with prediction, OpenSteer style) + avoid near walls
 
-
-{% include youtubePlayer.html id=page.youtubeId %}
-
 Recast navigation + avoid nearest neighbor (with prediction, OpenSteer style) + avoid walls only after collision + avoid dynamic obstacles
 
 {% include youtubePlayer.html id="_gStLaNyJ24" %}

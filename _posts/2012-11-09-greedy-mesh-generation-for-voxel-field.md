@@ -6,9 +6,8 @@ date: 2012-11-09 09:01
 author: admin
 comments: true
 categories: [game, iron cube]
+image: /blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg
 ---
-
-![](/blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg){:class="img-responsive"}
 
 I upgraded "greedy" mesh generation algorithm, mentioned <a href="http://glow3d.com/blog/2012/08/20/geometry-optimization/">here</a>  . Now it supports ambient lighting, prerendered into texture. As voxel world is cubic, we can just prerender all possible combination of ambient lighting on cube side into texture.
 

@@ -10,6 +10,5 @@ youtubeId: DXg2hcdEFMM
 ---
 I am playing with the rasterization of 3d polygonal models to voxels. The first version of the algorithm is not yet perfect, there are cracks and holes in it.
 
-{% include youtubePlayer.html id=page.youtubeId %}
 
 

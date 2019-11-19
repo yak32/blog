@@ -7,5 +7,4 @@ comments: true
 categories: [game, voxel]
 youtubeId: 5AWa8brxup0
 ---
-{% include youtubePlayer.html id=page.youtubeId %}
 
