@@ -6,7 +6,7 @@ date: 2019-10-16 12:13
 author: admin
 comments: true
 image: /blog/images/uploads/2019/raytracing_blog.png
-categories: [ironcube, emscripten]
+categories: [voxels, raytracing]
 ---
 
 #### Ray Tracing in One Weekend
