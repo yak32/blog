@@ -30,7 +30,7 @@ Initial networking:
 
 #### 2007
 
-The "Tubes" demo, built for one of the Intel game dev competitions. Deferred shading, dynamic shadows with shadow maps, particles etc.
+The "Tubes" demo, built for one of the Intel game dev competition. Deferred shading, dynamic shadows with shadow maps, particles etc.
 {% include youtubePlayer.html id="b3pquOn39EI" %}
 
 Full trailer:
@@ -52,6 +52,11 @@ Playing with dynamic navigation meshes:
 Little engine and demo, optimized to run on Samsung TVs of that time:
 {% include youtubePlayer.html id="bx9dQ2xR6lc" %}
 
+#### 2014
+
+Voxel tank game "Iron Cube", wild mix of Minecraft and World of Tanks:
+{% include youtubePlayer.html id="ipgDNRQKvLw" %}
+
 #### 2015
 
 Little game, prepared in 2 days for Ludumdare competition:
@@ -64,7 +69,6 @@ HBAO - ambient occlusion:
 
 Voxel game prototype, made in collaboration with @Sir_carma:
 {% include youtubePlayer.html id="dsCfWE7WE1c" %}
-
 
 
 
