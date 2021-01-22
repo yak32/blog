@@ -15,6 +15,8 @@ I spent several weeks on preparing the Iron Cube release (v.0.15.). I added a lo
 
 AI Bots are added to gameplay, and they're pretty smart! (actually not really, a team member still can shoot one of its own friends when one of them is on the line of fire, but it will be fixed soon). They can follow their leader (player), find an optimal way to find the enemy and give way to the player. I am actually thinking how to make them slightly dumber.
 
+<!--more-->
+
 Bots use new navigation systems, based on the updated Recast library. Meshes are dynamic, it means they will be rebuilt when the voxels are changed.
 ![](/blog/images/uploads/2013/07/iron_cube_ai.jpg){:class="img-responsive"}
 

@@ -11,6 +11,8 @@ image: /blog/images/uploads/2013/01/IMG_5677.jpg
 
 As I <a href="/blog/leap%20motion/2012/12/23/leap-motion.html">wrote earlier</a>, I participated in the Leap Motion Development program and was selected as a developer.  It's arrived today and I made some tests. The device looks responsible and precise, check video below. I will try to integrate the Leap SDK to the Glow engine in the future. It seems perfect for 3D mesh manipulation or shooters.
 
+<!--more-->
+
 ![](/blog/images/uploads/2013/01/IMG_5649.jpg){:class="img-responsive"}
 
 Unboxing!

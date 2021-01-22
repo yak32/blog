@@ -24,7 +24,12 @@ layout: default
             {% include youtubePlayer.html id=post.youtubeId %}
             {% endif %}
 
-            {{ post.content }}
+            {{ post.excerpt }}
+
+            {% if post.excerpt != post.content %}
+                <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            {% endif %}
+
         </div>
     </div>
 </div>

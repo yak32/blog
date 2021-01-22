@@ -13,6 +13,8 @@ categories: [voxels, raytracing]
 
 I was reading the excellent [Ray Tracing in One Weekend](https://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf) and decided to give it a try with my voxel engine/editor. The book uses spheres as primitives for a scene, but I wanted to use voxels.
 
+<!--more-->
+
 #### How it works
 
 A ray is launched from a camera to each pixel on a screen, intersection with a scene is found, we calculate where this ray will go further. For a diffuse surface, a ray is scattered in a random direction, metal surfaces reflect a ray, glass reflects or refracts it. Better explanation is in [the book](https://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf).

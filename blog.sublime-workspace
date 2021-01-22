@@ -119,6 +119,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/2020-01-28-glw-history.md",
+			"settings":
+			{
+				"buffer_size": 2031,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2017-08-31-imgui.md",
+			"settings":
+			{
+				"buffer_size": 790,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 165 files for \"https://www.youtube.com/\"\n\nE:\\projects\\sites\\blog2\\_includes\\youtubePlayer.html:\n    1  <div class=\"embed-container\"  style=\"border: 5px solid lightgrey\">\n    2    <iframe\n    3:       src=\"https://www.youtube.com/embed/{{ include.id }}\"\n    4        width=\"700\"\n    5        height=\"480\"\n\nE:\\projects\\sites\\blog2\\_posts\\2017-04-21-pied-piper.md:\n   12  “Pied Piper” – stupid little game about dancing zombies. It’s my first attempt to participate and finish a game for Ludum Dare.\n   13  \n   14: **What went right** – The idea to use Fuse tool for characters and mixamo.com for animations really saved time. It’s easy to make a realistic character in Fuse and I prepared a pipeline for exporting characters from mixamo.com to my engine before Jam. Also, making the game was a lot of fun (really loud laughing for the first 10 minutes when I saw [the first dance](https://www.youtube.com/watch?v=CERzkDsdcv8)) and it was an important motivation to finish it.\n   15  \n   16  **What went not so right**  –  planning (as usual) – I spent one evening on selecting proper music from freesound.org and had only one evening and night to actually write the code. As usual, I found several weird glitches (downside of the usage of my own engine). One glitch leaked to the first release for LD (and fixed in the latest version)\n   ..\n   20  <a href=\"/blog/images/uploads/2017/pied_piper.gif\"><img src=\"/blog/images/uploads/2017/pied_piper.gif\" width=\"284\" alt=\"\" /></a>\n   21  \n   22: **[Youtube video of the latest version is here](https://www.youtube.com/watch?v=gfFYABZgync)**\n   23  \n   24  \n\nE:\\projects\\sites\\blog2\\_posts\\2017-08-31-imgui.md:\n   12  [https://github.com/yak32/glw_imgui](https://github.com/yak32/glw_imgui)\n   13  \n   14: IMGUI is a code-driven, simple and bloat-free GUI system, widely used in modern game engines and games. Best explanation of IMGUI concept is [here](https://www.youtube.com/watch?v=Z1qyvQsjK5Y). The library has basic suppot for layouting (attachable toolbars, layout serialization), themes (colors and serialization), lock-free multithreading (triple buffering).\n   15  \n   16  This library was a part of my game engine, but I extracted and moved it to github some time ago.\n\n4 matches across 3 files\n\n\nSearching 165 files for \"www.youtube.com/\"\n\nE:\\projects\\sites\\blog2\\_includes\\youtubePlayer.html:\n    1  <div class=\"embed-container\"  style=\"border: 5px solid lightgrey\">\n    2    <iframe\n    3:       src=\"https://www.youtube.com/embed/{{ include.id }}\"\n    4        width=\"700\"\n    5        height=\"480\"\n\nE:\\projects\\sites\\blog2\\_posts\\2009-11-02-new-video-for-igf.md:\n    9  ---\n   10  \n   11: <object width=\"425\" height=\"344\"><param name=\"movie\" value=\"//www.youtube.com/v/IR-AKwOS4a4&hl=en&fs=1&\"></param><param name=\"allowFullScreen\" value=\"true\"></param><param name=\"allowscriptaccess\" value=\"always\"></param><embed src=\"//www.youtube.com/v/IR-AKwOS4a4&hl=en&fs=1&\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"425\" height=\"344\"></embed></object><br /><br />I hope to finish gameplay in near 2 weeks\n   12  \n\nE:\\projects\\sites\\blog2\\_posts\\2009-11-09-little-zombie-susie-gameplay.md:\n    9  ---\n   10  \n   11: First several minutes of gameplay <br /><object width=\"425\" height=\"344\"><param name=\"movie\" value=\"//www.youtube.com/v/RQPOnuLiXIw&amp;hl=en&amp;fs=1&amp;\"><param name=\"allowFullScreen\" value=\"true\"><param name=\"allowscriptaccess\" value=\"always\"><embed src=\"//www.youtube.com/v/RQPOnuLiXIw&amp;hl=en&amp;fs=1&amp;\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"425\" height=\"344\"></embed></object>\n   12  \n\nE:\\projects\\sites\\blog2\\_posts\\2017-04-21-pied-piper.md:\n   12  “Pied Piper” – stupid little game about dancing zombies. It’s my first attempt to participate and finish a game for Ludum Dare.\n   13  \n   14: **What went right** – The idea to use Fuse tool for characters and mixamo.com for animations really saved time. It’s easy to make a realistic character in Fuse and I prepared a pipeline for exporting characters from mixamo.com to my engine before Jam. Also, making the game was a lot of fun (really loud laughing for the first 10 minutes when I saw [the first dance](https://www.youtube.com/watch?v=CERzkDsdcv8)) and it was an important motivation to finish it.\n   15  \n   16  **What went not so right**  –  planning (as usual) – I spent one evening on selecting proper music from freesound.org and had only one evening and night to actually write the code. As usual, I found several weird glitches (downside of the usage of my own engine). One glitch leaked to the first release for LD (and fixed in the latest version)\n   ..\n   20  <a href=\"/blog/images/uploads/2017/pied_piper.gif\"><img src=\"/blog/images/uploads/2017/pied_piper.gif\" width=\"284\" alt=\"\" /></a>\n   21  \n   22: **[Youtube video of the latest version is here](https://www.youtube.com/watch?v=gfFYABZgync)**\n   23  \n   24  \n\nE:\\projects\\sites\\blog2\\_posts\\2017-08-31-imgui.md:\n   12  [https://github.com/yak32/glw_imgui](https://github.com/yak32/glw_imgui)\n   13  \n   14: IMGUI is a code-driven, simple and bloat-free GUI system, widely used in modern game engines and games. Best explanation of IMGUI concept is [here](https://www.youtube.com/watch?v=Z1qyvQsjK5Y). The library has basic suppot for layouting (attachable toolbars, layout serialization), themes (colors and serialization), lock-free multithreading (triple buffering).\n   15  \n   16  This library was a part of my game engine, but I extracted and moved it to github some time ago.\n\n8 matches across 5 files\n\n\nSearching 165 files for \" cinematic trailer wit\"\n\nE:\\projects\\sites\\blog2\\_posts\\2014-01-07-iron-cube-0-31.md:\n   28  * friendly bots are currently disabled, but will be restored soon.\n   29  \n   30: New cinematic trailer with ~~dubstep~~ music!\n   31  \n   32  {% include youtubePlayer.html id=\"ipgDNRQKvLw\" %}\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 5958,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_posts/2014-01-07-iron-cube-0-31.md",
+			"settings":
+			{
+				"buffer_size": 1971,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -308,10 +343,12 @@
 		"/E/projects/sites/blog2",
 		"/E/projects/sites/blog2/_includes",
 		"/E/projects/sites/blog2/_layouts",
+		"/E/projects/sites/blog2/_posts",
 		"/E/projects/sites/blog2/css"
 	],
 	"file_history":
 	[
+		"/E/projects/sites/blog2/blog.sublime-project",
 		"/E/projects/sites/blog2/index.html",
 		"/E/projects/sites/blog2/_layouts/post.html",
 		"/E/projects/sites/blog2/feed.xml",
@@ -319,7 +356,6 @@
 		"/E/projects/sites/blog2/_posts/2019-11-18-raytracing-day-1.md",
 		"/E/projects/sites/blog2/_includes/links-list.html",
 		"/E/projects/sites/blog2/_includes/image.md",
-		"/E/projects/sites/blog2/blog.sublime-project",
 		"/E/projects/sites/blog2/css/theme.css",
 		"/E/projects/sites/blog2/0001-changes.patch",
 		"/E/projects/sites/blog2/_includes/youtubePlayer.html",
@@ -458,6 +494,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" cinematic trailer wit",
+			"www.youtube.com/",
+			"https://www.youtube.com/",
+			"glow3d]",
 			"post.",
 			"subtitle",
 			"content",
@@ -505,8 +545,188 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/2020-01-28-glw-history.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 744.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2017-08-31-imgui.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5958,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										215,
+										239
+									],
+									[
+										889,
+										913
+									],
+									[
+										1548,
+										1572
+									],
+									[
+										1907,
+										1931
+									],
+									[
+										2476,
+										2492
+									],
+									[
+										2720,
+										2736
+									],
+									[
+										2891,
+										2907
+									],
+									[
+										3329,
+										3345
+									],
+									[
+										3488,
+										3504
+									],
+									[
+										4264,
+										4280
+									],
+									[
+										4923,
+										4939
+									],
+									[
+										5282,
+										5298
+									],
+									[
+										5831,
+										5853
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								5850,
+								5850
+							]
+						],
+						"settings":
+						{
+							"default_dir": "E:\\projects\\sites\\blog2\\_posts",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2340.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2014-01-07-iron-cube-0-31.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -541,6 +761,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 294.0
+	},
 	"output.find_results":
 	{
 		"height": 157.0
@@ -549,7 +773,7 @@
 	"project": "blog.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -931,7 +1155,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

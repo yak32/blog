@@ -13,6 +13,8 @@ I upgraded "greedy" mesh generation algorithm, mentioned <a href="http://glow3d.
 
 And with greedy mesh generation it will significantly improve rendering speed and physics updates. Voxels are sent to physics as mesh (actually same mesh, used for rendering, is sent to bullet physics).
 
+<!--more-->
+
 ![](/blog/images/uploads/2012/11/screen_greedy_ambient_grid.jpg){:class="img-responsive"}
 
 Previous, "dumb" mesh generation.

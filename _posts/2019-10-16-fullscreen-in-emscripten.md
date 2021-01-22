@@ -11,6 +11,8 @@ image: /blog/images/uploads/2019/iron_cube_fullscreen.jpg
 
 I spent an evening making my emscripten game demo working in full screen mode. So basically, Emscripen supports 2 modes - "proper" fullscreen, and soft fullscreen. First one is similiar to a fullscreen mode of a native app, but it seems not supported in all browsers. Soft fullscreen is just running the app fully resized in the browser window, and it's exactly what I needed.
 
+<!--more-->
+
 It is 2 steps, assuming SDL2 usage for a platform layer:
 
 1) switch to fullscreen after SDL window is created

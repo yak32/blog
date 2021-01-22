@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some historical videos of Glow engine.
+title: Some historical videos of Glow engine from 2004 till 2020
 subtitle:
 date: 2020-01-28 12:13
 author: admin
@@ -15,10 +15,14 @@ Walkalble visualization of the Ministry of Textile of my home country - I worked
 The whole building:
 {% include youtubePlayer.html id="LJe47gGmVp4" %}
 
+<!--more-->
+
 The room of the minister:
 {% include youtubePlayer.html id="LSe_WdK9jVk" %}
 
 The building was build in 2004
+
+
 
 #### 2004
 
@@ -55,7 +59,7 @@ Little engine and demo, optimized to run on Samsung TVs of that time:
 #### 2014
 
 Voxel tank game "Iron Cube", wild mix of Minecraft and World of Tanks:
-{% include youtubePlayer.html id="ipgDNRQKvLw" %}
+{% include youtubePlayer.html id="6uquiy5D_uE" %}
 
 #### 2015
 
