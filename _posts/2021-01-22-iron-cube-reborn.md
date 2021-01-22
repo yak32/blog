@@ -26,7 +26,7 @@ The game is written in C++ with my old custom game engine and uses:
 
 And it's all runs on 7 years old mobile phones!
 
-<a href='https://play.google.com/store/apps/details?id=com.yak32_games.iron_cube&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.yak32_games.iron_cube&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' class="img-responsive" /></a>
 
 
 That was relatively easy and now I need to do the most terrifying part - promoting the game on Google Play somehow.
