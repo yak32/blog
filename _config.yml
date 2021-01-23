@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Iakov's blog
-description: Yet another boring technical blog.
+description: The blog about development of the game engine Glow3D and related games - Iron Cube and others.
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://www.glow3d.com
