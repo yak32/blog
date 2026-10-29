@@ -1,22 +1,8 @@
----
-layout: default
----
-
-<div class="well">
-{%for post in site.posts %}
-    {% unless post.next %}
-        <h1>{{ post.date | date: '%Y' }}</h1>
-        <ul>
-    {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-            </ul>
-            <h1>{{ post.date | date: '%Y' }}</h1>
-            <ul>
-        {% endif %}
-    {% endunless %}
-    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d" }} - {{ post.title }}</a></li>
-{% endfor %}
-</ul>
-</div>
+<!doctype html>
+<meta charset="utf-8">
+<title>Moved to iakov.dev</title>
+<link rel="canonical" href="https://iakov.dev/">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=https://iakov.dev/">
+<script>location.replace("https://iakov.dev/")</script>
+<p>This blog moved to <a href="https://iakov.dev/">https://iakov.dev/</a>.</p>
